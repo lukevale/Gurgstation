@@ -223,7 +223,7 @@
 	)
 */
 /obj/effect/landmark/map_data/odysseybase
-	height = 5
+	height = 4
 /*
 /obj/effect/overmap/visitable/sector/virgo3b
 	name = "Virgo 3B"

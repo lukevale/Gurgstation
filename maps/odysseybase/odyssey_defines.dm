@@ -3,9 +3,8 @@
 #define Z_LEVEL_ODB_BOTTOM						2
 #define Z_LEVEL_ODB_MIDDLE						3
 #define Z_LEVEL_ODB_TOP							4
-#define Z_LEVEL_ODB_ROOF						5
-//#define Z_LEVEL_CENTCOM							6
-#define Z_LEVEL_MISC						7
+//#define Z_LEVEL_CENTCOM							5
+#define Z_LEVEL_MISC						6
 
 /datum/map/odysseybase
 	name = "The Odyssey"
@@ -179,7 +178,6 @@
 		Z_LEVEL_ODB_BOTTOM,
 		Z_LEVEL_ODB_MIDDLE,
 		Z_LEVEL_ODB_TOP,
-		Z_LEVEL_ODB_ROOF,
 //		Z_LEVEL_MISC,
 //		Z_LEVEL_BEACH,
 //		Z_LEVEL_AEROSTAT
@@ -212,8 +210,7 @@
 		Z_LEVEL_ODB_BASEMENT,
 		Z_LEVEL_ODB_BOTTOM,
 		Z_LEVEL_ODB_MIDDLE,
-		Z_LEVEL_ODB_TOP,
-		Z_LEVEL_ODB_ROOF
+		Z_LEVEL_ODB_TOP
 		)
 /*
 /datum/planet/virgo3b
@@ -318,12 +315,6 @@
 	transit_chance = 0
 	holomap_offset_x = SHIP_HOLOMAP_MARGIN_X
 	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y - SHIP_MAP_SIZE
-
-/datum/map_z_level/odysseybase/level_four
-	z = Z_LEVEL_ODB_ROOF
-	name = "Roof"
-	base_turf = /turf/simulated/open/virgo3c
-	transit_chance = 0
 
 /*
 /datum/map_template/gb_lateload

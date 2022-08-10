@@ -14,7 +14,6 @@
 		#include "ob-z1.dmm"
 		#include "ob-z2.dmm"
 		#include "ob-z3.dmm"
-		#include "ob-z4.dmm"
 	#endif
 
 	#define USING_MAP_DATUM /datum/map/odysseybase

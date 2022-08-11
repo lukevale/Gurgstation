@@ -5,7 +5,7 @@
 	requires_power = TRUE
 	dynamic_lighting = TRUE
 	ambience = AMBIENCE_RUINS
-	base_turf = /turf/simulated/mineral/floor/virgo3c
+	base_turf = /turf/simulated/mineral/floor/athena
 
 /area/maintenance/odyssey
 	name = "Maintenance"
@@ -14,7 +14,7 @@
 	flags = RAD_SHIELDED
 	ambience = AMBIENCE_RUINS
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
-	base_turf = /turf/simulated/mineral/floor/virgo3c
+	base_turf = /turf/simulated/mineral/floor/athena
 
 /area/odysseybase/level1
 	name = "The Odyssey Level 1"
@@ -31,7 +31,7 @@
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
 
-/area/odysseybase/level4
-	name = "The Odyssey Level 4"
+/area/odysseybase/level0
+	name = "The Odyssey Basement"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
-	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
+	sound_env = SOUND_ENVIRONMENT_CAVE

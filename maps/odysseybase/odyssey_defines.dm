@@ -89,7 +89,6 @@
 
 
 	meteor_strike_areas = list(
-		/area/odysseybase/level4,
 		/area/odysseybase/level3,
 		/area/odysseybase/level2,
 		/area/odysseybase/level1
@@ -184,7 +183,7 @@
 		)
 
 	planet_datums_to_make = list(
-		/datum/planet/virgo3c)
+		/datum/planet/athena)
 //		/datum/planet/virgo3b,
 //		/datum/planet/virgo4)
 
@@ -287,7 +286,7 @@
 /datum/map_z_level/odysseybase/level_one
 	z = Z_LEVEL_ODB_BOTTOM
 	name = "Level 1"
-	base_turf = /turf/simulated/floor/outdoors/newdirt_nograss/virgo3c
+	base_turf = /turf/simulated/floor/outdoors/newdirt_nograss/athena
 	transit_chance = 0
 	holomap_offset_x = SHIP_HOLOMAP_MARGIN_X
 	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y
@@ -295,7 +294,7 @@
 /datum/map_z_level/odysseybase/level_two
 	z = Z_LEVEL_ODB_MIDDLE
 	name = "Level 2"
-	base_turf = /turf/simulated/open/virgo3c
+	base_turf = /turf/simulated/open/athena
 	transit_chance = 0
 	holomap_offset_x = SHIP_HOLOMAP_MARGIN_X
 	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y + SHIP_MAP_SIZE
@@ -303,7 +302,7 @@
 /datum/map_z_level/odysseybase/level_three
 	z = Z_LEVEL_ODB_TOP
 	name = "Level 3"
-	base_turf = /turf/simulated/open/virgo3c
+	base_turf = /turf/simulated/open/athena
 	transit_chance = 0
 	holomap_offset_x = HOLOMAP_ICON_SIZE - SHIP_HOLOMAP_MARGIN_X - SHIP_MAP_SIZE
 	holomap_offset_y = SHIP_HOLOMAP_MARGIN_Y + SHIP_MAP_SIZE
@@ -375,7 +374,7 @@
 /datum/map_z_level/gb_lateload/mining
 	z = Z_LEVEL_MINING
 	name = "V3c Underground"
-	base_turf = /turf/simulated/floor/outdoors/newdirt_nograss/virgo3c
+	base_turf = /turf/simulated/floor/outdoors/newdirt_nograss/athena
 	flags = MAP_LEVEL_PLAYER|MAP_LEVEL_CONTACT|MAP_LEVEL_CONSOLES
 
 #include "../expedition_vr/aerostat/_aerostat.dm"
@@ -388,6 +387,3 @@
 
 
 // Turfs and other //
-/turf/unsimulated/wall/planetary/normal/odyssey
-	name = "deep ocean"
-	alpha = 0

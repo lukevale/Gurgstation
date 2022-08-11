@@ -385,3 +385,9 @@
 	mappath = 'maps/expedition_vr/aerostat/aerostat.dmm'
 	associated_map_datum = /datum/map_z_level/common_lateload/away_aerostat
 	*/
+
+
+// Turfs and other //
+/turf/unsimulated/wall/planetary/normal/odyssey
+	name = "deep ocean"
+	alpha = 0

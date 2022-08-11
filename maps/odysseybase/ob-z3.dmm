@@ -1,30 +1,28 @@
 "a" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/nw)
-"b" = (/turf/simulated/open/athena,/area/odysseybase/level3/nw)
-"e" = (/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/sw)
-"f" = (/turf/simulated/open/athena,/area/odysseybase/level3/se)
-"g" = (/turf/simulated/open/athena,/area/odysseybase/level3/sw)
+"b" = (/turf/simulated/open/athena,/area/odysseybase/level3/nw/open)
+"f" = (/turf/simulated/open/athena,/area/odysseybase/level3/se/open)
+"g" = (/turf/simulated/open/athena,/area/odysseybase/level3/sw/open)
 "j" = (/turf/simulated/floor/outdoors/newdirt_nograss/athena,/area/odysseybase/level3/se)
-"k" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/nw)
-"m" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/sw)
+"k" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/nw/open)
+"m" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/sw/open)
 "n" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/nw)
 "o" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/se)
-"r" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/sw)
-"s" = (/turf/simulated/floor/outdoors/sidewalk/slab/athena,/area/odysseybase/level3/se)
+"r" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "t" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)
-"w" = (/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/se)
+"w" = (/obj/effect/landmark/map_data/odysseybase,/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)
 "x" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/ne)
-"y" = (/turf/simulated/open/athena,/area/odysseybase/level3/ne)
+"y" = (/turf/simulated/open/athena,/area/odysseybase/level3/ne/open)
 "z" = (/turf/simulated/floor/outdoors/newdirt_nograss/athena,/area/odysseybase/level3/sw)
-"B" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/ne)
+"B" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/ne/open)
 "C" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/se)
-"D" = (/turf/simulated/floor/outdoors/sidewalk/slab/athena,/area/odysseybase/level3/sw)
-"E" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/sw)
-"G" = (/obj/structure/railing/grey{dir = 8},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/se)
-"K" = (/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/sw)
+"D" = (/turf/simulated/floor/outdoors/sidewalk/slab/athena,/area/odysseybase/level3/landingpad)
+"E" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
+"G" = (/obj/structure/railing/grey{dir = 8},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
+"K" = (/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "M" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/ne)
-"S" = (/obj/structure/railing/grey{dir = 4},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/se)
+"S" = (/obj/structure/railing/grey{dir = 4},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "T" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/sw)
-"U" = (/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/se)
+"U" = (/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -141,30 +139,30 @@ tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzggggggggggggggfffffffffff
 tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzjjjjjjjjjjjjjjjjjjjjjjjfjfjfjjjjjjjjjjjooooooooooooooooooooooooooooooo
 tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooo
 tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooo
-tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooo
-tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooo
-tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
-tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
-tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
-tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
-tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
-tTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
-tTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
-tTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDrEDDssGSssssssssssssssssjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDeKDDssUwssssssssssssssssjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDeKDDssUwssssssssssssssssjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDeKDDssUwssssssssssssssssjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjjooooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjjoooooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjjooooooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjjoooooooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjjooooooooooooooooooooooooooooooooooooooooooo
-tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzDDDDDDDDDDDDDDDDDDDDssssssssssssssssssssjjjjjjoooooooooooooooooooooooooooooooooooooooooooo
+tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooo
+tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooo
+tTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
+tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
+tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooo
+tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
+tTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
+tTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooo
+tTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
+tTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDrEDDDDGSDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDUKDDDDUKDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDUKDDDDUKDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDUKDDDDUKDDDDDDDDDDDDDDDDjjjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjjoooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjjooooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjjoooooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjjooooooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjjoooooooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjjooooooooooooooooooooooooooooooooooooooooooo
+tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDjjjjjjoooooooooooooooooooooooooooooooooooooooooooo
 tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzzjjjjjjjjjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooooooooooo
 tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTzzzzzzzzzzzzzzzzzzzzzzzjjjjjjjjjjjjjjjjjjjjjjjooooooooooooooooooooooooooooooooooooooooooooooo
 tTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTToooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+wttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 "}

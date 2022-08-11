@@ -24,19 +24,19 @@
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
 /area/odysseybase/level1/ne
 	name = "NorthEast Odyssey Level 1"
-/area/odysseybase/level1/ne
+/area/odysseybase/level1/ne/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/nw
 	name = "NorthWest Odyssey Level 1"
-/area/odysseybase/level1/nw
+/area/odysseybase/level1/nw/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/se
 	name = "SouthEast Odyssey Level 1"
-/area/odysseybase/level1/se
+/area/odysseybase/level1/se/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/sw
 	name = "SouthWest Odyssey Level 1"
-/area/odysseybase/level1/sw
+/area/odysseybase/level1/sw/open
 	base_turf = /turf/simulated/open/athena
 
 /area/odysseybase/level2
@@ -47,9 +47,9 @@
 	name = "NorthEast Odyssey Level 2"
 /area/odysseybase/level2/ne/open
 	base_turf = /turf/simulated/open/athena
-/area/odysseybase/level2/ne
+/area/odysseybase/level2/nw
 	name = "NorthWest Odyssey Level 2"
-/area/odysseybase/level2/ne/open
+/area/odysseybase/level2/nw/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level2/se
 	name = "SouthEast Odyssey Level 2"
@@ -66,19 +66,19 @@
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
 /area/odysseybase/level3/ne
 	name = "NorthEast Odyssey Level 3"
-/area/odysseybase/level3/ne
+/area/odysseybase/level3/ne/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/nw
 	name = "NorthWest Odyssey Level 3"
-/area/odysseybase/level3/nw
+/area/odysseybase/level3/nw/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/se
 	name = "SouthEast Odyssey Level 3"
-/area/odysseybase/level3/se
+/area/odysseybase/level3/se/open
 	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/sw
 	name = "SouthWest Odyssey Level 3"
-/area/odysseybase/level3/sw
+/area/odysseybase/level3/sw/open
 	base_turf = /turf/simulated/open/athena
 
 /area/odysseybase/level3/landingpad

@@ -2,10 +2,12 @@
 	name = "Odyssey"
 	icon = 'icons/turf/areas_vr.dmi'
 	icon_state = "blublacir"
-	requires_power = TRUE
+	requires_power = FALSE //set this to true later
 	dynamic_lighting = TRUE
 	ambience = AMBIENCE_RUINS
 	base_turf = /turf/simulated/mineral/floor/athena
+
+
 
 /area/maintenance/odyssey
 	name = "Maintenance"
@@ -20,67 +22,78 @@
 	name = "The Odyssey Level 1"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
-
 /area/odysseybase/level1/ne
 	name = "NorthEast Odyssey Level 1"
-
+/area/odysseybase/level1/ne
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/nw
 	name = "NorthWest Odyssey Level 1"
-
+/area/odysseybase/level1/nw
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/se
 	name = "SouthEast Odyssey Level 1"
-
+/area/odysseybase/level1/se
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level1/sw
 	name = "SouthWest Odyssey Level 1"
+/area/odysseybase/level1/sw
+	base_turf = /turf/simulated/open/athena
 
 /area/odysseybase/level2
 	name = "The Odyssey Level 2"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
-
 /area/odysseybase/level2/ne
 	name = "NorthEast Odyssey Level 2"
-
-/area/odysseybase/level2/nw
+/area/odysseybase/level2/ne/open
+	base_turf = /turf/simulated/open/athena
+/area/odysseybase/level2/ne
 	name = "NorthWest Odyssey Level 2"
-
+/area/odysseybase/level2/ne/open
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level2/se
 	name = "SouthEast Odyssey Level 2"
-
+/area/odysseybase/level2/se/open
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level2/sw
 	name = "SouthWest Odyssey Level 2"
+/area/odysseybase/level2/sw/open
+	base_turf = /turf/simulated/open/athena
 
 /area/odysseybase/level3
 	name = "The Odyssey Level 3"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
 	sound_env = SOUND_ENVIRONMENT_MOUNTAINS
-
 /area/odysseybase/level3/ne
 	name = "NorthEast Odyssey Level 3"
-
+/area/odysseybase/level3/ne
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/nw
 	name = "NorthWest Odyssey Level 3"
-
+/area/odysseybase/level3/nw
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/se
 	name = "SouthEast Odyssey Level 3"
-
+/area/odysseybase/level3/se
+	base_turf = /turf/simulated/open/athena
 /area/odysseybase/level3/sw
 	name = "SouthWest Odyssey Level 3"
+/area/odysseybase/level3/sw
+	base_turf = /turf/simulated/open/athena
+
+/area/odysseybase/level3/landingpad
+	name = "Landing Pad"
 
 /area/odysseybase/level0
 	name = "The Odyssey Basement"
 	flags = AREA_FLAG_IS_NOT_PERSISTENT
 	sound_env = SOUND_ENVIRONMENT_CAVE
-
 /area/odysseybase/level0/ne
 	name = "NorthEast Odyssey Level 0"
-
 /area/odysseybase/level0/nw
 	name = "NorthWest Odyssey Level 0"
-
 /area/odysseybase/level0/se
 	name = "SouthEast Odyssey Level 0"
-
 /area/odysseybase/level0/sw
 	name = "SouthWest Odyssey Level 0"
 

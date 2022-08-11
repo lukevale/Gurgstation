@@ -532,8 +532,8 @@ var/datum/planet/athena/planet_athena = null
 	ATHENA_SET_ATMOS
 
 /turf/unsimulated/wall/planetary/normal/athena
-	name = "deep ocean"
 	alpha = 0
+	ATHENA_SET_ATMOS
 
 ATHENA_TURF_CREATE(/turf/simulated/floor/outdoors/newdirt)
 ATHENA_TURF_CREATE(/turf/simulated/floor/outdoors/newdirt_nograss)
@@ -541,6 +541,7 @@ ATHENA_TURF_CREATE(/turf/simulated/floor/outdoors/sidewalk)
 ATHENA_TURF_CREATE(/turf/simulated/floor/outdoors/sidewalk/side)
 ATHENA_TURF_CREATE(/turf/simulated/floor/outdoors/sidewalk/slab)
 ATHENA_TURF_CREATE(/turf/simulated/floor/water)
+ATHENA_TURF_CREATE(/turf/simulated/floor/water/deep)
 ATHENA_TURF_CREATE(/turf/simulated/floor/tiled)
 ATHENA_TURF_CREATE(/turf/simulated/floor/reinforced)
 ATHENA_TURF_CREATE(/turf/simulated/floor/glass/reinforced)
@@ -549,6 +550,20 @@ ATHENA_TURF_CREATE(/turf/simulated/mineral)
 ATHENA_TURF_CREATE(/turf/simulated/floor)
 ATHENA_TURF_CREATE(/turf/simulated/floor/wood)
 ATHENA_TURF_CREATE(/turf/simulated/floor/wood/sif)
+ATHENA_TURF_CREATE(/turf/simulated/floor/beach/sand/outdoors)
+ATHENA_TURF_CREATE(/turf/simulated/floor/beach/sand/desert/outdoors)
+ATHENA_TURF_CREATE(/turf/simulated/floor/water/beach)
+ATHENA_TURF_CREATE(/turf/simulated/floor/water/beach/corner)
+
+/turf/simulated/floor/beach/odyssey/coastwater
+	name = "Water"
+	icon_state = "water"
+	ATHENA_SET_ATMOS
+
+/turf/simulated/floor/beach/odyssey/coastwater/New()
+	..()
+	add_overlay(image("icon"='icons/misc/beach.dmi',"icon_state"="water","layer"=MOB_LAYER+0.1))
+
 
 /turf/simulated/open/athena
 	ATHENA_SET_ATMOS

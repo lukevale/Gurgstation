@@ -2,7 +2,7 @@
 	name = "Odyssey"
 	icon = 'icons/turf/areas_vr.dmi'
 	icon_state = "blublacir"
-	requires_power = FALSE //set this to true later
+	requires_power = TRUE
 	dynamic_lighting = TRUE
 	ambience = AMBIENCE_RUINS
 	base_turf = /turf/simulated/mineral/floor/athena

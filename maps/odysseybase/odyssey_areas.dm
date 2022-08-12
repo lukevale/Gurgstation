@@ -1,8 +1,8 @@
-/area/odyssey
+/area/odysseybase
 	name = "Odyssey"
 	icon = 'icons/turf/areas_vr.dmi'
 	icon_state = "blublacir"
-	requires_power = TRUE
+	requires_power = FALSE//TRUE
 	dynamic_lighting = TRUE
 	ambience = AMBIENCE_RUINS
 	base_turf = /turf/simulated/mineral/floor/athena
@@ -114,3 +114,32 @@
 	name = "\improper Odyssey base Water"
 	icon_state = "bluenew"
 	base_turf = /turf/simulated/floor/beach/odyssey/coastwater
+
+
+//engineering
+
+/area/odysseybase/engineering
+	name = "Engineering"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	icon_state = "yelwhisqu"
+	ambience = AMBIENCE_ENGINEERING
+	lightswitch = 0
+/area/odysseybase/engineering/engine_airlock
+	name = "Engine Airlock"
+	lightswitch = 1
+/area/odysseybase/engineering/engine_airlock/snd
+/area/odysseybase/engineering/smesroom
+	name = "SMES Room"
+	lightswitch = 1
+/area/odysseybase/engineering/waste
+	name = "Waste Managment"
+	lightswitch = 1
+/area/odysseybase/engineering/engine_room
+	name = "Engine Room"
+	lightswitch = 1
+/area/odysseybase/engineering/engine_hallway
+	name = "Reactor Hallway"
+	lightswitch = 1
+/area/odysseybase/engineering/engine_monitering
+	name = "Monitering Room"
+	lightswitch = 1

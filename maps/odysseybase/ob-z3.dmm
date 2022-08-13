@@ -1,12 +1,15 @@
 "a" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/nw)
 "b" = (/turf/simulated/open/athena,/area/odysseybase/level3/nw/open)
+"e" = (/turf/simulated/wall/r_wall,/area/odysseybase/level3/ne/open)
 "f" = (/turf/simulated/open/athena,/area/odysseybase/level3/se/open)
 "g" = (/turf/simulated/open/athena,/area/odysseybase/level3/sw/open)
+"i" = (/obj/structure/railing{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/ne/open)
 "j" = (/turf/simulated/floor/outdoors/newdirt_nograss/athena,/area/odysseybase/level3/se)
 "k" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/nw/open)
 "m" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/sw/open)
 "n" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/nw)
 "o" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/se)
+"p" = (/obj/structure/ladder,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/reinforced/athena,/area/odysseybase/level3/ne/open)
 "r" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "t" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)
 "w" = (/obj/effect/landmark/map_data/odysseybase,/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)
@@ -20,6 +23,8 @@
 "G" = (/obj/structure/railing/grey{dir = 8},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "K" = (/obj/structure/railing/grey{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "M" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/ne)
+"N" = (/obj/structure/railing,/turf/simulated/open/athena,/area/odysseybase/level3/ne/open)
+"Q" = (/obj/structure/railing{dir = 4},/turf/simulated/open/athena,/area/odysseybase/level3/ne/open)
 "R" = (/turf/simulated/floor/reinforced/athena,/area/odysseybase/level3/ne/open)
 "S" = (/obj/structure/railing/grey{dir = 4},/obj/structure/railing/grey{dir = 1},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "T" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/sw)
@@ -49,15 +54,15 @@ kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyy
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyMMMMMMMMMMMMMMMMMM
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyMMMMMMMMMMMMMMMMM
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyMMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMM
-kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyNRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyQpRRRRRRRRRRRRRyyMMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyiRRRRRRRRRRRRRyyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRyyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRReeeeeyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRReeeeeyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRReeeeeyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRReeeeeyyMMMMMMMMMMMMMMMM
+kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRReeeeeyyMMMMMMMMMMMMMMMM
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyyMMMMMMMMMMMMMMMM
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyyyMMMMMMMMMMMMMMM
 kbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbyyyyyyyyyyyyyyyyyyyyyyyyyyyRRRRRRRRRRRRRRRRRRRRRRRRyyyyMMMMMMMMMMMMMMM

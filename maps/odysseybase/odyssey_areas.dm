@@ -124,6 +124,7 @@
 	icon_state = "yelwhisqu"
 	ambience = AMBIENCE_ENGINEERING
 	lightswitch = 0
+	requires_power = 1
 /area/odysseybase/engineering/engine_airlock
 	name = "Engine Airlock"
 	lightswitch = 1
@@ -142,4 +143,7 @@
 	lightswitch = 1
 /area/odysseybase/engineering/engine_monitering
 	name = "Monitering Room"
+	lightswitch = 1
+/area/odysseybase/engineering/engine_gas
+	name = "Engine Gas Storage"
 	lightswitch = 1

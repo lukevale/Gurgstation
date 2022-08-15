@@ -151,7 +151,7 @@ var/datum/planet/athena/planet_athena = null
 		WEATHER_OVERCAST = 20,
 		WEATHER_LIGHT_SNOW = 1,
 		WEATHER_BLOODMOON = 1,
-		WEATHER_EMBERFALL = 0.5)
+		WEATHER_EMBERFALL = 0)
 	transition_messages = list(
 		"The sky clears up.",
 		"The sky is visible.",

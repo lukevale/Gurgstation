@@ -9,7 +9,7 @@
 "m" = (/turf/unsimulated/wall/planetary/normal/athena,/area/odysseybase/level3/sw/open)
 "n" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/nw)
 "o" = (/turf/simulated/mineral/athena,/area/odysseybase/level3/se)
-"p" = (/obj/structure/ladder,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/reinforced/athena,/area/odysseybase/level3/ne/open)
+"p" = (/obj/structure/ladder,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techfloor,/area/odysseybase/level3/ne/open)
 "r" = (/obj/structure/railing/grey{dir = 1},/obj/structure/railing/grey{dir = 8},/turf/simulated/open/athena,/area/odysseybase/level3/landingpad)
 "t" = (/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)
 "w" = (/obj/effect/landmark/map_data/odysseybase,/turf/unsimulated/wall/planetary/athena,/area/odysseybase/level3/sw)

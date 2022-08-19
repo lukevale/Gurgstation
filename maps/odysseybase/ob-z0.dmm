@@ -13,6 +13,7 @@
 "bv" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "bC" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "bQ" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
+"bY" = (/obj/machinery/power/grid_checker,/obj/structure/cable{d2 = 8; icon_state = "0-8"},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
 "ca" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "cL" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 8},/obj/machinery/light{dir = 8},/turf/simulated/floor,/area/odysseybase/engineering/waste)
 "da" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor,/area/odysseybase/engineering/waste)
@@ -63,6 +64,7 @@
 "xp" = (/turf/simulated/floor,/area/odysseybase/engineering/waste)
 "yE" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
 "yV" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
+"yW" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/power/sensor{name = "Powernet Sensor - Engine Output"; name_tag = "Engine Output"},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
 "zg" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/machinery/light{dir = 8},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "zZ" = (/obj/machinery/button/remote/blast_door{id = "ReactorWasteHandling01"; name = "Reactor Waste Handling Access"; pixel_y = 26; req_one_access = list(11,24)},/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Am" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/turf/simulated/floor,/area/odysseybase/engineering/waste)
@@ -107,7 +109,6 @@
 "Vj" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Vo" = (/obj/machinery/power/smes/buildable{RCon_tag = "Power - Main 2"; charge = 2e+007; cur_coils = 4; input_attempt = 1; input_level = 500000; output_level = 1e+006},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
 "Vw" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
-"VG" = (/obj/machinery/power/grid_checker,/turf/simulated/floor,/area/odysseybase/engineering/smesroom)
 "VR" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/effect/catwalk_plated/dark,/obj/machinery/door/blast/regular{id = "ReactorWasteHandling01"; name = "Reactor Waste Handling Access"},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/waste)
 "VT" = (/obj/structure/ladder/up,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "VZ" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
@@ -143,8 +144,8 @@ abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWLqtZtZyEtZhWZbdBwtkthPnndBwtktNBnnPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWhWhWhWpLhWhWzgdBZbSwWTnndBZbSwWTyVPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWOSnfiyYUSVhWZbRdcaBadYmARdcaBadYmAPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
-abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWkrEpVwdFdFKnJylgbQUmJslglgbQBPWTSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
-abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWVoqPYcVGtZhWZbSwrZukNBSwSwrZukNBSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
+abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWkrEpVwyWdFKnJylgbQUmJslglgbQBPWTSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
+abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWVoqPYcbYtZhWZbSwrZukNBSwSwrZukNBSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWhWhWhWhWtZhWDPiWrkwtHstidDZbSwWTSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVhWhWhWPlSwDPmnhDjyYXarnQlKSwPlaVaVaVaVaVaVaVaVaVaVaVaVaVau
 abaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVPlPlPlPlDPiWiWbvPlPlPlPlaVaVaVaVaVaVaVaVaVaVaVaVaVau

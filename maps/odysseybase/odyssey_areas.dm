@@ -2,14 +2,14 @@
 	name = "Odyssey"
 	icon = 'icons/turf/areas_vr.dmi'
 	icon_state = "blublacir"
-	requires_power = FALSE//TRUE
+	requires_power = TRUE
 	dynamic_lighting = TRUE
 	ambience = AMBIENCE_RUINS
 	base_turf = /turf/simulated/mineral/floor/athena
 
 
 
-/area/maintenance/odyssey
+/area/maintenance/odysseybase
 	name = "Maintenance"
 	icon = 'icons/turf/areas_vr.dmi'
 	icon_state = "purblasqu"
@@ -137,7 +137,6 @@
 	lightswitch = 1
 /area/odysseybase/engineering/engine_room
 	name = "Engine Room"
-	lightswitch = 1
 /area/odysseybase/engineering/engine_hallway
 	name = "Reactor Hallway"
 	lightswitch = 1
@@ -147,3 +146,76 @@
 /area/odysseybase/engineering/engine_gas
 	name = "Engine Gas Storage"
 	lightswitch = 1
+/area/odysseybase/engineering/atmos_storage
+	name = "Atmos Storage"
+	lightswitch = 1
+/area/odysseybase/engineering/eva
+	name = "Engineering EVA"
+/area/odysseybase/engineering/drone_fabrication
+	name = "Drone Fabrication"
+	lightswitch = 1
+/area/odysseybase/engineering/hallway_bmt
+	name = "Engineering Hallway - Basement"
+/area/odysseybase/engineering/foyer
+	name = "Engineering foyer"
+	lightswitch = 1
+/area/odysseybase/engineering/foyer/snd
+	name = "Engineering Foyer - Floor 2"
+	lightswitch = 1
+/area/odysseybase/engineering/eng_monitering
+	name = "Engineering Monitering Room"
+	lightswitch = 1
+/area/odysseybase/engineering/hallway_grnd
+	name = "Engineering Hallway - Ground"
+/area/odysseybase/engineering/workshop
+	name = "Engineering Workshop"
+	lightswitch = 1
+/area/odysseybase/engineering/storage
+	name = "Engineering Storage"
+	lightswitch = 1
+/area/odysseybase/engineering/atmos
+	name = "Atmospherics"
+/area/odysseybase/engineering/atmos/moniter
+	name = "Atmos Monitering room"
+	lightswitch = 1
+/area/odysseybase/engineering/locker
+	name = "Engineering Locker Room"
+	lightswitch = 1
+/area/odysseybase/engineering/breakroom
+	name = "Engineering Breakroom"
+	lightswitch = 1
+/area/odysseybase/engineering/bathroom
+	name = "Engineering Bathroom"
+	lightswitch = 1
+/area/odysseybase/engineering/hallway_snd
+	name = "Engineering Hallway - Floor 2"
+/area/odysseybase/engineering/hallway_atmos
+	name = "Atmos Hallway"
+/area/odysseybase/engineering/ce
+	name = "Cheif Engineer's Office"
+	lightswitch = 1
+
+//substations
+/area/maintenance/odysseybase/substation
+	name = "Substation"
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+	icon_state = "yelwhitri"
+	ambience = AMBIENCE_SUBSTATION
+/area/maintenance/odysseybase/substation/engineering
+	name = "Engineering Substation - Ground Floor"
+/area/maintenance/odysseybase/substation/engineering/bmt
+	name = "Engineering Substation - Basement"
+/area/maintenance/odysseybase/substation/engineering/snd
+	name = "Engineering Substation - Second Floor"
+/area/maintenance/odysseybase/substation/atmos
+	name = "Atmos Substation - Ground Floor"
+/area/maintenance/odysseybase/substation/atmos/bmt
+	name = "Atmos Substation - Ground Floor - Basement"
+
+//Maintence Tunnels
+/area/maintenance/odysseybase/level0/eng_north
+	name = "Engineering Basement North Maintence"
+/area/maintenance/odysseybase/level0/eng_west
+	name = "Engineering Basement West Maintence"
+/area/maintenance/odysseybase/level0/eng_south
+	name = "Engineering Basement South Maintence"

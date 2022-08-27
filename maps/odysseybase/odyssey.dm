@@ -4,7 +4,7 @@
 	#include "odyssey_defines.dm"
 //	#include "groundbase_shuttles.dm"
 //	#include "groundbase_telecomms.dm"
-//	#include "groundbase_things.dm"
+	#include "odyssey_things.dm"
 //	#include "..\offmap_vr\common_offmaps.dm"
 //	#include "..\tether\tether_jobs.dm"
 //	#include "groundbase_poi_stuff.dm"

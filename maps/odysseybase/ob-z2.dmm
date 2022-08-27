@@ -71,7 +71,7 @@
 "jk" = (/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "jo" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "jD" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{dir = 8; frequency = 1441; id_tag = "n2_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000},/turf/simulated/floor/reinforced/nitrogen,/area/odysseybase/engineering/atmos)
-"jQ" = (/obj/structure/lattice,/obj/structure/railing,/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/cable/cyan{d1 = 32; d2 = 2; dir = 4; icon_state = "32-2"},/turf/simulated/open,/area/odysseybase/engineering/atmos)
+"jQ" = (/obj/structure/lattice,/obj/structure/railing,/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/cable/cyan{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "ka" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor,/area/odysseybase/engineering/atmos)
 "kg" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "kx" = (/obj/machinery/door/airlock/maintenance/common{icon_state = "door_locked"; id_tag = "reactor_raccess_north"; locked = 1; name = "Reactor Roof Access"; req_access = list(10)},/turf/simulated/floor/tiled/techfloor,/area/odysseybase/engineering/engine_room)
@@ -200,7 +200,7 @@
 "Lg" = (/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "Lh" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/blast/regular{id = "supermatterport"; layer = 3.3; name = "Reactor Core Blast Door"},/obj/machinery/door/blast/regular{id = "supermatterport"; layer = 3.3; name = "Reactor Core Blast Door"},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Ll" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
-"Lx" = (/turf/simulated/shuttle/wall/voidcraft/green{hard_corner = 1},/area/odysseybase/engineering/hallway_atmos)
+"Lx" = (/turf/unsimulated/mask,/area/odysseybase/engineering/hallway_atmos)
 "LP" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "LX" = (/obj/structure/catwalk,/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "Mh" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "o2_sensor"},/turf/simulated/floor/reinforced/oxygen,/area/odysseybase/engineering/atmos)
@@ -211,7 +211,6 @@
 "Np" = (/obj/structure/grille,/turf/simulated/floor/plating,/area/odysseybase/engineering/hallway_atmos)
 "Nr" = (/obj/structure/curtain/open/shower/engineering,/obj/effect/floor_decal/corner_steel_grid{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 9},/obj/machinery/shower{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/bathroom)
 "Nu" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/foyer/snd)
-"Nx" = (/turf/simulated/wall,/area/odysseybase/engineering/atmos)
 "NS" = (/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos/moniter)
 "NT" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 1},/turf/simulated/floor/reinforced/oxygen,/area/odysseybase/engineering/atmos)
 "NY" = (/obj/structure/closet/wardrobe/atmospherics_yellow,/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
@@ -222,7 +221,7 @@
 "OA" = (/obj/structure/ladder/up,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/reinforced/athena,/area/odysseybase/level2/ne/open)
 "OB" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "OC" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor/plating,/area/odysseybase/engineering/engine_airlock/snd)
-"ON" = (/obj/machinery/power/apc{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
+"ON" = (/obj/machinery/power/apc{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "OQ" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan,/obj/machinery/meter,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "OR" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "OX" = (/obj/machinery/door/airlock/engineeringatmos{name = "Engineering Washroom"; req_one_access = null},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/bathroom)
@@ -309,10 +308,10 @@ aTababababababababababababababababababababababababababababababababababababababab
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDOnDmOzeEeEeEysLgLgBEeEzDaUaUaDfoFoaDTlQgzEaqrrnizSDwfiwzimLXLXqkVUVUVUahaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDlsvwOzdkDXeEysLgANnjMYzDyeyeaDaDaDaDaqLPTlQghMEvqjcfwQTDrrWJVUQUQUQUQUahaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDOzPDzDLgANeEysLgLgjQOBzDLxLxLxLxLxaDaDaDaDaDrrVPkUrrrrrrrrahahahahahahahaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDLglQLgLgANeEysLgANeEkgNxLxGPGPGPLxyeararararrrrrrrrraUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDeALgLgLgANeEVXZpZpImvTImLxGPGPGPLxyeararararararararaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDkaOzzDSuBEeEZppQpQvLjcImLxGPGPGPLxyearbFbFbFbFbFbFbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDBNrfOzeEeEeErvNSslNScFImLxwCwCwCLxyearbFacHtGEHtGEbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDLglQLgLgANeEysLgANeEkgzDLxLxLxLxLxyeararararrrrrrrrraUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDeALgLgLgANeEVXZpZpImvTVXLxLxLxLxLxyeararararararararaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDkaOzzDSuBEeEZppQpQvLjcVXLxLxLxLxLxyearbFbFbFbFbFbFbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDBNrfOzeEeEeErvNSslNScFVXyewCwCwCyeyearbFacHtGEHtGEbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDzjRKCnwwpvhpVXIYNSnwoUImGPjkjkjkGPyearbFBeHtQtHtinbFgNgNgNaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDzDzDzDzDzDzDVXVXRSrlImImjkjkjkjkjkyearbFQwQwQwQwzgOXyKQQgNgNgNgNgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyejkjkjoVAvyjkjkjkjkjkyearbFQwQwQnQnPfHtArQQBmGKGKBmgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak

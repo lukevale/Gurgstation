@@ -116,6 +116,27 @@
 	base_turf = /turf/simulated/floor/beach/odyssey/coastwater
 
 
+//Elevators
+/area/turbolift/eng_odyssey/level0
+	name = "Basement"
+	lift_floor_label = "BF"
+	lift_floor_name = "EVA, Atmos Storage, Drone Fabrication"
+	lift_announce_str = "Arriving at Basement Floor."
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/eng_odyssey/level1
+	name = "Floor 1"
+	lift_floor_label = "F1"
+	lift_floor_name = "Foyer, Workshop, Atmos, Engine, Storage"
+	lift_announce_str = "Arriving at Ground Floor."
+
+/area/turbolift/eng_odyssey/level2
+	name = "Floor 2"
+	lift_floor_label = "F2"
+	lift_floor_name = "Breakroom, Locker Room, Atmos Monitering, Cheif Engineer's Office"
+	lift_announce_str = "Arriving at Second Floor."
+
+
 //engineering
 
 /area/odysseybase/engineering

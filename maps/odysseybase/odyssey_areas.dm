@@ -144,77 +144,58 @@
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 	icon_state = "yelwhisqu"
 	ambience = AMBIENCE_ENGINEERING
-	lightswitch = 0
 	requires_power = 1
 /area/odysseybase/engineering/engine_airlock
 	name = "Engine Airlock"
-	lightswitch = 1
 /area/odysseybase/engineering/engine_airlock/snd
 /area/odysseybase/engineering/smesroom
 	name = "SMES Room"
-	lightswitch = 1
 /area/odysseybase/engineering/waste
 	name = "Waste Managment"
-	lightswitch = 1
 /area/odysseybase/engineering/engine_room
 	name = "Engine Room"
 /area/odysseybase/engineering/engine_hallway
 	name = "Reactor Hallway"
-	lightswitch = 1
 /area/odysseybase/engineering/engine_monitering
 	name = "Monitering Room"
-	lightswitch = 1
 /area/odysseybase/engineering/engine_gas
 	name = "Engine Gas Storage"
-	lightswitch = 1
 /area/odysseybase/engineering/atmos_storage
 	name = "Atmos Storage"
-	lightswitch = 1
 /area/odysseybase/engineering/eva
 	name = "Engineering EVA"
 /area/odysseybase/engineering/drone_fabrication
 	name = "Drone Fabrication"
-	lightswitch = 1
 /area/odysseybase/engineering/hallway_bmt
 	name = "Engineering Hallway - Basement"
 /area/odysseybase/engineering/foyer
 	name = "Engineering foyer"
-	lightswitch = 1
 /area/odysseybase/engineering/foyer/snd
 	name = "Engineering Foyer - Floor 2"
-	lightswitch = 1
 /area/odysseybase/engineering/eng_monitering
 	name = "Engineering Monitering Room"
-	lightswitch = 1
 /area/odysseybase/engineering/hallway_grnd
 	name = "Engineering Hallway - Ground"
 /area/odysseybase/engineering/workshop
 	name = "Engineering Workshop"
-	lightswitch = 1
 /area/odysseybase/engineering/storage
 	name = "Engineering Storage"
-	lightswitch = 1
 /area/odysseybase/engineering/atmos
 	name = "Atmospherics"
 /area/odysseybase/engineering/atmos/moniter
 	name = "Atmos Monitering room"
-	lightswitch = 1
 /area/odysseybase/engineering/locker
 	name = "Engineering Locker Room"
-	lightswitch = 1
 /area/odysseybase/engineering/breakroom
 	name = "Engineering Breakroom"
-	lightswitch = 1
 /area/odysseybase/engineering/bathroom
 	name = "Engineering Bathroom"
-	lightswitch = 1
 /area/odysseybase/engineering/hallway_snd
 	name = "Engineering Hallway - Floor 2"
 /area/odysseybase/engineering/hallway_atmos
 	name = "Atmos Hallway"
 /area/odysseybase/engineering/ce
 	name = "Cheif Engineer's Office"
-	lightswitch = 1
 
 //substations
 /area/maintenance/odysseybase/substation
@@ -233,10 +214,10 @@
 /area/maintenance/odysseybase/substation/atmos/bmt
 	name = "Atmos Substation - Ground Floor - Basement"
 
-//Maintence Tunnels
+//Maintenance Tunnels
 /area/maintenance/odysseybase/level0/eng_north
-	name = "Engineering Basement North Maintence"
+	name = "Engineering Basement North Maintenance"
 /area/maintenance/odysseybase/level0/eng_west
-	name = "Engineering Basement West Maintence"
+	name = "Engineering Basement West Maintenance"
 /area/maintenance/odysseybase/level0/eng_south
-	name = "Engineering Basement South Maintence"
+	name = "Engineering Basement South Maintenance"

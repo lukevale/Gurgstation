@@ -117,6 +117,7 @@
 
 
 //Elevators
+//Engineering
 /area/turbolift/eng_odyssey/level0
 	name = "Basement"
 	lift_floor_label = "BF"
@@ -134,6 +135,26 @@
 	name = "Floor 2"
 	lift_floor_label = "F2"
 	lift_floor_name = "Breakroom, Locker Room, Atmos Monitering, Cheif Engineer's Office"
+	lift_announce_str = "Arriving at Second Floor."
+
+//Medical
+/area/turbolift/odyssey_med/level0
+	name = "Basement"
+	lift_floor_label = "BF"
+	lift_floor_name = "Surgury, Storage, Mourge, Breakroom"
+	lift_announce_str = "Arriving at Basement Floor."
+	base_turf = /turf/simulated/floor/plating
+
+/area/turbolift/odyssey_med/level1
+	name = "Floor 1"
+	lift_floor_label = "F1"
+	lift_floor_name = "Triage, Chemistry, Resleeving"
+	lift_announce_str = "Arriving at Ground Floor."
+
+/area/turbolift/odyssey_med/level2
+	name = "Floor 2"
+	lift_floor_label = "F2"
+	lift_floor_name = "Paitent Rooms, CMO's Office, Psyc-Ward"
 	lift_announce_str = "Arriving at Second Floor."
 
 

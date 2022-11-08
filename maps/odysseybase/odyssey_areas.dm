@@ -165,7 +165,8 @@
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 	icon_state = "yelwhisqu"
 	ambience = AMBIENCE_ENGINEERING
-	requires_power = 1 //remove this once mapping is done, is a debuging variable
+	requires_power = 1
+#warn remove this once mapping is done, is a debuging variable
 /area/odysseybase/engineering/engine_airlock
 	name = "Engine Airlock"
 /area/odysseybase/engineering/engine_airlock/snd
@@ -225,7 +226,8 @@
 	name = "Medbay"
 	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 	icon_state = "cyawhisqu"
-	requires_power = 1 //remove this once mapping is done, is a debuging variable
+	requires_power = 1
+#warn remove this once mapping is done, is a debuging variable
 /area/odysseybase/medical/cmo
 	name = "Medbay - CMO's Office"
 /area/odysseybase/medical/pait_room

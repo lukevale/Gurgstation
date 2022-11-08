@@ -58,6 +58,7 @@
 "cC" = (/obj/structure/railing{dir = 1},/obj/structure/railing,/obj/machinery/atmospherics/pipe/zpipe/down{dir = 1},/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "cE" = (/obj/machinery/shieldwallgen,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
 "cH" = (/obj/machinery/atmospherics/pipe/manifold/hidden{dir = 4},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/engine_airlock)
+"cQ" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/lobby)
 "da" = (/turf/simulated/floor/plating,/area/odysseybase/engineering/hallway_grnd)
 "dc" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/yellow,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "de" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
@@ -81,6 +82,7 @@
 "ey" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/obj/effect/floor_decal/spline/plain{dir = 4},/obj/structure/railing{dir = 4},/turf/simulated/floor/water/deep/athena,/area/odysseybase/level1/ne)
 "eJ" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/power/sensor{name = "Powernet Sensor - Atmospherics Subgrid"; name_tag = "Atmospherics Subgrid"},/obj/structure/cable/cyan{d2 = 4; icon_state = "0-4"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 5},/turf/simulated/floor,/area/maintenance/odysseybase/substation/atmos)
 "eN" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/obj/effect/floor_decal/borderfloor{dir = 5},/obj/effect/floor_decal/corner/yellow/border{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
+"eT" = (/turf/simulated/wall,/area/odysseybase/medical/chemistry)
 "eZ" = (/obj/machinery/computer/power_monitor{dir = 1},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
 "fj" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "fm" = (/obj/item/modular_computer/console/preset/engineering{dir = 1},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
@@ -93,7 +95,7 @@
 "gi" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light/small,/turf/simulated/floor,/area/maintenance/odysseybase/substation/engineering/bmt)
 "gt" = (/obj/structure/railing{dir = 4},/obj/machinery/atmospherics/pipe/zpipe/down{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "gE" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/atmos)
-"gN" = (/turf/unsimulated/mask,/area/odysseybase/level1/se)
+"gN" = (/turf/unsimulated/mask,/area/odysseybase/medical/triage)
 "gO" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/obj/machinery/hologram/holopad,/obj/effect/floor_decal/industrial/outline/grey,/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 6},/obj/effect/floor_decal/steeldecal/steel_decals3,/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 9},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer)
 "gU" = (/obj/effect/floor_decal/steeldecal/steel_decals10,/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 4},/obj/machinery/alarm{dir = 4},/obj/effect/floor_decal/corner_steel_grid{dir = 9},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "hn" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 6},/obj/structure/cable/cyan{d1 = 16; d2 = 0; icon_state = "16-0"},/obj/structure/cable/cyan{d1 = 0; d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/engine_airlock)
@@ -104,6 +106,7 @@
 "hI" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals4,/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "hR" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 9},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "hX" = (/obj/effect/floor_decal/borderfloor/corner2{dir = 1},/obj/effect/floor_decal/borderfloor/corner2{dir = 4},/obj/effect/floor_decal/corner/white/bordercorner2{dir = 4},/obj/effect/floor_decal/corner/blue/bordercorner2{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
+"ie" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/resleeving)
 "ii" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/effect/floor_decal/industrial/warning/full,/obj/structure/ladder/up,/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/obj/machinery/camera/network/engineering{dir = 1},/turf/simulated/floor,/area/odysseybase/engineering/atmos)
 "iu" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "iw" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
@@ -153,6 +156,8 @@
 "me" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/maintenance/odysseybase/substation/engineering/bmt)
 "mf" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/effect/floor_decal/borderfloor{dir = 8},/obj/effect/floor_decal/corner/yellow/border{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "mm" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass_atmos{name = "Atmospherics"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/atmos)
+"mo" = (/turf/simulated/wall/r_wall,/area/odysseybase/medical/chemistry)
+"mr" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/chemistry)
 "mx" = (/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/obj/machinery/camera/network/engineering{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "mD" = (/turf/simulated/floor/plating,/area/odysseybase/level1/se)
 "mF" = (/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
@@ -164,6 +169,7 @@
 "mU" = (/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{dir = 4; filter_type = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "mY" = (/obj/structure/railing,/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/machinery/atmospherics/pipe/zpipe/down,/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "nh" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
+"ni" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/triage)
 "no" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/odysseybase/engineering/hallway_grnd)
 "nu" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/power/apc{dir = 1},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/light_switch{pixel_x = 12; pixel_y = 24},/obj/machinery/firealarm{dir = 4},/turf/simulated/floor,/area/maintenance/odysseybase/substation/engineering/bmt)
 "nv" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/obj/structure/fireaxecabinet{pixel_y = 32},/obj/item/device/pipe_painter{pixel_x = 3; pixel_y = 3},/obj/item/device/pipe_painter,/obj/structure/table/steel,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -175,7 +181,7 @@
 "nQ" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "nR" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "nT" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
-"nZ" = (/turf/simulated/open,/area/odysseybase/level1/se)
+"nZ" = (/turf/simulated/open,/area/odysseybase/medical/hallway_grnd)
 "od" = (/obj/effect/floor_decal/borderfloor{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/obj/machinery/atm{pixel_y = 32},/obj/machinery/computer/guestpass{dir = 4; pixel_x = -24},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "oe" = (/obj/machinery/door/firedoor/glass/hidden/steel{dir = 8},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "og" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
@@ -283,16 +289,18 @@
 "vC" = (/obj/structure/ladder/up,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "vE" = (/obj/machinery/mech_recharger,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/hallway_grnd)
 "vK" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
+"vM" = (/turf/simulated/floor,/area/odysseybase/medical/chemistry)
 "vS" = (/obj/effect/floor_decal/borderfloor{dir = 8},/obj/effect/floor_decal/corner/yellow/border{dir = 8},/obj/machinery/door/firedoor/glass/hidden/steel,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "vW" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/powered/scrubber,/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/red/border,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "vY" = (/turf/simulated/wall,/area/odysseybase/engineering/hallway_grnd)
 "vZ" = (/obj/machinery/atmospherics/valve/digital,/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "we" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "wg" = (/obj/machinery/atmospherics/portables_connector,/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled/monotile,/area/odysseybase/engineering/atmos)
+"wj" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/hallway_grnd)
 "wl" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/manifold/visible/green,/turf/simulated/floor/outdoors/newdirt_nograss/athena{edge_blending_priority = 0},/area/odysseybase/level1/ne)
 "wm" = (/obj/machinery/door/firedoor/glass,/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor,/area/odysseybase/engineering/workshop)
 "wt" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
-"wA" = (/turf/simulated/floor/tiled/white,/area/odysseybase/level1/se)
+"wA" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/autoresleeving)
 "wE" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 1},/obj/machinery/meter,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "wG" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "wI" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 9},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -316,13 +324,15 @@
 "xO" = (/obj/structure/railing{dir = 1},/obj/structure/railing{dir = 8},/obj/structure/sign/atmosplaque{pixel_x = 32},/obj/machinery/camera/network/engineering{dir = 8},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "xW" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/machinery/light{dir = 1},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "xZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
+"yi" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_grnd)
 "yk" = (/obj/effect/floor_decal/steeldecal/steel_decals5{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals_central4{dir = 1},/obj/effect/floor_decal/spline/plain{dir = 1},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/workshop)
 "ym" = (/obj/machinery/airlock_sensor/airlock_exterior{dir = 8; id_tag = "eng_al_ext_snsr"; master_tag = "engine_room_airlock"; pixel_x = 25; pixel_y = 26},/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/steeldecal/steel_decals4,/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_airlock)
 "ys" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "yw" = (/obj/machinery/light/floortube,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "yx" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
-"yC" = (/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled/white,/area/odysseybase/level1/se)
+"yC" = (/obj/structure/railing{dir = 1},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_grnd)
 "yD" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals4,/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
+"yG" = (/turf/simulated/wall,/area/odysseybase/medical/lobby)
 "yI" = (/obj/machinery/atmospherics/unary/freezer{dir = 8},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "yK" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "yM" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/obj/structure/sign/nosmoking_1{pixel_x = 32},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -334,6 +344,7 @@
 "zf" = (/obj/machinery/floodlight,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
 "zi" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/obj/machinery/firealarm{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "zk" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
+"zv" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/resleeving)
 "zw" = (/obj/machinery/door/firedoor/glass/hidden/steel{dir = 1},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "zy" = (/obj/effect/floor_decal/borderfloor{dir = 6},/obj/effect/floor_decal/corner/yellow/border{dir = 6},/obj/machinery/disposal,/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "zE" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -363,11 +374,14 @@
 "By" = (/obj/structure/ladder/up,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Bz" = (/turf/simulated/floor/outdoors/newdirt_nograss/athena{edge_blending_priority = 0},/area/odysseybase/level1/ne)
 "BC" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
+"BD" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/chemistry)
 "BG" = (/obj/structure/railing{dir = 4},/obj/structure/cable/green{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/maintenance/odysseybase/substation/engineering/bmt)
+"BH" = (/turf/simulated/wall,/area/odysseybase/medical/triage)
 "BK" = (/obj/machinery/pipedispenser/disposal,/obj/effect/floor_decal/borderfloor/corner,/obj/effect/floor_decal/corner/yellow/bordercorner,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "BS" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Ca" = (/obj/machinery/shieldgen,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
 "Ce" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/manifold/visible/yellow,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
+"Ci" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/emt)
 "Cl" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/workshop)
 "Cm" = (/obj/machinery/button/remote/blast_door{desc = "A remote control-switch for the exterior vent port."; dir = 8; id = "ReactorVent"; name = "Reactor Ventillatory Control"; pixel_x = 24; req_access = list(10)},/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Cn" = (/obj/machinery/door/airlock/glass_engineering{name = "Engineering Workshop"; req_one_access = list(11,24)},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor/glass,/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/workshop)
@@ -399,6 +413,7 @@
 "Ee" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/green,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Ei" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Ep" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
+"Et" = (/turf/simulated/wall,/area/odysseybase/medical/examroom)
 "Ew" = (/obj/structure/railing{dir = 8},/obj/machinery/atmospherics/pipe/zpipe/down{dir = 8},/obj/structure/railing{dir = 1},/obj/structure/railing,/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "Ex" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/power/apc{dir = 1},/obj/structure/cable/cyan{d1 = 0; d2 = 4; icon_state = "0-4"},/turf/simulated/floor,/area/odysseybase/engineering/engine_airlock)
 "EF" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
@@ -461,11 +476,12 @@
 "JA" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 6},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "JE" = (/obj/machinery/camera/network/engine{c_tag = "ENG - Stair Well"; dir = 8},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/engine_airlock)
 "JL" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
+"JV" = (/turf/simulated/wall,/area/odysseybase/medical/autoresleeving)
 "JW" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/cable/cyan{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/odysseybase/engineering/engine_airlock)
 "Kc" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "Kd" = (/obj/effect/floor_decal/borderfloor{dir = 8},/obj/effect/floor_decal/corner/purple/border{dir = 8},/obj/effect/floor_decal/borderfloor/corner2{dir = 10},/obj/effect/floor_decal/corner/orange/bordercorner2{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "Km" = (/obj/effect/catwalk_plated/dark,/obj/machinery/alarm,/turf/simulated/floor/plating,/area/odysseybase/engineering/storage)
-"Kq" = (/obj/structure/railing,/turf/simulated/open,/area/odysseybase/level1/se)
+"Kq" = (/obj/structure/railing,/turf/simulated/open,/area/odysseybase/medical/hallway_grnd)
 "Kw" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Kx" = (/obj/machinery/door/airlock/maintenance/engi,/turf/simulated/floor,/area/maintenance/odysseybase/substation/engineering/bmt)
 "Ky" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/engine_airlock)
@@ -504,12 +520,13 @@
 "MG" = (/obj/structure/closet/crate/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/obj/item/stack/material/lead{amount = 30},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
 "MH" = (/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/obj/machinery/firealarm,/turf/simulated/floor/tiled,/area/odysseybase/engineering/workshop)
 "MI" = (/obj/machinery/alarm{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_gas)
-"MM" = (/obj/structure/railing{dir = 1},/obj/structure/stairs/spawner/west,/turf/simulated/floor/tiled/white,/area/odysseybase/level1/se)
+"MM" = (/obj/structure/railing{dir = 1},/obj/structure/stairs/spawner/west,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_grnd)
 "MN" = (/obj/machinery/portable_atmospherics/canister/air,/obj/structure/window/reinforced{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/obj/effect/floor_decal/industrial/warning{dir = 5},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "MO" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{frequency = 1379; id_tag = "engine_airlock_pump"},/obj/structure/sign/warning/nosmoking_1{pixel_y = 32},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/engine_airlock)
 "MP" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "MS" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/border_only,/obj/machinery/door/blast/regular/open{dir = 4; id = "ReactorPoolViewport"; layer = 3.3; name = "Reactor Cooling Pond Viewport Shutter"},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "MX" = (/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/workshop)
+"MY" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/examroom)
 "Nb" = (/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor/glass,/turf/simulated/floor,/area/odysseybase/engineering/eng_monitering)
 "Nh" = (/obj/effect/floor_decal/borderfloor/corner,/obj/effect/floor_decal/corner/yellow/bordercorner,/obj/structure/extinguisher_cabinet{dir = 1; pixel_x = 1; pixel_y = -30},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "Nj" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 6},/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
@@ -594,25 +611,30 @@
 "Su" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass_atmos{name = "Atmospherics"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/atmos)
 "SA" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "SH" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/red,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
-"SL" = (/obj/machinery/smartfridge/chemistry,/turf/simulated/wall,/area/odysseybase/level1/se)
+"SL" = (/obj/machinery/smartfridge/chemistry,/turf/simulated/wall,/area/odysseybase/medical/chemistry)
 "SN" = (/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/engine_airlock)
 "SP" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "SR" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass_engineering{name = "Engine Stair Well"; req_access = list(11); req_one_access = list()},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/engine_airlock)
+"SW" = (/turf/simulated/floor,/area/odysseybase/medical/lobby)
 "SX" = (/obj/effect/floor_decal/industrial/warning/corner,/turf/simulated/floor/tiled,/area/odysseybase/level1/ne)
 "Ta" = (/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/yellow/border{dir = 10},/obj/machinery/light,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
 "Tb" = (/obj/structure/table/reinforced,/obj/machinery/light{dir = 4},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/obj/item/weapon/storage/toolbox/emergency{pixel_y = 8},/obj/item/weapon/storage/toolbox/electrical{pixel_y = -1},/obj/machinery/alarm{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
 "Tc" = (/obj/machinery/portable_atmospherics/canister/air,/obj/structure/window/reinforced{dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "Te" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/obj/effect/floor_decal/spline/plain{dir = 4},/obj/structure/railing{dir = 4},/turf/simulated/floor/water/deep/athena,/area/odysseybase/level1/ne)
+"Tj" = (/turf/simulated/wall,/area/odysseybase/medical/emt)
 "Tm" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor,/area/odysseybase/engineering/engine_gas)
 "Tq" = (/obj/effect/floor_decal/borderfloorblack{dir = 1},/obj/effect/floor_decal/industrial/danger{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/hallway_grnd)
 "Tx" = (/obj/structure/closet/crate/focalpoint,/obj/item/weapon/smes_coil/super_io,/obj/item/weapon/smes_coil/super_io,/obj/item/weapon/smes_coil/super_capacity,/obj/item/weapon/smes_coil/super_capacity,/obj/item/weapon/smes_coil,/obj/item/weapon/smes_coil,/obj/item/weapon/circuitboard/smes,/obj/item/weapon/circuitboard/smes,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
+"TD" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/examroom)
 "TJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "TQ" = (/obj/structure/bed/chair{dir = 4},/obj/effect/floor_decal/borderfloor{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/obj/machinery/firealarm{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "TR" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer)
 "Uc" = (/obj/effect/floor_decal/steeldecal/steel_decals5{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals6{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals6{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/hallway_grnd)
 "Ug" = (/obj/machinery/computer/rcon{dir = 1},/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
 "Uw" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 10},/obj/machinery/hologram/holopad,/obj/effect/floor_decal/industrial/outline/grey,/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 6},/obj/effect/floor_decal/steeldecal/steel_decals3,/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals3{dir = 9},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/hallway_grnd)
+"Uy" = (/turf/simulated/wall,/area/odysseybase/medical/hallway_grnd)
 "Uz" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
+"UB" = (/turf/simulated/wall/r_wall,/area/odysseybase/medical/triage)
 "UC" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "UD" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "UE" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -633,6 +655,7 @@
 "Vn" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor,/area/odysseybase/engineering/engine_gas)
 "Vq" = (/turf/simulated/floor/tiled,/area/odysseybase/engineering/workshop)
 "Vu" = (/obj/structure/closet/crate/engineering,/obj/item/stack/material/phoron{amount = 25},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/storage)
+"Vy" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/emt)
 "VP" = (/obj/machinery/power/smes/buildable{RCon_tag = "Substation - Engineering"; charge = 2e+006},/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/turf/simulated/floor,/area/maintenance/odysseybase/substation/engineering/bmt)
 "VV" = (/obj/effect/floor_decal/borderfloor{dir = 8},/obj/effect/floor_decal/corner/blue/border{dir = 8},/obj/effect/floor_decal/borderfloor/corner2{dir = 8},/obj/effect/floor_decal/corner/blue/bordercorner2{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "Wb" = (/turf/simulated/wall,/area/odysseybase/level1/ne)
@@ -647,13 +670,14 @@
 "WM" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/engine_airlock)
 "WO" = (/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 1},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 6},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "WQ" = (/obj/structure/closet/secure_closet/engineering_electrical,/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/workshop)
-"WR" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/level1/se)
+"WR" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/autoresleeving)
 "WS" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "WW" = (/obj/effect/catwalk_plated/dark,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/firedoor/border_only,/turf/simulated/floor,/area/odysseybase/engineering/engine_gas)
 "WZ" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/borderfloorblack{dir = 8},/obj/effect/floor_decal/industrial/danger{dir = 8},/obj/structure/table/steel,/obj/machinery/cell_charger,/obj/random/powercell,/turf/simulated/floor/tiled/dark,/area/odysseybase/engineering/hallway_grnd)
 "Xa" = (/obj/machinery/atmospherics/pipe/manifold/visible/green{dir = 1},/obj/machinery/meter,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
 "Xf" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_airlock)
 "Xk" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/obj/machinery/door/airlock/glass_engineering{name = "Engineering Foyer"; req_one_access = list(11,24)},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/hallway_grnd)
+"Xp" = (/turf/simulated/wall,/area/odysseybase/medical/resleeving)
 "Xr" = (/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/red/border{dir = 4},/obj/effect/floor_decal/borderfloor/corner2{dir = 6},/obj/effect/floor_decal/corner/red/bordercorner2{dir = 6},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "XB" = (/obj/structure/sign/atmos{desc = "WARNING! Waste flow tube. Ensure the flow is disengaged before working."; pixel_x = 32},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "XM" = (/obj/machinery/atmospherics/pipe/manifold/visible/black{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos)
@@ -664,6 +688,7 @@
 "Yh" = (/obj/effect/floor_decal/borderfloor{dir = 1},/obj/machinery/door/firedoor/glass/hidden/steel{dir = 2},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_grnd)
 "Ym" = (/obj/effect/catwalk_plated/dark,/obj/machinery/firealarm,/turf/simulated/floor/plating,/area/odysseybase/engineering/storage)
 "Yr" = (/obj/structure/sign/warning/radioactive,/turf/simulated/wall/r_wall,/area/odysseybase/engineering/engine_airlock)
+"Yx" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/lobby)
 "Yy" = (/turf/simulated/floor/tiled,/area/odysseybase/engineering/eng_monitering)
 "Yz" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/engine_room)
 "YF" = (/obj/structure/grille,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 9},/turf/simulated/floor/outdoors/newdirt_nograss/athena{edge_blending_priority = 0},/area/odysseybase/level1/ne)
@@ -741,40 +766,40 @@ aiaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaVaVaPaPaPaPaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaa
 aiaPaPaPaPaPaPaPaPaPaPaPaVaVaPaVaPaPaVaVaPaPaPaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavjPjPCHurrasEsEogzyDZCtCtCtCtekekKxekavavavavavavavavaRaRaRaRaRaRaRaRaRaRaRaRaRaRaRaX
 aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaPaPaPaVaVaPaPaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavjPjPjPDZDZwZmFHMDZDZCtCtCtCtCtCtCtWbavavavavavavavavaRaRaRaRaRaRaRaRaRaRaRaRaRaRaRaX
 aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaPaPaVaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavjPjPjPDZDZDZDZDZDZCtCtCtCtCtCtCtCtWbavWbavavavavavavaRaRaRaRaRaRaRaRaRaRaRaRaRaRaRaX
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaPaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavjPjPjPkXCtCtCtCtCtCtCtCtCtWbWbWbWbWbavWbavavavavavavaRaRaRaRaRaRaRaRaRaRaRaRaRaRaRaX
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJFJFJFJFJFJFJFJFJFJarwAwAwAaraHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaPaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarararararararararararwAwAwAaraHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaPaVaVaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAWRwAwAwAaraHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaVaVaVaPaPaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAarwAwAwAaraHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaVaVaPaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAWRwAwAarararararararaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaPaVaVaVaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAarwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaPaPaVaVaVaVanaAaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKararararararararwAwAarwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAarwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAWRwAwAWRwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAarwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAarwAwAarararararararaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKararararararararWRWRararnZnZwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAarwAwAwAwAarKqKqwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAWRwAwAwAwAWRwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAarwAwAwAwAWRwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAarwAwAwAwAarMMyCwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarFJFJFJararararWRWRarararararararaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaVaVaVaVaVaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJwAwAwAwAFJwAwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaVaVaVaVaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJwAwAwAwAWRwAwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJwAwAwAwAWRwAwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJwAwAwAwAFJwAwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAarwAwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKWRwAwAwAwAarwAwAwAwAwAwAwAwAwAwAararararaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKWRwAwAwAwAarwAwAwAwAwAwAwAwAwAwAarmDmDaraHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAarwAwAwAwAwAwAwAwAwAwAarmDmDaraHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKararararararFJWRSLarxtxtgNgNxtxtxtmDxtxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAxtgNgNgNgNxtmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAxtgNgNgNgNxtmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAxtgNgNgNgNxtmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAxtgNgNgNgNxtmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAxtxtxtxtxtxtxtxtxtxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKarwAwAwAwAwAwAwAwAwAaraHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
-aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBzLzLzLzLzLzLzLaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKarararararararararararaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaPaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavavjPjPjPkXCtCtCtCtCtCtCtCtCtJVJVJVJVJVavWbavavavavavavaRaRaRaRaRaRaRaRaRaRaRaRaRaRaRaX
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKFJFJFJFJFJFJFJFJFJFJJVwAwAwAJVaHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaPaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKTjTjTjTjTjTjTjTjUyUyJVwAwAwAJVaHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaPaVaVaVaVaPaPaVaVaVanaAaoaoaqaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKTjVyVyVyVyVyVyTjyiyiWRwAwAwAJVaHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaVaVaVaPaPaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKTjVyVyVyVyVyVyTjyiyiJVwAwAwAJVaHaraHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaVaVaVaPaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKTjVyVyVyVyVyVyCiyiyiEtEtEtEtEtEtEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaPaVaVaVaVaVaVanaAaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKTjVyVyVyVyVyVyTjyiyiEtMYMYMYMYMYEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaPaPaPaPaVaVaVaVanaAaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKXpXpXpXpXpXpXpXpyiyiEtMYMYMYMYMYEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKXpieieieieieieXpyiyiEtMYMYMYMYMYEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKXpieieieieieiezvyiyiTDMYMYMYMYMYEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKXpieieieieieieXpyiyiEtMYMYMYMYMYEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKXpieieieieieieXpyiyiEtEtEtEtEtEtEtaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGyGyGyGyGyGyGUywjwjUyUynZnZyiyiUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxYxyGyiyiyiyiUyKqKqyiyiUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxYxcQyiyiyiyiwjyiyiyiyiUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxYxyGyiyiyiyiwjyiyiyiyiUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVaPaVaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxYxyGyiyiyiyiUyMMyCyiyiUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGSWSWSWyGyGyGUywjwjUyUyUyUyUyUyUyaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaVaVaVaVaVaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKSWYxYxYxYxSWninininininininininiBHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaVaVaVaVaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKSWYxYxYxYxcQninininininininininiBHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKSWYxYxYxYxcQninininininininininiBHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKSWYxYxYxYxSWninininininininininiBHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxyGninininininininininiBHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKcQYxYxYxYxyGninininininininininiBHarararaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVanaAaoaoaoaoaoaqaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKcQYxYxYxYxyGninininininininininiBHmDmDaraHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGYxYxYxYxyGninininininininininiBHmDmDaraHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKyGyGyGyGyGyGvMmrSLeTmoUBgNgNUBUBUBmDxtxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDmogNgNgNgNUBmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaqaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDmogNgNgNgNUBmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDmogNgNgNgNUBmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDmogNgNgNgNUBmDmDmDxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDmoUBUBUBUBUBxtxtxtxtaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaKaKaKeTBDBDBDBDBDBDBDBDBDeTaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
+aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBzLzLzLzLzLzLzLaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKeTeTeTeTeTeTeTeTeTeTeTaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
 aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBzLzLzLzLzLzLzLaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
 aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBzLzLzLzLzLzLzLaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag
 aiaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaPaVaVaVaVaVaVanaAaoaoaoaoaoaoaoaqaqaqaqaqaqaqaqaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaBaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaHaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUag

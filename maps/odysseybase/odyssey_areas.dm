@@ -203,6 +203,7 @@
 	name = "Engineering Storage"
 /area/odysseybase/engineering/atmos
 	name = "Atmospherics"
+	ambience = AMBIENCE_ATMOS
 /area/odysseybase/engineering/atmos/moniter
 	name = "Atmos Monitering room"
 /area/odysseybase/engineering/locker
@@ -217,6 +218,60 @@
 	name = "Atmos Hallway"
 /area/odysseybase/engineering/ce
 	name = "Cheif Engineer's Office"
+
+//Medical
+
+/area/odysseybase/medical
+	name = "Medbay"
+	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
+	icon_state = "cyawhisqu"
+	requires_power = 1
+/area/odysseybase/medical/cmo
+	name = "Medbay - CMO's Office"
+/area/odysseybase/medical/pait_room
+	name = "Paitent Recovery Ward"
+/area/odysseybase/medical/patient1
+	name = "Paitent Room 1"
+/area/odysseybase/medical/patient2
+	name = "Paitent Room 2"
+/area/odysseybase/medical/hallway_snd
+	name = "Medbay - Second Floor Hallway"
+/area/odysseybase/medical/bath_snd
+	name = "Medbay - Bathroom"
+/area/odysseybase/medical/psy_ward
+	name = "Psych Ward"
+/area/odysseybase/medical/psych
+	name = "Psychiatrist's Office"
+/area/odysseybase/medical/autoresleeving
+	name = "Medbay - Auto Resleeving"
+/area/odysseybase/medical/emt
+	name = "EMT Bay"
+/area/odysseybase/medical/resleeving
+	name = "Medbay - Resleeving"
+/area/odysseybase/medical/examroom
+	name = "Medbay - Examination Room"
+/area/odysseybase/medical/lobby
+	name = "Medbay - Lobby"
+/area/odysseybase/medical/hallway_grnd
+	name = "Medbay - Ground Floor Hallway"
+/area/odysseybase/medical/triage
+	name = "Medbay - Triage"
+/area/odysseybase/medical/chemistry
+	name = "Chemistry"
+/area/odysseybase/medical/breakroom
+	name = "Medbay - Break-room"
+/area/odysseybase/medical/ot1
+	name = "Operating Theater 1"
+/area/odysseybase/medical/ot2
+	name = "Operating Theater 2"
+/area/odysseybase/medical/surgury_obs
+	name = "Surgury Observation"
+/area/odysseybase/medical/medbay_primary_storage
+	name = "Medbay - Primary Storage"
+/area/odysseybase/medical/mourge
+	name = "Mourge"
+/area/odysseybase/medical/hallway_bmt
+	name = "Medbay - Basement Hallway"
 
 //substations
 /area/maintenance/odysseybase/substation
@@ -235,6 +290,13 @@
 /area/maintenance/odysseybase/substation/atmos/bmt
 	name = "Atmos Substation - Ground Floor - Basement"
 
+/area/maintenance/odysseybase/substation/medical
+	name = "Medical Substation - Ground Floor"
+/area/maintenance/odysseybase/substation/medical/bmt
+	name = "Medical Substation - Basement"
+/area/maintenance/odysseybase/substation/medical/snd
+	name = "Medical Substation - Second Floor"
+
 //Maintenance Tunnels
 /area/maintenance/odysseybase/level0/eng_north
 	name = "Engineering Basement North Maintenance"
@@ -242,3 +304,6 @@
 	name = "Engineering Basement West Maintenance"
 /area/maintenance/odysseybase/level0/eng_south
 	name = "Engineering Basement South Maintenance"
+
+/area/maintenance/odysseybase/level1/engmed
+	name = "Engineering/Medical Ground Floor Maitence"

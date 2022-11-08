@@ -166,7 +166,6 @@
 	icon_state = "yelwhisqu"
 	ambience = AMBIENCE_ENGINEERING
 	requires_power = 1
-#warn remove this once mapping is done, is a debuging variable
 /area/odysseybase/engineering/engine_airlock
 	name = "Engine Airlock"
 /area/odysseybase/engineering/engine_airlock/snd

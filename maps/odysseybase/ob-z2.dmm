@@ -15,6 +15,7 @@
 "aw" = (/turf/simulated/floor/tiled/dark/athena,/area/odysseybase/level3/landingpad)
 "ax" = (/turf/simulated/mineral/athena,/area/odysseybase/level2/nw)
 "aA" = (/turf/simulated/mineral/athena,/area/odysseybase/level2/se)
+"aC" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "aD" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/engine_monitering)
 "aE" = (/turf/simulated/open/athena,/area/odysseybase/level2/se/open)
 "aF" = (/turf/simulated/floor/tiled,/area/odysseybase/level3/landingpad)
@@ -59,10 +60,12 @@
 "dh" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/carpet/oracarpet,/area/odysseybase/engineering/ce)
 "dj" = (/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos/moniter)
 "dk" = (/obj/structure/railing{dir = 1},/turf/simulated/open,/area/odysseybase/engineering/atmos)
+"ds" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "dN" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "dO" = (/obj/structure/cable/green,/obj/machinery/power/apc,/obj/machinery/light_switch{dir = 1; pixel_x = -12; pixel_y = -24},/turf/simulated/floor/wood,/area/odysseybase/engineering/breakroom)
 "dR" = (/obj/machinery/computer/security/engineering,/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos/moniter)
 "dV" = (/turf/simulated/open,/area/odysseybase/engineering/foyer/snd)
+"en" = (/obj/machinery/recharge_station,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "ew" = (/obj/structure/table/reinforced,/obj/machinery/button/remote/emitter{desc = "A remote control-switch for the reactor emitter."; dir = 8; id = "ReactorEmitter"; name = "Reactor Emitter"; pixel_x = -6; req_access = list(10)},/obj/machinery/button/remote/blast_door{desc = "A remote control-switch for the reactor charging port."; dir = 8; id = "SupermatterPort"; name = "Reactor Core Blast Doors"; pixel_x = 5; pixel_y = 4; req_access = list(10)},/obj/machinery/button/remote/blast_door{dir = 8; id = "ReactorBlast"; name = "Reactor Monitoring Room Shutters"; pixel_x = 5; pixel_y = -5; req_one_access = list(11,24)},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/industrial/danger{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "ex" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
 "eA" = (/obj/machinery/atmospherics/pipe/zpipe/down,/turf/simulated/open,/area/odysseybase/engineering/atmos)
@@ -82,11 +85,11 @@
 "fH" = (/obj/machinery/door/airlock/glass_engineeringatmos{name = "Engineering Hallway"; req_one_access = list(10,24)},/obj/machinery/door/firedoor/glass,/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/hallway_snd)
 "fP" = (/turf/simulated/open/athena,/area/odysseybase/engineering/foyer/snd)
 "fQ" = (/obj/machinery/door/blast/regular/open{id = "englockdown"; layer = 3.3; name = "Engineering Lockdown"},/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/glass{name = "Engineering"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/foyer/snd)
-"gk" = (/obj/structure/table/standard,/obj/random/soap,/obj/random/soap,/obj/machinery/power/apc{dir = 4},/obj/structure/cable/green,/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = -12},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "gD" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/closet/secure_closet/atmos_personal,/obj/effect/floor_decal/spline/plain{dir = 6},/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "gN" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/breakroom)
 "hc" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/obj/machinery/camera/network/engineering{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "hi" = (/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/wood,/area/odysseybase/engineering/breakroom)
+"hk" = (/obj/structure/sink{dir = 1},/obj/structure/mirror{dir = 1; pixel_y = -26},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "hv" = (/turf/simulated/wall,/area/odysseybase/engineering/locker)
 "hC" = (/obj/effect/floor_decal/borderfloor{dir = 6},/obj/effect/floor_decal/corner/yellow/border{dir = 6},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer/snd)
 "hE" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/obj/machinery/firealarm{dir = 4},/obj/item/device/radio/intercom{pixel_y = -21},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos/moniter)
@@ -96,6 +99,7 @@
 "hO" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer/snd)
 "ic" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/sign/nosmoking_1{pixel_x = 32},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "ie" = (/obj/machinery/door/blast/regular{dir = 4; id = "supermatterport"; layer = 3.3; name = "Reactor Core Blast Door"},/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor,/area/odysseybase/engineering/engine_room)
+"ig" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "ik" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "n2_sensor"},/turf/simulated/floor/reinforced/nitrogen,/area/odysseybase/engineering/atmos)
 "im" = (/obj/machinery/door/airlock/maintenance_hatch{frequency = 1379; id_tag = "engine_airlock_interiord2"; name = "Reactor Access Interior"; req_access = list(11); req_one_access = list()},/turf/simulated/floor/tiled/techfloor,/area/odysseybase/engineering/engine_airlock/snd)
 "in" = (/obj/machinery/door/airlock{name = "Unit 1"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/bathroom)
@@ -139,7 +143,6 @@
 "mi" = (/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/obj/machinery/camera/network/engine{c_tag = "ENG - Reactor Access SND"; dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_airlock/snd)
 "mu" = (/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 9},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "mE" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/cmo)
-"mF" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "mP" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/atmos/moniter)
 "mS" = (/obj/effect/floor_decal/borderfloor/corner,/obj/effect/floor_decal/corner/yellow/bordercorner,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "mY" = (/obj/structure/railing{dir = 1},/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/hallway_atmos)
@@ -150,7 +153,6 @@
 "nm" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer/snd)
 "nw" = (/obj/machinery/door/firedoor/glass,/obj/structure/grille,/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/window/reinforced/polarized/full{id = "ce_office_tint"},/turf/simulated/floor/plating,/area/odysseybase/engineering/ce)
 "nA" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/machinery/firealarm{dir = 1},/obj/effect/floor_decal/corner/blue/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/ce)
-"nF" = (/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "nH" = (/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/yellow/border{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "nL" = (/obj/machinery/atmospherics/valve/digital/open,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "nN" = (/obj/item/modular_computer/console/preset/engineering{dir = 8},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/industrial/danger{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
@@ -199,7 +201,7 @@
 "sR" = (/obj/machinery/door/blast/regular/open{id = "englockdown"; layer = 3.3; name = "Engineering Lockdown"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/dark,/area/odysseybase/engineering/foyer/snd)
 "te" = (/obj/structure/window/reinforced,/obj/structure/closet/secure_closet/engineering_personal,/obj/effect/floor_decal/spline/plain{dir = 9},/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "tK" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet/oracarpet,/area/odysseybase/engineering/ce)
-"tZ" = (/obj/machinery/recharge_station,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
+"tN" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "ua" = (/obj/structure/railing{dir = 4},/obj/structure/cable/green{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/maintenance/odysseybase/substation/engineering/snd)
 "ub" = (/obj/structure/railing{dir = 1},/turf/simulated/open,/area/odysseybase/engineering/hallway_atmos)
 "uh" = (/obj/machinery/button/remote/airlock{dir = 8; id = "atmoshall_raccess"; name = "Door Bolt Control"; pixel_x = 24; pixel_y = 1; req_access = list(10); specialfunctions = 4},/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/yellow/border{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
@@ -233,13 +235,13 @@
 "xU" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/maintenance/engi,/turf/simulated/floor/tiled/steel_grid,/area/maintenance/odysseybase/substation/engineering/snd)
 "xZ" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "ye" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/hallway_atmos)
+"yj" = (/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "yq" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/power/apc{dir = 4},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/light/small,/turf/simulated/floor/tiled/dark,/area/maintenance/odysseybase/substation/engineering/snd)
 "ys" = (/obj/structure/railing{dir = 8},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "yA" = (/obj/machinery/atmospherics/pipe/zpipe/down,/obj/structure/railing,/obj/structure/sign/atmos_air{pixel_y = 30},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "yE" = (/obj/structure/closet/wardrobe/atmospherics_yellow,/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "yW" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/closet/secure_closet/engineering_personal,/obj/machinery/light{dir = 1},/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "zb" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/obj/effect/floor_decal/borderfloor/corner2{dir = 9},/obj/effect/floor_decal/corner/yellow/bordercorner2{dir = 9},/obj/machinery/camera/network/engine{c_tag = "ENG - Reactor Access FST"; dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
-"zg" = (/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "zh" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/obj/machinery/light,/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "zj" = (/obj/machinery/air_sensor{frequency = 1441; id_tag = "tox_sensor"},/turf/simulated/floor/reinforced/phoron,/area/odysseybase/engineering/atmos)
 "zy" = (/obj/structure/railing{dir = 8},/turf/simulated/open,/area/odysseybase/engineering/hallway_snd)
@@ -252,7 +254,6 @@
 "AG" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "AI" = (/obj/effect/floor_decal/borderfloor/corner,/obj/effect/floor_decal/corner/yellow/bordercorner,/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer/snd)
 "AN" = (/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/atmos)
-"AO" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "AP" = (/obj/machinery/atmospherics/omni/mixer{name = "Air Mixer"; tag_east = 1; tag_east_con = 0.79; tag_north = 0; tag_south = 2; tag_west = 1; tag_west_con = 0.21},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/atmos)
 "Be" = (/obj/machinery/door/airlock{name = "Unit 3"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/bathroom)
 "Bm" = (/turf/simulated/floor/carpet/oracarpet,/area/odysseybase/engineering/breakroom)
@@ -285,6 +286,7 @@
 "DI" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "DX" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "Ed" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/structure/table/reinforced,/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/photocopier/faxmachine{department = "Chief Engineer's Office"},/obj/effect/floor_decal/corner/blue/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/ce)
+"Ei" = (/obj/machinery/firealarm,/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "En" = (/obj/machinery/disposal,/obj/machinery/door/firedoor/glass/hidden/steel,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "Ep" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/closet/wardrobe/engineering_yellow,/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "Eu" = (/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/obj/machinery/disposal,/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer/snd)
@@ -315,7 +317,6 @@
 "Hw" = (/obj/machinery/atmospherics/pipe/zpipe/down{dir = 8},/obj/structure/railing,/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "HD" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 9},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/ce)
 "HH" = (/obj/effect/floor_decal/borderfloorblack{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/obj/effect/floor_decal/industrial/danger{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/hallway_atmos)
-"HJ" = (/obj/structure/toilet,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "HK" = (/obj/machinery/alarm{dir = 4},/turf/simulated/floor/tiled/dark,/area/odysseybase/engineering/hallway_atmos)
 "HP" = (/obj/effect/floor_decal/borderfloor{dir = 10},/obj/machinery/alarm{dir = 1},/obj/effect/floor_decal/corner/blue/border{dir = 10},/turf/simulated/floor/tiled,/area/odysseybase/engineering/ce)
 "HV" = (/turf/simulated/wall,/area/odysseybase/medical/cmo)
@@ -346,6 +347,7 @@
 "LD" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/foyer/snd)
 "LH" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/hallway_snd)
 "LP" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
+"LQ" = (/obj/machinery/light,/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "LR" = (/turf/simulated/wall,/area/maintenance/odysseybase/substation/medical/snd)
 "LS" = (/obj/structure/sign/department/eng,/turf/simulated/wall/r_wall,/area/odysseybase/engineering/foyer/snd)
 "LX" = (/obj/structure/catwalk,/turf/simulated/open,/area/odysseybase/engineering/engine_room)
@@ -391,9 +393,7 @@
 "Qg" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "Qj" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/glass_atmos{name = "Atmospherics Monitoring"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/atmos/moniter)
 "Qm" = (/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/yellow/border,/obj/effect/landmark/start{name = "Engineer"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
-"Qn" = (/obj/structure/sink{dir = 1},/obj/structure/mirror{dir = 1; pixel_y = -26},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "Qt" = (/obj/machinery/door/airlock{name = "Unit 2"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/bathroom)
-"Qw" = (/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "QF" = (/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "QH" = (/obj/machinery/door/airlock/glass_engineering{name = "Reactor Monitoring Room"; req_access = list(11); req_one_access = list()},/obj/machinery/door/firedoor/border_only,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "QI" = (/obj/machinery/door/airlock{name = "Unisex Showers"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/bathroom)
@@ -401,11 +401,11 @@
 "QU" = (/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "QV" = (/obj/machinery/atmospherics/pipe/zpipe/down{dir = 1},/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "Rj" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/pait_room)
-"Rm" = (/obj/machinery/washing_machine,/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "Rq" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/glass_atmos{name = "Atmospherics Monitoring"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/atmos/moniter)
 "Rr" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "Rt" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals7{dir = 6},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "Ru" = (/obj/effect/floor_decal/borderfloor{dir = 9},/obj/effect/floor_decal/corner/yellow/border{dir = 9},/obj/structure/closet/radiation,/obj/item/clothing/glasses/meson,/obj/item/clothing/glasses/meson,/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
+"Rw" = (/obj/structure/table/standard,/obj/random/soap,/obj/random/soap,/obj/machinery/power/apc{dir = 4},/obj/structure/cable/green,/obj/machinery/light_switch{dir = 8; pixel_x = 24; pixel_y = -12},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "Ry" = (/obj/structure/railing,/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "RC" = (/obj/effect/floor_decal/borderfloor{dir = 8},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/floor_decal/corner/blue/border{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/ce)
 "RK" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{dir = 4; frequency = 1441; id_tag = "tox_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000},/turf/simulated/floor/reinforced/phoron,/area/odysseybase/engineering/atmos)
@@ -417,6 +417,7 @@
 "Sm" = (/turf/simulated/wall,/area/odysseybase/medical/bath_snd)
 "Ss" = (/turf/simulated/floor/reinforced/athena,/area/odysseybase/level2/se/open)
 "SB" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/carpet/oracarpet,/area/odysseybase/engineering/ce)
+"SO" = (/obj/structure/table/standard,/obj/item/weapon/towel{color = "#FF8C00"; name = "orange towel"; pixel_x = -3; pixel_y = -4},/obj/item/weapon/towel{color = "#FF8C00"; name = "orange towel"; pixel_x = -1; pixel_y = -2},/obj/item/weapon/towel{color = "#FFD700"; name = "gold towel"},/obj/item/weapon/towel{color = "#FFD700"; name = "gold towel"; pixel_x = 1; pixel_y = 2},/obj/item/weapon/towel{color = "#00FFFF"; name = "cyan towel"; pixel_x = 2; pixel_y = 4},/obj/item/weapon/towel{color = "#00FFFF"; name = "cyan towel"; pixel_x = 3; pixel_y = 6},/obj/random/soap,/obj/random/soap,/obj/machinery/alarm{dir = 8},/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "SV" = (/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "SW" = (/obj/structure/window/reinforced,/obj/structure/closet/secure_closet/engineering_personal,/obj/effect/floor_decal/spline/plain{dir = 1},/turf/simulated/floor/tiled/yellow,/area/odysseybase/engineering/locker)
 "SY" = (/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/obj/effect/landmark/start{name = "Engineer"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
@@ -427,7 +428,6 @@
 "TT" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer/snd)
 "Ud" = (/turf/simulated/floor/glass/reinforced,/area/odysseybase/medical/hallway_snd)
 "Ug" = (/obj/effect/floor_decal/corner_steel_grid{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 6},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
-"Ui" = (/obj/structure/undies_wardrobe,/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "Uk" = (/obj/machinery/alarm{dir = 4},/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/yellow/border{dir = 10},/obj/machinery/disposal,/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "Ux" = (/obj/effect/floor_decal/borderfloor/corner{dir = 4},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 4},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 9},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "Uy" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
@@ -439,11 +439,11 @@
 "Vb" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/maintenance/engi{req_one_access = list(11,24)},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/engine_monitering)
 "Vg" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/glass_command/polarized{id_tag = "CEdoor"; id_tint = "ce_office_tint"},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/ce)
 "Vh" = (/turf/simulated/floor/tiled/white,/area/odysseybase/medical/patient2)
-"Vl" = (/obj/structure/table/standard,/obj/item/weapon/towel{color = "#FF8C00"; name = "orange towel"; pixel_x = -3; pixel_y = -4},/obj/item/weapon/towel{color = "#FF8C00"; name = "orange towel"; pixel_x = -1; pixel_y = -2},/obj/item/weapon/towel{color = "#FFD700"; name = "gold towel"},/obj/item/weapon/towel{color = "#FFD700"; name = "gold towel"; pixel_x = 1; pixel_y = 2},/obj/item/weapon/towel{color = "#00FFFF"; name = "cyan towel"; pixel_x = 2; pixel_y = 4},/obj/item/weapon/towel{color = "#00FFFF"; name = "cyan towel"; pixel_x = 3; pixel_y = 6},/obj/random/soap,/obj/random/soap,/obj/machinery/alarm{dir = 8},/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "Vp" = (/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "Vs" = (/obj/effect/floor_decal/borderfloor/corner{dir = 1},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_snd)
 "VC" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/ladder,/obj/structure/sign/nosmoking_1{pixel_y = -32},/turf/simulated/floor/tiled/techfloor,/area/odysseybase/engineering/atmos)
 "VO" = (/turf/simulated/open/athena,/area/odysseybase/medical/hallway_snd)
+"VR" = (/obj/structure/undies_wardrobe,/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "VU" = (/obj/structure/railing{dir = 1},/turf/simulated/open,/area/odysseybase/engineering/engine_room)
 "VX" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/atmos/moniter)
 "Wh" = (/obj/machinery/button/remote/airlock{dir = 4; id = "reactor_raccess_north"; name = "Door Bolt Control"; pixel_x = -24; req_access = list(10); specialfunctions = 4},/turf/simulated/floor/reinforced/athena,/area/odysseybase/engineering/engine_room)
@@ -460,6 +460,7 @@
 "Xy" = (/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/patient2)
 "XD" = (/obj/effect/floor_decal/borderfloor{dir = 5},/obj/effect/floor_decal/corner/yellow/border{dir = 5},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
 "XE" = (/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/yellow/border{dir = 1},/obj/machinery/firealarm,/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
+"XI" = (/obj/machinery/washing_machine,/turf/simulated/floor/tiled/kafel_full,/area/odysseybase/engineering/bathroom)
 "Yc" = (/obj/structure/table/reinforced,/obj/item/weapon/paper_bin,/obj/item/device/flashlight/lamp{pixel_x = -12; pixel_y = 9},/obj/item/weapon/stamp/ce,/obj/item/weapon/clipboard,/obj/item/weapon/folder/yellow_ce,/obj/item/sticky_pad/random,/obj/item/weapon/pen/fountain5,/turf/simulated/floor/carpet/oracarpet,/area/odysseybase/engineering/ce)
 "Yf" = (/obj/structure/window/reinforced{dir = 4},/obj/structure/curtain/open/shower/engineering,/obj/effect/floor_decal/corner_steel_grid{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 9},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 10},/obj/machinery/shower{dir = 1},/turf/simulated/floor/tiled,/area/odysseybase/engineering/bathroom)
 "Yk" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer/snd)
@@ -475,7 +476,6 @@
 "Zi" = (/obj/structure/railing{dir = 1},/obj/structure/railing,/obj/structure/railing{dir = 8},/turf/simulated/open,/area/odysseybase/engineering/foyer/snd)
 "Zj" = (/turf/simulated/wall,/area/odysseybase/medical/hallway_snd)
 "Zl" = (/turf/simulated/wall/r_wall,/area/odysseybase/engineering/ce)
-"Zq" = (/obj/machinery/firealarm,/turf/simulated/floor/tiled/freezer,/area/odysseybase/engineering/bathroom)
 "Zr" = (/obj/structure/table/reinforced,/obj/item/weapon/storage/box/donkpockets,/obj/item/weapon/storage/box/donkpockets/pizza,/obj/machinery/light{dir = 4},/turf/simulated/floor/wood,/area/odysseybase/engineering/breakroom)
 "Zv" = (/obj/machinery/door/airlock/glass_engineeringatmos{name = "Engineering Locker Room"; req_one_access = list(10,24)},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor/glass,/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/engineering/breakroom)
 "ZO" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 8},/turf/simulated/floor,/area/odysseybase/engineering/atmos)
@@ -515,14 +515,14 @@ aTababababababababababababababababababababababababababababababababababababababab
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDbmlQLgLgANeEnkLgANeEiczDwCwCwCwCwCyeararararrrrrrrrraUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDeALgLgLgANuWVXKlKlImQjVXwCwCwCwCwCyeararararararararaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDkaOzzDkzBEeEKlKCKCdRcAVXwCwCwCwCwCyearbFbFbFbFbFbFbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDBNrfOzeEeEeERqBxslNSlTVXyewCwCwCyeyearbFtZHtHJHtHJbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDBNrfOzeEeEeERqBxslNSlTVXyewCwCwCyeyearbFenHtaCHtaCbFaUaUaUaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDzjRKCnwwFsVCVXxemPdjhEImkdHHFwkcGPyeyebFBeHtQtHtinbFjhjhgNaUaUaUaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDzDzDzDzDzDzDVXccKlQjImImRRiHmuUxXDyeFWbFQwmFQwZqzgPOTyfsgNjhjhgNgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeHKjosddNJMVpjkZQjkxsfGGbbFQwnFQnQngkHtlYBmGKGKBmkLgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzDzDzDzDzDzDzDVXccKlQjImImRRiHmuUxXDyeFWbFyjdsyjEitNPOTyfsgNjhjhgNgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeHKjosddNJMVpjkZQjkxsfGGbbFyjLQhkhkRwHtlYBmGKGKBmkLgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeVajojkmSPLknjkjkjkuhyebFbFQIHtHtHtHtHtfCBmBsBsBmYIgNaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeZaGzLeubmYwGzhkGknxsEWGZwRQwUiHtoTwkUHqfBmBsBsBmbvgNaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeyeyeyeyeyeEWEWEWdeRYEWAOQwQwVlHtqgqQZvhiBmroroBmoqgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeNpNpEWRtCqEWNrYfQwRmHtMAWDUHdOJONgNgNguzgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeZaGzLeubmYwGzhkGknxsEWGZwRyjVRHtoTwkUHqfBmBsBsBmbvgNaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeyeyeyeyeyeEWEWEWdeRYEWigyjyjSOHtqgqQZvhiBmroroBmoqgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUyeNpNpEWRtCqEWNrYfyjXIHtMAWDUHdOJONgNgNguzgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUSbyeyeEWEWYYGpEWHtHtHtHtHtVshcBoBoBopZNgNgGHgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUOMKiPXlGIwkTkTTTWEjdIVkTfHWpsNrbUgBoEBNgNgZrgNaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUOMsRMBkTkTkTkTkTkTkThOYkLaeOEDnTzyBoClAmzXDggNaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKak

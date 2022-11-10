@@ -238,7 +238,7 @@
 /area/odysseybase/medical/hallway_snd
 	name = "Medbay - Second Floor Hallway"
 /area/odysseybase/medical/bath_snd
-	name = "Medbay - Bathroom"
+	name = "Medbay - Second floor Bathroom"
 /area/odysseybase/medical/psy_ward
 	name = "Psych Ward"
 /area/odysseybase/medical/psych
@@ -261,6 +261,8 @@
 	name = "Chemistry"
 /area/odysseybase/medical/breakroom
 	name = "Medbay - Break-room"
+/area/odysseybase/medical/breakroom/bathroom
+	name = "Medbay - Bathroom"
 /area/odysseybase/medical/ot1
 	name = "Operating Theater 1"
 /area/odysseybase/medical/ot2

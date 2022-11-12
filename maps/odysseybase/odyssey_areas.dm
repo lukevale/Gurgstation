@@ -275,7 +275,10 @@
 	name = "Mourge"
 /area/odysseybase/medical/hallway_bmt
 	name = "Medbay - Basement Hallway"
-
+/area/odysseybase/medical/viro
+	name = "Virology"
+/area/odysseybase/medical/viro_airlock
+	name = "Virology Airlock"
 //substations
 /area/maintenance/odysseybase/substation
 	name = "Substation"

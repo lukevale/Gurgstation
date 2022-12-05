@@ -1,22 +1,14 @@
-#include "glacialpeak_area.dm"
-
-/datum/map_template/om_ships/glacial1
-	name = "Offmap Ship - Glacial Peak deck 1 (New Z)"
+/datum/map_template/om_ships/glacial
+	name = "Offmap Ship - Glacial Peak (New Z)"
 	desc = "Offmap spawn ship, The Glacial Peak"
-	mappath = 'glacialpeak1.dmm'
-
-/datum/map_template/om_ships/glacial2
-	name = "Offmap Ship - Glacial Peak deck 2 (New Z)"
-	desc = "Offmap spawn ship, The Glacial Peak"
-	mappath = 'glacialpeak2.dmm'
+	mappath = 'glacialpeak.dmm'
 
 /obj/effect/landmark/map_data/glacial_peak
 	height = 2
 
 /obj/effect/overmap/visitable/ship/glace
-	name = "spacecraft"
+	name = "PES Glacial Peak"
 	desc = "Spacefaring vessel. Friendly IFF detected."
-	scanner_name = "PES Glacial Peak"
 	scanner_desc = @{"[i]Registration[/i]: PES Glacial Pea
 [i]Class[/i]: Frigate
 [i]Transponder[/i]: Transmitting (CIV)
@@ -31,7 +23,7 @@
 
 /obj/structure/faker_stairs
 	name = "stairs"
-	icon = 'icons/obj/stairs.dmi'
+	icon = 'icons/obj/structures/stairs_64x64.dmi'
 	density = 0
 	opacity = 0
 	anchored = 1

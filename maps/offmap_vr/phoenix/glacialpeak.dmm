@@ -1,42 +1,44 @@
-"a" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
+"a" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "b" = (/obj/effect/landmark/map_data/glacial_peak,/turf/space,/area/space)
 "c" = (/turf/simulated/wall/r_wall,/area/glace/deckone/engine)
-"d" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
-"e" = (/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"e" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "f" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 8; id_tag = "glacial"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"g" = (/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"g" = (/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced,/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "h" = (/obj/machinery/fusion_fuel_compressor,/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "i" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "j" = (/obj/machinery/power/terminal{dir = 1; icon_state = "term"},/obj/structure/cable/yellow{d2 = 6; icon_state = "0-6"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"k" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"k" = (/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/obj/structure/window/phoronreinforced{dir = 1},/obj/structure/window/phoronreinforced,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "m" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/airlock/hatch{icon_state = "door_locked"; id_tag = "glac_enginehatch"; locked = 1; name = "Engine Access"; req_access = list(); req_one_access = list()},/obj/structure/cable/cyan{d1 = 6; d2 = 9; icon_state = "6-9"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "n" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 4; id_tag = "glacial"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"o" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
-"q" = (/obj/machinery/door/airlock/hatch{icon_state = "door_locked"; id_tag = null; locked = 1; name = "Reactor"; req_access = list(); req_one_access = list()},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced,/area/glace/deckone/engine)
+"o" = (/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/obj/machinery/power/hydromagnetic_trap,/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
+"p" = (/obj/machinery/power/apc/high{dir = 1},/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"q" = (/obj/machinery/door/airlock/hatch{icon_state = "door_locked"; id_tag = null; locked = 1; name = "Reactor"; req_access = list(); req_one_access = list()},/turf/simulated/floor/reinforced,/area/glace/deckone/engine)
 "r" = (/obj/machinery/computer/fusion_fuel_control{id_tag = "glacial"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "s" = (/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"t" = (/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/obj/structure/window/phoronreinforced{dir = 4},/obj/structure/window/phoronreinforced{dir = 8},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "u" = (/obj/structure/cable/cyan{d1 = 4; d2 = 9; icon_state = "4-9"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "v" = (/obj/structure/table/reinforced,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/tritium,/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"w" = (/obj/machinery/power/smes/buildable{RCon_tag = null; charge = 2e+007; cur_coils = 4; input_attempt = 1; input_level = 500000; output_level = 1e+006},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"w" = (/obj/machinery/power/smes/buildable{RCon_tag = null; charge = 2e+007; cur_coils = 4; input_attempt = 1; input_level = 500000; output_level = 1e+006},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "x" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"y" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
-"z" = (/obj/machinery/power/terminal{icon_state = "term"},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"A" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"z" = (/obj/machinery/power/terminal{icon_state = "term"},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/light{dir = 8},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"B" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "C" = (/turf/space,/area/space)
-"F" = (/obj/machinery/power/fusion_core/mapped{id_tag = "glacial"},/obj/structure/cable/cyan,/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
+"D" = (/obj/structure/grille,/obj/structure/window/phoronreinforced/full,/obj/structure/window/phoronreinforced{dir = 8},/obj/structure/window/phoronreinforced{dir = 4},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"F" = (/obj/machinery/power/fusion_core/mapped{id_tag = "glacial"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "G" = (/obj/machinery/power/emitter/gyrotron/anchored{id_tag = "glacial"},/obj/structure/cable/cyan,/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"H" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "I" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "J" = (/obj/machinery/computer/gyrotron_control{id_tag = "glacial"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "K" = (/turf/simulated/wall/r_lead,/area/glace/deckone/engine)
+"L" = (/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "N" = (/obj/structure/cable/cyan{d1 = 6; d2 = 8; icon_state = "6-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"P" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
-"Q" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
+"O" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"Q" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "R" = (/obj/structure/cable/yellow{d1 = 6; d2 = 9; icon_state = "6-9"},/obj/structure/cable/yellow{d1 = 6; d2 = 8; icon_state = "6-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
+"S" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "T" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id = "glacialblastengine"; name = "Engine Monitoring Room Blast Doors"; opacity = 0},/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/glace/deckone/engine)
 "U" = (/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "V" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
-"W" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
+"W" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/hydromagnetic_trap,/turf/simulated/floor/reinforced/airless,/area/glace/deckone/engine)
 "X" = (/obj/machinery/computer/fusion_core_control{id_tag = "glacial"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "Y" = (/obj/machinery/power/smes/buildable{RCon_tag = null; charge = 2e+006; input_attempt = 1; input_level = 100000; output_level = 200000},/obj/structure/cable/cyan{d1 = 0; d2 = 4; icon_state = "0-4"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
 "Z" = (/obj/machinery/button/remote/airlock{dir = 8; id = "glac_enginehatch"; name = "Door Bolt Control"; pixel_x = 27; pixel_y = 1; req_access = list(); specialfunctions = 4},/obj/structure/cable/yellow{d1 = 2; d2 = 9; icon_state = "2-9"},/turf/simulated/floor/plating,/area/glace/deckone/engine)
@@ -133,17 +135,17 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccwUUccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccwpUccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccjUUcrXJUcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcczRUUUUUUcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcczRUUUUUScCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccYNZcUUUUcKKKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCccccmcTTTccccKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcvxuiHsUUhcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUIVAeGUUUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUUcqkgcUUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUngyQdgfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUngPFPgfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUngWaogfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcvxuiisUUhcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUIVVeGUUUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcOUcqkgcUScKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUnDWQotfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUnDBFLtfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcUnDWaotfUcKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKcccccccccccKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCKKKKKKKKKKKKKCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC

@@ -4,7 +4,7 @@
 	mappath = 'glacialpeak.dmm'
 
 /obj/effect/landmark/map_data/glacial_peak
-	height = 2
+	height = 1
 
 /obj/effect/overmap/visitable/ship/glace
 	name = "PES Glacial Peak"

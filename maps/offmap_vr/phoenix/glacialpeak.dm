@@ -16,22 +16,6 @@
 	initial_generic_waypoints = list("glacial_fore", "glacial_aft")
 	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
 
-
-
-/obj/structure/faker_stairs
-	name = "stairs"
-	icon = 'icons/obj/structures/stairs_64x64.dmi'
-	density = 0
-	opacity = 0
-	anchored = 1
-	plane = TURF_PLANE
-	layer = ABOVE_TURF_LAYER
-	appearance_flags = PIXEL_SCALE|KEEP_TOGETHER
-
-/obj/structure/faker_stairs/top
-	color = "#B0B0B0"
-
-
 /area/shuttle/glacialboat
 	name = "IceBreaker"
 	requires_power = 1

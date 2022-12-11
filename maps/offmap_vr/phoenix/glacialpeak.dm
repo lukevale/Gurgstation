@@ -111,6 +111,8 @@
 	name = "\improper Hanger"
 /area/glace/centeral_hall
 	name = "\improper Centeral Hallway"
+/area/glace/fore_hall
+	nmame = "\improper Fore Hallway"
 /area/glace/medbay
 	name = "\improper Medbay"
 /area/glace/med_storage

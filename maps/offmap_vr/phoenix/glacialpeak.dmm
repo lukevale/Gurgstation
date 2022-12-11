@@ -1,7 +1,8 @@
 "aa" = (/obj/structure/table/sifwoodentable,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/wood/sif,/area/glace/bar)
 "ad" = (/obj/machinery/atmospherics/unary/heater/sauna{icon_state = "heater_1"; use_power = 1},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/glace/sauna)
 "af" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/wood,/area/glace/reading)
-"aj" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"ai" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
+"aj" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "ak" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
 "al" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/resleeve)
 "am" = (/obj/effect/floor_decal/spline/plain{dir = 1},/turf/simulated/floor/water/deep/pool,/area/glace/pool)
@@ -26,6 +27,7 @@
 "aS" = (/obj/structure/sign/warning/radioactive{pixel_x = -32},/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/engineeroom)
 "aT" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark,/area/glace/robotics)
 "aV" = (/turf/simulated/floor/carpet/oracarpet,/area/glace/rooms/seona)
+"aX" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "aY" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,/obj/machinery/meter,/turf/simulated/floor/tiled/eris/dark/panels,/area/glace/fuelroom)
 "aZ" = (/obj/structure/table/woodentable,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/wood,/area/glace/reading)
 "ba" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/medbay)
@@ -37,11 +39,11 @@
 "br" = (/obj/effect/floor_decal/milspec/color/green/corner{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/hydroponics)
 "bs" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/tiled/eris/steel,/area/glace/eva)
 "bu" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/wood,/area/glace/gym)
-"bv" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"bv" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "bw" = (/obj/structure/table/standard,/obj/machinery/cell_charger,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/eris/dark/violetcorener,/area/glace/rnd)
 "bx" = (/obj/effect/floor_decal/milspec/color/green/corner{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/hydroponics)
 "bz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/grass,/area/glace/hydroponics)
-"bA" = (/obj/structure/bed/chair/backed_grey{dir = 1},/obj/machinery/light,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"bA" = (/obj/structure/bed/chair/backed_grey{dir = 1},/obj/machinery/light,/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "bB" = (/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/eva)
 "bC" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard{door_color = "#ffffff"; name = "Public Showers"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/steel_grid,/area/glace/bathroom)
 "bE" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/hull/airless,/area/glace/exterior)
@@ -97,7 +99,7 @@
 "ds" = (/obj/machinery/disposal,/turf/simulated/floor/tiled/white,/area/glace/surgery)
 "dt" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark,/area/glace/robotics)
 "dv" = (/obj/structure/railing{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/shield)
-"dw" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"dw" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "dx" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{dir = 4; id_tag = "d2_portmaint_airlock"; pixel_x = -25; req_one_access = null; tag_airpump = "d2_portmaint_airpump"; tag_chamber_sensor = "d2_portmaint_sensor"; tag_exterior_door = "d2_portmaint_exterior"; tag_interior_door = "d2_portmaint_interior"},/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/eva)
 "dy" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/reinforced/airless,/area/glace/engineeroom)
 "dA" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/wood,/area/glace/gym)
@@ -213,7 +215,7 @@
 "hm" = (/obj/machinery/appliance/cooker/oven,/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "hn" = (/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
 "hp" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/eris/techmaint_perforated,/area/glace/rooms/seona/milking)
-"hq" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"hq" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "ht" = (/obj/machinery/conveyor{dir = 4; id = "glacial_disposals_1"},/obj/machinery/light,/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
 "hu" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/engine_hall)
 "hv" = (/obj/structure/sign/department/robo{pixel_x = 32},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
@@ -285,7 +287,7 @@
 "jZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/medbay)
 "ka" = (/obj/effect/floor_decal/corner_kafel/blue{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/bathroom)
 "kc" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/wall/bay/r_wall/steel,/area/maintenance/glace/port)
-"ke" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"ke" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "kh" = (/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/white,/area/glace/surgery)
 "kk" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/resleeve)
 "kl" = (/obj/effect/floor_decal/spline/plain{dir = 1},/obj/machinery/alarm/angled/hidden,/turf/simulated/floor/boxing/gym,/area/glace/gym)
@@ -329,6 +331,7 @@
 "lJ" = (/obj/effect/floor_decal/spline/plain{dir = 9},/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "lL" = (/turf/simulated/wall/bay/steel,/area/maintenance/glace/unbuild)
 "lM" = (/obj/structure/plasticflaps,/obj/machinery/conveyor{dir = 1; id = "glacial_disposals_1"},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
+"lN" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "lO" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "lT" = (/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "lW" = (/obj/structure/table/standard,/obj/item/weapon/reagent_containers/glass/beaker{pixel_x = 5},/obj/item/weapon/reagent_containers/dropper,/obj/item/weapon/reagent_containers/food/condiment/enzyme{layer = 5},/obj/item/weapon/reagent_containers/food/condiment/enzyme{layer = 5},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
@@ -374,6 +377,7 @@
 "nw" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 5},/turf/simulated/wall/bay/r_wall/orange,/area/glace/atmos)
 "nx" = (/obj/structure/table/sifwoodentable,/obj/machinery/light{dir = 4},/turf/simulated/floor/wood/sif,/area/glace/bar)
 "nz" = (/obj/structure/bed/chair/office/dark{dir = 1},/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/engine_control)
+"nA" = (/turf/simulated/wall/bay/steel,/area/glace/fore_hall)
 "nB" = (/obj/structure/table/sifwoodentable,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/wood/sif,/area/glace/bar)
 "nC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/hanger)
 "nD" = (/obj/structure/fitness/punchingbag,/obj/effect/floor_decal/spline/plain{dir = 4},/turf/simulated/floor/boxing/gym,/area/glace/gym)
@@ -475,7 +479,7 @@
 "re" = (/obj/structure/table/standard,/obj/item/clothing/gloves/boxing,/obj/machinery/firealarm/angled/hidden{dir = 1},/turf/simulated/floor/wood,/area/glace/gym)
 "rf" = (/turf/simulated/wall/bay/steel,/area/glace/rooms/seona/bathroom)
 "rg" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
-"ri" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"ri" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "rj" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/hanger)
 "rm" = (/obj/effect/floor_decal/spline/plain,/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "rn" = (/obj/machinery/light,/turf/simulated/floor/wood/sif,/area/glace/bar)
@@ -528,7 +532,7 @@
 "tc" = (/obj/structure/closet/cabinet,/obj/item/clothing/under/bathrobe,/obj/item/clothing/under/bathrobe,/obj/item/clothing/under/bathrobe,/obj/item/weapon/towel/random,/obj/item/weapon/towel/random,/obj/item/weapon/towel/random,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/turf/simulated/floor/tiled/eris/white/golden,/area/glace/sauna)
 "td" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/cups,/turf/simulated/floor/wood,/area/glace/gym)
 "tf" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/black,/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/atmos)
-"th" = (/obj/structure/bed/chair/backed_grey,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"th" = (/obj/structure/bed/chair/backed_grey,/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "ti" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/fuelroom)
 "tk" = (/turf/simulated/wall/bay/r_wall/orange,/area/glace/engine_hall)
 "tl" = (/obj/effect/floor_decal/corner_kafel/red{dir = 8},/obj/machinery/disposal,/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/kafel_full/white,/area/glace/bathroom)
@@ -566,14 +570,14 @@
 "uy" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/hanger)
 "uA" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/fuelroom)
 "uB" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/wood,/area/glace/gym)
-"uC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/milspec/monotile,/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass{name = "Hallway"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"uC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/milspec/monotile,/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass{name = "Hallway"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "uD" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/structure/table/bench/wooden,/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/floor/wood,/area/glace/sauna)
 "uE" = (/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/engineeroom)
 "uF" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard{dir = 4; name = "Milking room"; stripe_color = "#ffffff"},/turf/simulated/floor/tiled/steel_grid,/area/glace/rooms/seona/milking)
 "uH" = (/obj/structure/railing/grey,/obj/machinery/firealarm/angled/hidden{dir = 8},/turf/simulated/floor/tiled/eris/white/golden,/area/glace/sauna)
 "uJ" = (/obj/machinery/pointdefense_control{id_tag = "glace_pd"},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/shield)
 "uK" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
-"uL" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"uL" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "uM" = (/obj/effect/floor_decal/corner_kafel/blue{dir = 6},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/machinery/power/apc/angled/hidden{dir = 8},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/bathroom)
 "uO" = (/obj/structure/table/standard,/obj/item/weapon/paper_bin{pixel_x = -4; pixel_y = 3},/obj/item/weapon/tape_roll{pixel_x = 13; pixel_y = 6},/obj/item/weapon/pen{pixel_x = 6; pixel_y = -4},/obj/machinery/light,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/wood,/area/glace/gym)
 "uP" = (/obj/structure/table/standard,/obj/item/weapon/reagent_containers/food/snacks/mint,/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
@@ -608,6 +612,7 @@
 "vU" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/wall/bay/r_wall/orange,/area/glace/atmos)
 "vW" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "vZ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 5},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/engine_hall)
+"wb" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "wc" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/color/medical{dir = 4; name = "Medical Storage"; req_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel_grid,/area/glace/med_storage)
 "wf" = (/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "wg" = (/obj/structure/closet/secure_closet/personal,/turf/simulated/floor/wood,/area/glace/gym)
@@ -625,7 +630,7 @@
 "wB" = (/obj/machinery/conveyor_switch/oneway{id = "glacial_disposals_1"; name = "Disposals conveyor switch"; req_access = list(); req_one_access = list()},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
 "wE" = (/obj/structure/closet/cabinet,/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/obj/item/clothing/mask/muzzle/ballgag,/obj/item/weapon/handcuffs/fuzzy,/obj/item/clothing/glasses/sunglasses/blindfold/whiteblindfold,/obj/item/clothing/under/dress/maid/sexy,/obj/item/clothing/under/dress/maid,/obj/item/clothing/head/headband/maid,/obj/item/clothing/under/hyperfiber,/obj/item/clothing/under/color/blackjumpskirt,/obj/item/clothing/accessory/collar/gold{name = "Golden tag collar (Sexiest fox in space)"; writtenon = 1},/turf/simulated/floor/wood,/area/glace/rooms/seona)
 "wF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/engineeroom)
-"wG" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"wG" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "wJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "wK" = (/turf/simulated/wall/bay/r_wall/green,/area/glace/jani)
 "wL" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/wood,/area/glace/reading)
@@ -677,7 +682,7 @@
 "yi" = (/obj/machinery/cell_charger,/obj/structure/table/standard,/obj/machinery/light{dir = 1},/obj/machinery/alarm/angled/hidden{dir = 8},/turf/simulated/floor/tiled/eris/dark,/area/glace/robotics)
 "yj" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{dir = 4; name = "Distro Loop Drain"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/atmos)
 "yl" = (/obj/machinery/power/pointdefense{id_tag = "glace_pd"},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/hull/airless,/area/glace/exterior)
-"yn" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"yn" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "yp" = (/obj/machinery/light{dir = 8},/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/grass,/area/glace/hydroponics)
 "yr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled/eris/white/golden,/area/glace/sauna)
 "yt" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
@@ -687,7 +692,7 @@
 "yF" = (/obj/structure/table/woodentable,/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/wood,/area/glace/reading)
 "yI" = (/obj/machinery/disposal,/turf/simulated/floor/tiled/eris/white,/area/glace/jani)
 "yJ" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner_steel_grid{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 6},/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower/engineering,/turf/simulated/floor/tiled/steel,/area/glace/rooms/seona/bathroom)
-"yK" = (/obj/structure/bed/chair/backed_grey,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"yK" = (/obj/structure/bed/chair/backed_grey,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "yO" = (/obj/item/weapon/stool/padded{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/eris/white,/area/glace/jani)
 "yT" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/wood,/area/glace/gym)
 "yU" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/boxing/gym,/area/glace/gym)
@@ -754,7 +759,7 @@
 "AX" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "Ba" = (/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/medbay)
 "Bb" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 5},/turf/simulated/floor/tiled/eris/dark/panels,/area/glace/fuelroom)
-"Bc" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Bc" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Bd" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/obj/structure/table/bench/wooden,/turf/simulated/floor/wood,/area/glace/sauna)
 "Be" = (/obj/structure/closet/athletic_mixed,/turf/simulated/floor/wood,/area/glace/gym)
 "Bf" = (/obj/structure/sign/department/rnd{pixel_y = -32},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
@@ -840,7 +845,7 @@
 "Eb" = (/turf/simulated/floor/tiled/eris/white/cargo,/area/glace/medbay)
 "Ec" = (/obj/machinery/power/apc/angled/hidden{dir = 1},/obj/machinery/light_switch{pixel_x = 11; pixel_y = 27},/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner_kafel/yellow,/turf/simulated/floor/tiled/kafel_full/white,/area/glace/rooms/seona/bathroom)
 "Ee" = (/obj/machinery/scale,/turf/simulated/floor/wood,/area/glace/gym)
-"Eh" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Eh" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Ej" = (/obj/structure/sink/kitchen{dir = 8; pixel_x = -11},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "El" = (/obj/structure/table/reinforced,/obj/machinery/chemical_dispenser/biochemistry/full,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/chemistry)
 "En" = (/obj/machinery/disposal/deliveryChute,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
@@ -919,7 +924,7 @@
 "Hi" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard{door_color = "#323d80"; id_tag = "glacialseonadoor"; name = "Seona Young's Room"; stripe_color = "#913013"},/turf/simulated/floor/tiled/steel_grid,/area/glace/rooms/seona)
 "Hj" = (/turf/simulated/wall/bay/steel,/area/glace/reading)
 "Hk" = (/obj/structure/table/glass,/obj/item/device/sleevemate,/turf/simulated/floor/tiled/eris/white/cargo,/area/glace/medbay)
-"Hp" = (/obj/machinery/power/apc/angled/hidden{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Hp" = (/obj/machinery/power/apc/angled/hidden{dir = 4},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Hx" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/visible/supply,/obj/machinery/atmospherics/pipe/simple/hidden/black,/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/atmos)
 "Hy" = (/obj/machinery/atmospherics/pipe/tank/phoron/full{dir = 4},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/fuelroom)
 "HC" = (/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{dir = 1},/obj/machinery/meter,/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/hanger)
@@ -981,6 +986,7 @@
 "JA" = (/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/shield)
 "JC" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 5},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/hanger)
 "JD" = (/obj/structure/lattice,/turf/space,/area/space)
+"JK" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "JM" = (/turf/simulated/floor/plating/eris/under,/area/glace/eva)
 "JN" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/hull/airless,/area/glace/exterior)
 "JP" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/beakers{name = "box of measuring cups"; pixel_x = 2; pixel_y = 3; starts_with = list(/obj/item/weapon/reagent_containers/glass/beaker/measuring_cup = 7)},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
@@ -991,7 +997,8 @@
 "Ka" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating/eris/under,/area/glace/exterior)
 "Kc" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/glace/engineeroom)
 "Kd" = (/obj/structure/bed/chair/sofa/corp/left,/turf/simulated/floor/wood/sif,/area/glace/bar)
-"Kl" = (/obj/structure/bed/chair/backed_grey{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Ki" = (/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
+"Kl" = (/obj/structure/bed/chair/backed_grey{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Km" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass/atmos{name = "Oxygen Generator"; req_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel_grid,/area/glace/oxy_gen)
 "Kn" = (/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/machinery/power/hydromagnetic_trap,/turf/simulated/floor/reinforced/airless,/area/glace/engineeroom)
 "Ko" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/floor/tiled/eris/steel,/area/glace/eva)
@@ -1017,6 +1024,7 @@
 "KU" = (/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/hanger)
 "KV" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/engine_hall)
 "Lc" = (/obj/structure/disposaloutlet{dir = 4},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
+"Le" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Lf" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/floor/tiled/eris/dark/bluecorner,/area/glace/eva)
 "Lg" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "Li" = (/obj/structure/table/reinforced,/obj/item/device/suit_cooling_unit,/obj/item/device/suit_cooling_unit,/turf/simulated/floor/tiled/eris/steel,/area/glace/eva)
@@ -1053,7 +1061,7 @@
 "Ml" = (/obj/machinery/computer/ship/helm,/obj/effect/floor_decal/milspec/color/black/half{dir = 9},/turf/simulated/floor/tiled/milspec,/area/glace/cockpit)
 "Mn" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
 "Mo" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/floor/wood,/area/glace/sauna)
-"Mq" = (/obj/machinery/door/firedoor/glass,/obj/structure/window/bay,/obj/structure/low_wall/bay/steel,/turf/simulated/floor/plating/eris/under,/area/glace/centeral_hall)
+"Mq" = (/obj/machinery/door/firedoor/glass,/obj/structure/window/bay,/obj/structure/low_wall/bay/steel,/turf/simulated/floor/plating/eris/under,/area/glace/fore_hall)
 "Ms" = (/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,/turf/simulated/floor/tiled/eris/steel/monofloor,/area/glace/eva)
 "Mu" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/hull/airless,/area/glace/exterior)
 "Mx" = (/obj/structure/sign/warning/radioactive,/turf/simulated/wall/bay/r_wall/orange,/area/glace/engine_control)
@@ -1063,7 +1071,7 @@
 "MD" = (/obj/machinery/door/airlock/angled_bay/standard/color/engineering{name = "Shield Gen/Coms room"; req_access = null},/obj/machinery/door/firedoor/glass,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel_grid,/area/glace/shield)
 "MF" = (/obj/structure/table/standard,/obj/item/weapon/towel/random{pixel_y = -5},/obj/item/weapon/towel/random,/obj/item/weapon/towel/random{pixel_y = 5},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/boxing/gym,/area/glace/gym)
 "MJ" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/hanger)
-"ML" = (/obj/machinery/alarm/angled/hidden{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"ML" = (/obj/machinery/alarm/angled/hidden{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "MQ" = (/turf/simulated/wall/bay/r_wall/green,/area/glace/kitchen)
 "MR" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating/eris/under,/area/maintenance/glace/port)
 "MT" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled/eris/dark/bluecorner,/area/glace/eva)
@@ -1088,7 +1096,7 @@
 "NF" = (/obj/effect/floor_decal/spline/plain{dir = 6},/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "NH" = (/obj/structure/bed/chair/sofa/corner/blue{dir = 4},/turf/simulated/floor/wood,/area/glace/reading)
 "NI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/eng_trash)
-"NJ" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"NJ" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "NK" = (/obj/structure/closet/secure_closet/personal,/obj/machinery/alarm/angled/hidden{dir = 8},/turf/simulated/floor/tiled/eris/white/golden,/area/glace/sauna)
 "NL" = (/obj/machinery/door/blast/angled/open{dir = 2; id = "glacialsaftybar"},/obj/machinery/door/firedoor/glass,/obj/structure/low_wall/bay/reinforced/green,/obj/structure/window/bay/reinforced,/turf/simulated/floor/plating/eris/under,/area/glace/bar)
 "NM" = (/obj/effect/floor_decal/milspec/cargo_arrow,/turf/simulated/floor/tiled/milspec,/area/glace/hanger)
@@ -1099,7 +1107,7 @@
 "Oa" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "Ob" = (/obj/effect/floor_decal/milspec/monotile,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
 "Oe" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/milspec,/area/glace/shield)
-"Og" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Og" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Oh" = (/obj/effect/floor_decal/milspec/color/green/half,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/hydroponics)
 "Oi" = (/obj/effect/floor_decal/milspec/cargo,/obj/random/multiple/corp_crate/no_weapons,/turf/simulated/floor/tiled/milspec,/area/glace/hanger)
 "Oj" = (/turf/simulated/wall/bay/r_wall/white,/area/glace/resleeve)
@@ -1115,7 +1123,7 @@
 "OC" = (/obj/machinery/door/airlock/angled_bay/double/glass{door_color = "#e6ab22"; name = "Engineering Hall"; stripe_color = "#913013"},/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled/steel_grid,/area/glace/engine_hall)
 "OE" = (/obj/machinery/atmospherics/pipe/simple/hidden/cyan{dir = 4},/obj/machinery/light,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/medbay)
 "OF" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/alarm/angled/hidden,/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/engine_hall)
-"OH" = (/obj/machinery/firealarm/angled/hidden{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"OH" = (/obj/machinery/firealarm/angled/hidden{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "OJ" = (/obj/structure/closet/emergsuit_wall{pixel_y = 27},/obj/machinery/firealarm/angled/hidden{dir = 4},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/hanger)
 "OL" = (/obj/effect/floor_decal/spline/plain{dir = 5},/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "OM" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/plating/eris/under,/area/maintenance/glace/port)
@@ -1177,7 +1185,7 @@
 "QE" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/turf/simulated/floor/wood,/area/glace/sauna)
 "QF" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled/eris/white/techfloor_grid,/area/glace/freezer)
 "QJ" = (/obj/structure/table/standard,/obj/machinery/light{dir = 1},/obj/item/device/defib_kit/loaded,/obj/item/device/healthanalyzer,/obj/item/stack/nanopaste,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/white,/area/glace/surgery)
-"QL" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"QL" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "QM" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass/research{name = "Reaserch"; req_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel_grid,/area/glace/rnd)
 "QN" = (/obj/machinery/button/remote/blast_door{id = "glacialobserver2"; name = "Window Lockdown"; pixel_y = 28},/turf/simulated/floor/wood,/area/glace/reading)
 "QO" = (/obj/effect/floor_decal/milspec/color/green/half{dir = 1},/obj/machinery/seed_extractor,/turf/simulated/floor/tiled/milspec,/area/glace/hydroponics)
@@ -1194,7 +1202,7 @@
 "Rj" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass/medical{dir = 4; name = "Surgery Theater"; req_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel_grid,/area/glace/surgery)
 "Rk" = (/obj/effect/floor_decal/spline/plain{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/power/apc/angled/hidden{dir = 8},/obj/structure/cable,/turf/simulated/floor/tiled/freezer,/area/glace/pool)
 "Rm" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/hatch/engineering{dir = 4; name = "Engine Monitoring Room"; req_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/turf/simulated/floor/tiled/steel_grid,/area/glace/engine_control)
-"Rn" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"Rn" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "Rr" = (/obj/structure/table/standard,/obj/item/weapon/book/manual/cook_guide,/turf/simulated/floor/tiled/eris/cafe,/area/glace/kitchen)
 "Rs" = (/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "Rw" = (/obj/machinery/optable,/obj/machinery/oxygen_pump/anesthetic{pixel_x = -27},/turf/simulated/floor/tiled/white,/area/glace/surgery)
@@ -1412,7 +1420,7 @@
 "YP" = (/obj/machinery/light,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/aft_hall)
 "YQ" = (/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/toolstorage)
 "YR" = (/obj/random/soap,/obj/structure/closet/jcloset,/obj/random/soap,/turf/simulated/floor/tiled/eris/white,/area/glace/jani)
-"YS" = (/obj/effect/floor_decal/milspec/monotile,/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass{name = "Hallway"},/turf/simulated/floor/tiled/milspec,/area/glace/centeral_hall)
+"YS" = (/obj/effect/floor_decal/milspec/monotile,/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass{name = "Hallway"},/turf/simulated/floor/tiled/milspec,/area/glace/fore_hall)
 "YU" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/steel_grid,/area/glace/medbay)
 "YV" = (/obj/effect/floor_decal/milspec/cargo_arrow,/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/milspec,/area/glace/hanger)
 "YW" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/toolstorage)
@@ -1479,25 +1487,25 @@ aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQaCIcIcLNLNLNsqananbILoUaxWlOlOAUEzpSXzZifdfdfdfdFmfdndfdfdfLfdaaqYoAGyDVHjcmXgXgdKaZsEXgXgXgXgXgXUkpaCwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCMuJNksIcIcLNLNLNLNgGcHEChPLoaKwJpSxSgwnPGBXzZifdfdfdWgFmrnndfdfdfLenJmJmhgGyDVHjYtpIjyqfhhafTZmKwLAdQhCEkpGvJNJNCMaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCUMUGLNLNLNLNTbgGLoLoLoLotJooCPtJtJtJtJtJAhAhAhAhGympGyrEflGyGyAhAhAhAhGyvPHjHjKsmoHjHjHjiaHjvaHjkpLlkpazdBaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCIcuaLNLNLNTbTblptHPNgDEZpiOgrgrgrgajrgrgrgrgrgrgrgdwNJrirgrgajrgrgrgrgrgwGajrghqRnpiHjXidlHjKyfqkpetCWngdBaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCIcuaLNLNTbTbVobrcTCugDpipigEpipipipipipipipipipipipiqmpipipipipipipipipipipipiEhpipiHjcqxCHjPqALkpIvIvgLdBaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCdqJDJDdqaCaCaCIcuaLNTbTbrFbrcTcTZZgDPIPIjfPIPIgDvfDtDtDtDtDtDtDtVdqmuKpapapapapapapapapapapaFSCspapapapapapapapasCIvgLdBaCaCaCdqJDJDdqaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCwQQTwQwQQTwQaCaCIcuaLNTbFPbrFlHJJgDuRfQOWIhRjSZWgDLNDtOBJkJziOJTDtpiqmpipaJUcucuUTHYQPMgNmrvqXmJpfhdklQwoOHaoOoOLRsCIvgLdBaCaCwQQTwQwQQTwQaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCwQwQtFJNJNqCJNJNJNkcizLNfFQfJjJjJjNnxvxvxvxvgWlGkEgDLNDtpEFIFIEIyaDtpiqmpipaFkpfpfpfjpELedededzmmJpfLLuTuTyUMFuTuTtNsCIvetotJNJNJNxjJNJNcvwQwQaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCgPJNJNvKwQwQwQwQJDJDIcuaLNfFviJjxKZWlHxKZWYmxKZWlGkEgDLNDtZRZRsSrHxTDtpiqmpipaBlpfpfpftEVGVGVGVGSSmJpfmauTsFcjFouTuTnDsCIvIvdBJDJDwQwQwQwQbEJNJNksaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQJDaCaCIcuaLNfFviJjvikErBvikEJjvikElGlAgDLNDtDtDtDtbCDtDtpiqmpiCspfpfpfpfTjfKfKfKfKjemJpfDjJpJppmJpJpJppksCIvIvdBaCaCJDwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQaCaCaCIcuaLNfFviJjvikErBvikEJjvikElGkEgDLNDtTYBNmGCqtlDtpiuLrggIyTyTyTyTdAyTyTyTRzZpANYOYOYOYObupfpfpfpfWxIvIvdBaCaCaCwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQaCaCaCIcuaLNfFviJjfyzXlHfyzXYmfyzXlGkEgDLNDtDtDtMWoekaeabvkepipaLnpfpfpfuBpfoZQtuONYIBVTCkBeuSreUuujEeEesCIvIvdBaCaCaCwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQjkwQwQwQJDaCaCIcuaLNTbBCFTYubxirHclxOhYBASJvTlgDLNDtAEIeiBZloiDtpiqmpiqzqzqzSwpfuBmzststpapapapapapapapapapapapasCIvIvdBaCaCJDwQwQwQjkwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQwQJDJDIcuaLNTbPIPIPIPIeFPIgDgDgDgDgDgDgDLNDtDtDtuMbOUVDtpiqmpiyKthMqpfpfuBtdwgwgpHsUUwitEXEXamamamwUdbghEBIvIvdBJDJDwQwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQwQwQwQIcuaLNTbJXNVfHPQmMYsgDLNLNLNLNLNLNLNDtQgZsNrSnBXDtMLqmpiQLQLMqpfpfSTYOYOYOZXACuRhEAMAMwqwqwqkPlTRPEBIvIvdBwQwQwQwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQaCaCaCIcuaLNqsxAvlIxpXbzNcgDLNZaZaZaZaZaZaDtDtDtDtXADtDtOHqmpiQLQLMqpfpfHPSBSBSBvHlolThEAMlJdbOLwqkPlTgYEBIvIvdBaCaCaCwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQaCaCaCaCaCIcuaLNTbfHjEOnIZvldagDLNZaycycsDziIMBdZaadgmWBtcZapiqmpibAKlMqpfpnpngcwgwgpHRklThEAMXRdVNFwqkPlThjEBIvIvdBaCaCaCaCaCwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQaCaCaCaCaCaCIcuaLNTbyphTPQfHmSqkgDLNZaycycycTVMogOFEDqmTUmSlDbrgynpiqzqzqzpapapapapapapHunlThEAMAMAMwqwqkPlTJdEBIvIvdBaCaCaCaCaCaCwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQaCaCaCaCaCaCaCIcuaLNTbgDgDgDgDgDgDgDLNZaycycyclbFaiVnlxLWBCGNKZapiBcHpqzSvSvSvSvSvSvSvSvpHzklTTCUgUgUgfbfbWrlTRPEBIvIvdBaCaCaCaCaCaCaCwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQaCaCaCaCaCaCaCIcuaLNLNLNLNLNLNLNLNLNLNZaycycycQElFuDZauHWBRCcVZapigEpiqzSvSvSvSvSvSvSvSvpHPJxgfYffffffffffpolTRPEBIvIvdBaCaCaCaCaCaCaCwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQaCaCaCaCaCaCaCaCIcuaLNLNLNLNLNLNLNLNLNLNZaycycsDAQdRNdZawPSEyrEWZapigEpiqzSvSvSvSvSvSvSvSvpHXREsbqPVdVrmmYEsPwPVNFEBIvIvdBaCaCaCaCaCaCaCaCwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQaCaCaCaCaCaCaCaCIcuaLNIcgogogogogogogoRBZaZaZaZaZaZaZaZaZaZaZaZaZaYSuCYSqzSvSvSvSvSvSvSvSvpHpHpHpHpHpHpHpHpHpHpHpHEBIvIvdBaCaCaCaCaCaCaCaCwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCIcuaLNLNLNTbTblptHPNgDlNKiOgLeLeLeajLeLeLeLeLeLeLedwNJriLeLeajLeLeLeLeLewGajLehqRnKiHjXidlHjKyfqkpetCWngdBaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCIcuaLNLNTbTbVobrcTCugDKiKiJKKiKiKiKiKiKiKiKiKiKiKiKiaXKiKiKiKiKiKiKiKiKiKiKiKiEhKiKiHjcqxCHjPqALkpIvIvgLdBaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCdqJDJDdqaCaCaCIcuaLNTbTbrFbrcTcTZZgDPIPIjfPIPIgDvfDtDtDtDtDtDtDtaiaXwbpapapapapapapapapapapaFSCspapapapapapapapasCIvgLdBaCaCaCdqJDJDdqaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCwQQTwQwQQTwQaCaCIcuaLNTbFPbrFlHJJgDuRfQOWIhRjSZWgDLNDtOBJkJziOJTDtKiaXKipaJUcucuUTHYQPMgNmrvqXmJpfhdklQwoOHaoOoOLRsCIvgLdBaCaCwQQTwQwQQTwQaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCwQwQtFJNJNqCJNJNJNkcizLNfFQfJjJjJjNnxvxvxvxvgWlGkEgDLNDtpEFIFIEIyaDtKiaXKipaFkpfpfpfjpELedededzmmJpfLLuTuTyUMFuTuTtNsCIvetotJNJNJNxjJNJNcvwQwQaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCgPJNJNvKwQwQwQwQJDJDIcuaLNfFviJjxKZWlHxKZWYmxKZWlGkEgDLNDtZRZRsSrHxTDtKiaXKipaBlpfpfpftEVGVGVGVGSSmJpfmauTsFcjFouTuTnDsCIvIvdBJDJDwQwQwQwQbEJNJNksaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQJDaCaCIcuaLNfFviJjvikErBvikEJjvikElGlAgDLNDtDtDtDtbCDtDtKiaXKiCspfpfpfpfTjfKfKfKfKjemJpfDjJpJppmJpJpJppksCIvIvdBaCaCJDwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQaCaCaCIcuaLNfFviJjvikErBvikEJjvikElGkEgDLNDtTYBNmGCqtlDtKiuLLegIyTyTyTyTdAyTyTyTRzZpANYOYOYOYObupfpfpfpfWxIvIvdBaCaCaCwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQQTwQwQwQaCaCaCIcuaLNfFviJjfyzXlHfyzXYmfyzXlGkEgDLNDtDtDtMWoekaeabvkeKipaLnpfpfpfuBpfoZQtuONYIBVTCkBeuSreUuujEeEesCIvIvdBaCaCaCwQwQwQQTwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQjkwQwQwQJDaCaCIcuaLNTbBCFTYubxirHclxOhYBASJvTlgDLNDtAEIeiBZloiDtKiaXKinAnAnASwpfuBmzststpapapapapapapapapapapapasCIvIvdBaCaCJDwQwQwQjkwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQwQJDJDIcuaLNTbPIPIPIPIeFPIgDgDgDgDgDgDgDLNDtDtDtuMbOUVDtKiaXKiyKthMqpfpfuBtdwgwgpHsUUwitEXEXamamamwUdbghEBIvIvdBJDJDwQwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQwQwQwQIcuaLNTbJXNVfHPQmMYsgDLNLNLNLNLNLNLNDtQgZsNrSnBXDtMLaXKiQLQLMqpfpfSTYOYOYOZXACuRhEAMAMwqwqwqkPlTRPEBIvIvdBwQwQwQwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQwQwQaCaCaCIcuaLNqsxAvlIxpXbzNcgDLNZaZaZaZaZaZaDtDtDtDtXADtDtOHaXKiQLQLMqpfpfHPSBSBSBvHlolThEAMlJdbOLwqkPlTgYEBIvIvdBaCaCaCwQwQwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQwQaCaCaCaCaCIcuaLNTbfHjEOnIZvldagDLNZaycycsDziIMBdZaadgmWBtcZaKiaXKibAKlMqpfpnpngcwgwgpHRklThEAMXRdVNFwqkPlThjEBIvIvdBaCaCaCaCaCwQwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQwQaCaCaCaCaCaCIcuaLNTbyphTPQfHmSqkgDLNZaycycycTVMogOFEDqmTUmSlDbLeynKinAnAnApapapapapapapHunlThEAMAMAMwqwqkPlTJdEBIvIvdBaCaCaCaCaCaCwQwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQaCaCaCaCaCaCaCIcuaLNTbgDgDgDgDgDgDgDLNZaycycyclbFaiVnlxLWBCGNKZaKiBcHpnASvSvSvSvSvSvSvSvpHzklTTCUgUgUgfbfbWrlTRPEBIvIvdBaCaCaCaCaCaCaCwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQwQaCaCaCaCaCaCaCIcuaLNLNLNLNLNLNLNLNLNLNZaycycycQElFuDZauHWBRCcVZaKiJKKinASvSvSvSvSvSvSvSvpHPJxgfYffffffffffpolTRPEBIvIvdBaCaCaCaCaCaCaCwQwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQaCaCaCaCaCaCaCaCIcuaLNLNLNLNLNLNLNLNLNLNZaycycsDAQdRNdZawPSEyrEWZaKiJKKinASvSvSvSvSvSvSvSvpHXREsbqPVdVrmmYEsPwPVNFEBIvIvdBaCaCaCaCaCaCaCaCwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTwQaCaCaCaCaCaCaCaCIcuaLNIcgogogogogogogoRBZaZaZaZaZaZaZaZaZaZaZaZaZaYSuCYSnASvSvSvSvSvSvSvSvpHpHpHpHpHpHpHpHpHpHpHpHEBIvIvdBaCaCaCaCaCaCaCaCwQQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTaCaCaCaCaCaCaCaCaCIcuaLNIcSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvqzpigEpiqzSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvdBIvIvdBaCaCaCaCaCaCaCaCaCQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCQTaCaCaCaCaCaCaCaCaCIcuaLNIcSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvqzVdgEuKqzSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvdBIvIvdBaCaCaCaCaCaCaCaCaCQTaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCjkaCaCaCaCaCaCaCaCaCIcuaLNIcSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvqzpigEpiqzSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvSvdBIvIvdBaCaCaCaCaCaCaCaCaCjkaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC

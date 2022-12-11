@@ -89,6 +89,10 @@
 	name = "\improper Atmospherics"
 /area/glace/oxy_gen
 	name = "\improper Oxygen Generation"
+/area/glace/eng_storage
+	name = "\improper Engineering Storage"
+/area/glace/eng_trash
+	name = "\improper Trash Sorting"
 /area/glace/eva
 	name = "\improper E.V.A Equipment"
 /area/glace/fuelroom
@@ -117,8 +121,8 @@
 	name = "\improper Resleeving"
 /area/glace/chemistry
 	name = "\improper Chemistry"
-/area/glace/shiled
-	name = "\improper Shiled and Point Defense"
+/area/glace/shield
+	name = "\improper Shield and Point Defense"
 /area/glace/cockpit
 	name = "\improper Cockpit"
 /area/glace/sauna

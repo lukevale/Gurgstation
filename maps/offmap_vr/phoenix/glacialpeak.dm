@@ -13,8 +13,8 @@
 	color = "#aacccc"
 	vessel_mass = 10000
 	vessel_size = SHIP_SIZE_LARGE
-	initial_generic_waypoints = list("glacial_fore", "glacial_aft")
-	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
+//	initial_generic_waypoints = list("glacial_fore", "glacial_aft")
+//	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
 
 /area/shuttle/glacialboat
 	name = "IceBreaker"
@@ -64,116 +64,101 @@
 	name = "\improper PES Glacial Peak"
 	icon = 'icons/turf/areas_vr_talon.dmi'
 	icon_state = "dark"
-	requires_power = 1
-	dynamic_lighting = 1
+	requires_power = TRUE
+	dynamic_lighting = TRUE
+	limit_mob_size = FALSE
 
-/area/glace/maintenance/aft_radiator
-	name = "\improper Glacial Deck One - Raditor"
-	icon_state = "gray"
-	dynamic_lighting = 0
+/area/maintenance/glace
+	name = "Maintenance"
+	icon = 'icons/turf/areas_vr.dmi'
+	icon_state = "purblasqu"
+	flags = RAD_SHIELDED
+	ambience = AMBIENCE_MAINTENANCE
 
-/area/glace/deckone/engine
-	name = "\improper Glacial Deck One - Engine Room"
-	icon_state = "yellow"
-/area/glace/deckone/enginecontrol
-	name = "\improper Glacial Deck One - Engine Control Room"
-	icon_state = "yellow"
-/area/glace/deckone/powerroom
-	name = "\improper Glacial Deck One - Power Room"
-	icon_state = "yellow"
-/area/glace/deckone/atmos
-	name = "\improper Glacial Deck One - Atmospherics"
-	icon_state = "yellow"
-/area/glace/deckone/starport_engine
-	name = "\improper Glacial Deck One - Starport Engine Room"
-/area/glace/deckone/port_engine
-	name = "\improper Glacial Deck One - Port Engine Room"
-/area/glace/deckone/engineering_storage
-	name = "\improper Glacial Deck One - Engineering Storage"
-/area/glace/deckone/disposals
-	name = "\improper Glacial Deck One - Disposals"
-/area/glace/deckone/janitalia
-	name = "\improper Glacial Deck One - Janitor's office"
-/area/glace/deckone/tools
-	name = "\improper Glacial Deck One - Tool Storage"
-/area/glace/deckone/shield_breaker
-	name = "\improper Glacial Deck One - Shield Subgrid"
-/area/glace/deckone/tech
-	name = "\improper Glacial Deck One - Tech Room"
-/area/glace/deckone/aft_starport_hallway
-	name = "\improper Glacial Deck One - Aft Starport Hallway"
-/area/glace/deckone/starport_maintence
-	name = "\improper Glacial Deck One - Starport Maintence"
-/area/glace/deckone/aft_port_hallway
-	name = "\improper Glacial Deck One - Aft Port Hallway"
-/area/glace/deckone/eva_room
-	name = "\improper Glacial Deck One - E.V.A Equipment"
-/area/glace/deckone/science
-	name = "\improper Glacial Deck One - Science"
-/area/glace/deckone/science_surgury
-	name = "\improper Glacial Deck One - Surgury"
-/area/glace/deckone/science_breakroom
-	name = "\improper Glacial Deck One - Science Breakroom"
-/area/glace/deckone/mechbay
-	name = "\improper Glacial Deck One - Mech Bay"
-/area/glace/deckone/hanger
-	name = "\improper Glacial Deck One - Hanger"
-/area/glace/deckone/bridge
-	name = "\improper Glacial Deck One - Bridge"
-/area/glace/deckone/medbay
-	name = "\improper Glacial Deck One - Medbay"
-/area/glace/deckone/resleeve
-	name = "\improper Glacial Deck One - Resleving Room"
-/area/glace/deckone/chemistry
-	name = "\improper Glacial Deck One - Chemistry"
-/area/glace/deckone/medbaystorage
-	name = "\improper Glacial Deck One - Medical Storage"
-/area/glace/deckone/surgury_hall
-	name = "\improper Glacial Deck One - Surgury Hall"
-/area/glace/deckone/surgury_one
-	name = "\improper Glacial Deck One - Surgury One"
-/area/glace/deckone/surgury_two
-	name = "\improper Glacial Deck One - Surgury Two"
-/area/glace/deckone/central_hallway
-	name = "\improper Glacial Deck One - Central Hallway"
+/area/glace/exterior
+	name = "Ship Exterior"
+/area/glace/engineeroom
+	name = "\improper Engine Room"
+/area/glace/engine_control
+	name = "\improper Engine Controls"
+/area/glace/powerroom
+	name = "\improper SMES Room"
+/area/glace/engine_hall
+	name = "\improper Engineering Hallway"
+/area/glace/atmos
+	name = "\improper Atmospherics"
+/area/glace/oxy_gen
+	name = "\improper Oxygen Generation"
+/area/glace/eva
+	name = "\improper E.V.A Equipment"
+/area/glace/fuelroom
+	name = "\improper Fuel Storage and Distribution"
+/area/glace/toolstorage
+	name = "\improper Tool Storage"
+/area/glace/jani
+	name = "\improper Janitorial Office"
+/area/glace/aft_hall
+	name = "\improper Aft Hallway"
+/area/glace/robotics
+	name = "\improper Robotics"
+/area/glace/rnd
+	name = "\improper RnD Workshop"
+/area/glace/hanger
+	name = "\improper Hanger"
+/area/glace/centeral_hall
+	name = "\improper Centeral Hallway"
+/area/glace/medbay
+	name = "\improper Medbay"
+/area/glace/med_storage
+	name = "\improper Medbay Storage"
+/area/glace/surgery
+	name = "\improper Surgery"
+/area/glace/resleeve
+	name = "\improper Resleeving"
+/area/glace/chemistry
+	name = "\improper Chemistry"
+/area/glace/shiled
+	name = "\improper Shiled and Point Defense"
+/area/glace/cockpit
+	name = "\improper Cockpit"
+/area/glace/sauna
+	name = "\improper Sauna"
+/area/glace/bathroom
+	name = "\improper Public Bathroom"
+/area/glace/hydroponics
+	name = "\improper Hydroponics Bay"
+/area/glace/freezer
+	name = "\improper Freezer"
+/area/glace/kitchen
+	name = "\improper Kitchen"
+/area/glace/bar
+	name = "\improper Bar"
+/area/glace/gym
+	name = "\improper Gym"
+/area/glace/pool
+	name = "\improper Pool"
+/area/glace/reading
+	name = "\improper Rooming/Observation Room"
+
+/area/maintenance/glace/unbuild
+	name = "Unbuilt"
+/area/maintenance/glace/port
+	name = "Maintenance - Port"
+/area/maintenance/glace/starboard
+	name = "Maintenance - Starboard"
 
 
+/area/glace/rooms //the actual rooms.
+	sound_env = SMALL_SOFTFLOOR
+	flags = RAD_SHIELDED| BLUE_SHIELDED |AREA_FLAG_IS_NOT_PERSISTENT
+	soundproofed = TRUE
+	block_suit_sensors = TRUE
+	forbid_events = TRUE
+	forbid_singulo = TRUE
 
-/area/glace/decktwo/fore_space
-	name = "\improper Glacial Deck Two - Space - Fore"
-/area/glace/decktwo/fore_central_maint
-	name = "\improper Glacial Deck Two - Centeral Maitence - Fore"
-/area/glace/decktwo/port_maint
-	name = "\improper Glacial Deck Two - Port Maitence"
-/area/glace/decktwo/aft_space
-	name = "\improper Glacial Deck Two - Aft - Space"
-/area/glace/decktwo/misc_one
-	name = "\improper Glacial Deck Two - Misc Room One"
-/area/glace/decktwo/fore_central_hall
-	name = "\improper Glacial Deck Two - Central Hallway - Fore"
-/area/glace/decktwo/aft_central_hall
-	name = "\improper Glacial Deck Two - Central Hallway - Aft"
-/area/glace/decktwo/hydro
-	name = "\improper Glacial Deck Two - Hydroponics"
-/area/glace/decktwo/bar
-	name = "\improper Glacial Deck Two - Bar"
-/area/glace/decktwo/cafe
-	name = "\improper Glacial Deck Two - Cafeteria"
-/area/glace/decktwo/kitchen
-	name = "\improper Glacial Deck Two - Kitchen"
-/area/glace/decktwo/freezer
-	name = "\improper Glacial Deck Two - Freezer"
-/area/glace/decktwo/aft_starport_maint
-	name = "\improper Glacial Deck Two - Aft Starport Maintence"
-/area/glace/decktwo/confrence
-	name = "\improper Glacial Deck Two - Confrence Room"
-/area/glace/decktwo/luna_office
-	name = "\improper Glacial Deck Two - Luna's Office"
-/area/glace/decktwo/luna_room
-	name = "\improper Glacial Deck Two - Luna's Room"
-/area/glace/decktwo/luna_bath
-	name = "\improper Glacial Deck Two - Luna's Bathroom"
-/area/glace/decktwo/david_room
-	name = "\improper Glacial Deck Two - David's Room"
-/area/glace/decktwo/david_bath
-	name = "\improper Glacial Deck Two - David's Bathroom"
+/area/glace/rooms/seona
+	name = "Seona Young's Room"
+/area/glace/rooms/seona/bathroom
+	name = "Bathroom"
+/area/glace/rooms/seona/milking
+	name = "Milking Room"

@@ -28,14 +28,14 @@
 	req_one_access = list(access_cent_general)
 */
 // A shuttle lateloader landmark
-/obj/effect/shuttle_landmark/shuttle_initializer/glacialboat
+/*/obj/effect/shuttle_landmark/shuttle_initializer/glacialboat
 	name = "The IceBreaker Hanger"
-	base_area = /area/glace/deckone/hanger
+	base_area = /area/glace/hanger
 	base_turf = /turf/simulated/floor/tiled/monotile
 	landmark_tag = "omship_ship_icebreak"
 //	docking_controller = "aroship2_boatbay"
 	shuttle_type = /datum/shuttle/autodock/overmap/glacialboat
-
+*/
 // The 'shuttle'
 /datum/shuttle/autodock/overmap/glacialboat
 	name = "The IceBreaker"
@@ -112,7 +112,7 @@
 /area/glace/centeral_hall
 	name = "\improper Centeral Hallway"
 /area/glace/fore_hall
-	nmame = "\improper Fore Hallway"
+	name = "\improper Fore Hallway"
 /area/glace/medbay
 	name = "\improper Medbay"
 /area/glace/med_storage

@@ -31,6 +31,7 @@
 "bx" = (/obj/machinery/atmospherics/pipe/simple/visible/black{dir = 6},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "bB" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/dark/bluecorner,/area/glace/deckone/eva_room)
 "bC" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/obj/effect/floor_decal/spline/fancy/wood/corner,/turf/simulated/floor/wood,/area/space)
+"bD" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 5},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "bE" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/reinforced,/area/glace/deckone/tools)
 "bG" = (/obj/structure/fitness/weightlifter,/obj/effect/floor_decal/spline/plain{dir = 8},/turf/simulated/floor/boxing/gym,/area/glace/deckone/tools)
 "bH" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled/eris/dark,/area/glace/deckone/tools)
@@ -159,6 +160,7 @@
 "iz" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "iH" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 4},/obj/structure/sign/warning/radioactive{pixel_y = 32},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/deckone/aft_starport_hallway)
 "iK" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard/glass/common{name = "Kitchen"},/turf/simulated/floor/tiled/steel_grid,/area/glace/deckone/tools)
+"iO" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/structure/table/bench/wooden,/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "iP" = (/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "iR" = (/obj/structure/bed/chair/bay/chair{dir = 1},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/glace/deckone/tools)
 "iV" = (/obj/structure/bed/chair/sofa/corp{dir = 8},/turf/simulated/floor/wood/sif,/area/glace/deckone/tools)
@@ -214,7 +216,6 @@
 "ly" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "lz" = (/obj/effect/floor_decal/spline/plain{dir = 1},/turf/simulated/floor/boxing{name = "yoga mat"},/area/glace/deckone/tools)
 "lF" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/tiled/eris/dark/techfloor_grid,/area/glace/deckone/engine)
-"lH" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 1; external_pressure_bound = 140; external_pressure_bound_default = 140; icon_state = "map_vent_out"; pressure_checks = 0; pressure_checks_default = 0; use_power = 1},/obj/effect/floor_decal/spline/fancy/wood,/obj/structure/table/bench/wooden,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "lI" = (/obj/structure/table/glass,/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone{pixel_x = 7; pixel_y = 8},/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone{pixel_x = -4; pixel_y = 0},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "lK" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/effect/floor_decal/milspec/color/green/half{dir = 5},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "lM" = (/obj/structure/table/glass,/obj/item/weapon/storage/box/gloves{pixel_x = 4; pixel_y = 4},/obj/item/weapon/storage/box/masks{pixel_y = 0},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
@@ -289,6 +290,7 @@
 "po" = (/mob/living/bot/farmbot{desc = "How can it be a green thumb, if it doesn't have thumbs?"; name = "Demeter"; req_one_access = list()},/obj/effect/floor_decal/milspec/color/green/half{dir = 10},/obj/effect/floor_decal/milspec/cargo,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "pq" = (/obj/machinery/light,/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/wood,/area/space)
 "pv" = (/obj/machinery/light{dir = 4},/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/grass,/area/glace/deckone/tools)
+"px" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 5},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "pB" = (/obj/machinery/light{dir = 4},/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/deckone/enginecontrol)
 "pC" = (/obj/structure/table/reinforced,/obj/fiftyspawner/steel,/obj/machinery/power/apc/angled/hidden{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "pD" = (/obj/structure/table/steel_reinforced,/obj/item/device/flashlight/lamp,/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
@@ -340,6 +342,7 @@
 "su" = (/obj/machinery/computer/security/telescreen/entertainment{pixel_x = 32; pixel_y = -2},/obj/structure/railing/grey{dir = 8},/turf/simulated/floor/tiled/eris/techmaint_perforated,/area/space)
 "sx" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
 "sy" = (/obj/structure/table/reinforced,/obj/item/weapon/storage/box/beakers,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
+"sB" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/obj/structure/table/woodentable,/obj/random/drinkbottle,/obj/random/drinkbottle,/obj/machinery/atmospherics/unary/vent_pump{dir = 1; external_pressure_bound = 101.325; external_pressure_bound_default = 101.325; icon_state = "map_vent_out"; pressure_checks = 1; pressure_checks_default = 1; use_power = 1},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "sC" = (/obj/structure/table/reinforced,/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "sF" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 10},/obj/machinery/firealarm/angled/hidden,/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/starport_engine)
 "sG" = (/turf/simulated/floor/plating/eris/under,/area/space)
@@ -408,6 +411,7 @@
 "vK" = (/obj/machinery/recharge_station,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/deckone/tools)
 "vN" = (/obj/machinery/atmospherics/pipe/tank/nitrous_oxide{dir = 8},/turf/simulated/floor/tiled/eris/techmaint_perforated,/area/glace/deckone/atmos)
 "vP" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid,/obj/machinery/light{dir = 1},/turf/simulated/floor/wood,/area/glace/deckone/tools)
+"vR" = (/obj/effect/floor_decal/spline/fancy/wood,/obj/structure/table/bench/wooden,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "vS" = (/obj/structure/sink{pixel_y = 22},/turf/simulated/floor/tiled/eris/steel/bar_flat,/area/glace/deckone/tools)
 "vT" = (/obj/structure/table/standard,/obj/machinery/light{dir = 4},/obj/random/soap,/obj/random/soap,/obj/item/weapon/towel/random,/obj/item/weapon/towel/random,/obj/effect/floor_decal/corner_kafel/green{dir = 9},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/deckone/tools)
 "vW" = (/obj/machinery/atmospherics/omni/mixer{name = "Air Mixer"; tag_north = 1; tag_north_con = 0.79; tag_south = 2; tag_west = 1; tag_west_con = 0.21},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
@@ -451,7 +455,6 @@
 "yc" = (/obj/machinery/bodyscanner{dir = 4},/turf/simulated/floor/tiled/eris/white/cargo,/area/glace/deckone/tools)
 "yd" = (/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/glace/deckone/tools)
 "yj" = (/obj/structure/closet/athletic_mixed,/turf/simulated/floor/wood,/area/glace/deckone/tools)
-"yk" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/obj/structure/table/woodentable,/obj/item/weapon/reagent_containers/food/drinks/bottle/limejuice{pixel_x = -6; pixel_y = 14},/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass{pixel_x = 6; pixel_y = -1},/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass{pixel_x = -4; pixel_y = -1},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "ym" = (/obj/effect/floor_decal/spline/plain,/obj/item/weapon/stool/padded{dir = 4},/turf/simulated/floor/tiled/freezer,/area/glace/deckone/tools)
 "yo" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/deckone/enginecontrol)
 "yr" = (/obj/machinery/ntnet_relay,/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/tools)
@@ -478,6 +481,7 @@
 "zt" = (/obj/structure/table/woodentable,/obj/machinery/librarycomp,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "zz" = (/obj/structure/bed/chair/sofa/corner/blue{dir = 4},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "zE" = (/obj/effect/floor_decal/spline/plain{dir = 4},/obj/item/weapon/stool/padded{dir = 1},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/freezer,/area/glace/deckone/tools)
+"zG" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1},/obj/structure/table/bench/wooden,/obj/item/weapon/bikehorn/rubberducky{name = "Moe"},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "zK" = (/obj/machinery/power/emitter/gyrotron/anchored{id_tag = "glacial"},/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/engine)
 "zL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/engine)
 "zM" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/lights/mixed,/obj/item/device/flashlight,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
@@ -706,11 +710,11 @@
 "Mm" = (/obj/machinery/disposal,/turf/simulated/floor/tiled/eris/white,/area/glace/deckone/tools)
 "Ms" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/external/glass{dir = 1; frequency = 1381; id_tag = "glace_aft_interior"; locked = 1; name = "Exterior Airlock"},/obj/machinery/access_button{command = "cycle_interior"; dir = 1; frequency = 1381; master_tag = "glace_aft_airlock"; name = "interior access button"; pixel_x = 32; req_one_access = null},/obj/machinery/atmospherics/pipe/simple/hidden/cyan,/turf/simulated/floor/tiled/steel_grid,/area/glace/deckone/eva_room)
 "Mv" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/angled_bay/standard{dir = 4; name = "Milking room"; stripe_color = "#ffffff"},/turf/simulated/floor/tiled/steel_grid,/area/space)
+"Mz" = (/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 10},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "MA" = (/obj/structure/closet/emergsuit_wall{pixel_y = 27},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
 "MC" = (/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/eris/dark/panels,/area/glace/deckone/port_engine)
 "ME" = (/obj/structure/bed/chair/sofa/corner/black{dir = 4},/obj/effect/floor_decal/spline/fancy/wood{dir = 10},/turf/simulated/floor/wood,/area/space)
 "MF" = (/obj/machinery/computer/ship/engines{dir = 4},/obj/effect/floor_decal/milspec/color/black/half{dir = 9},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
-"MH" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/obj/structure/table/woodentable,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "MK" = (/obj/structure/table/standard,/obj/item/weapon/tool/wrench,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "MR" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "MS" = (/obj/machinery/vending/loadout/uniform,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
@@ -839,7 +843,6 @@
 "Tq" = (/obj/structure/table/glass,/obj/item/weapon/backup_implanter{pixel_y = -12},/obj/item/weapon/backup_implanter{pixel_y = -5},/obj/item/weapon/backup_implanter{pixel_y = 2},/obj/item/weapon/backup_implanter{pixel_y = 9},/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "Tt" = (/obj/structure/table/standard,/obj/item/weapon/storage/firstaid/fire{pixel_x = 5; pixel_y = 5},/obj/item/weapon/storage/firstaid/adv,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
 "Tu" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/eris/dark/orangecorner,/area/glace/deckone/aft_starport_hallway)
-"Tx" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "TA" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,/obj/machinery/meter,/turf/simulated/floor/tiled/eris/dark/panels,/area/glace/deckone/port_engine)
 "TC" = (/turf/simulated/wall/bay/r_wall/steel,/area/space)
 "TD" = (/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/water/pool,/area/glace/deckone/tools)
@@ -867,7 +870,6 @@
 "Uw" = (/obj/structure/plasticflaps,/obj/machinery/conveyor{dir = 4; id = "glacial_disposals_1"},/turf/simulated/floor/tiled/eris/dark/gray_perforated,/area/glace/deckone/disposals)
 "Ux" = (/obj/machinery/washing_machine,/obj/effect/floor_decal/corner_kafel/green{dir = 8},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/deckone/tools)
 "Uy" = (/obj/structure/table/glass,/obj/random/medical,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
-"UA" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "UB" = (/turf/simulated/wall/bay/r_wall/orange,/area/glace/deckone/powerroom)
 "UC" = (/turf/simulated/floor/bluegrid,/area/glace/deckone/tools)
 "UD" = (/obj/effect/floor_decal/corner_kafel/red{dir = 4},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/deckone/tools)
@@ -948,6 +950,7 @@
 "XU" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 6},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/port_engine)
 "XW" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{dir = 4; name = "Distro Loop Drain"},/obj/machinery/atmospherics/pipe/simple/visible/supply,/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/tiled/eris/steel/techfloor,/area/glace/deckone/atmos)
 "XY" = (/obj/effect/floor_decal/milspec/color/green/corner{dir = 4},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
+"XZ" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/obj/structure/table/woodentable,/obj/item/weapon/reagent_containers/food/drinks/bottle/limejuice{pixel_x = -6; pixel_y = 14},/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass{pixel_x = 6; pixel_y = -1},/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/shotglass{pixel_x = -4; pixel_y = -1},/obj/machinery/light/small{dir = 1},/obj/machinery/atmospherics/unary/vent_pump{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "Ya" = (/obj/structure/table/standard,/obj/machinery/chemical_dispenser/full,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/glace/deckone/tools)
 "Yb" = (/obj/structure/bed/chair/backed_grey{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "Yc" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/obj/machinery/atmospherics/pipe/simple/hidden/black,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/engine)
@@ -957,7 +960,6 @@
 "Yj" = (/obj/effect/floor_decal/milspec/color/green/corner{dir = 1},/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "Yk" = (/obj/structure/closet/emcloset,/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
 "Yl" = (/obj/structure/table/reinforced,/obj/machinery/chemical_dispenser/full,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
-"Ym" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/structure/table/bench/wooden,/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "Yt" = (/obj/machinery/door/airlock/angled_bay/double{dir = 8; name = "Cockpit"; stripe_color = "#2e2e2e"},/obj/machinery/door/firedoor/multi_tile{dir = 2},/obj/effect/floor_decal/milspec/monotile,/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "Yz" = (/obj/machinery/shield_gen/external/advanced{anchored = 1},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark/danger,/area/glace/deckone/tools)
 "YB" = (/obj/machinery/transhuman/resleever,/turf/simulated/floor/tiled/eris/white/bluecorner,/area/glace/deckone/tools)
@@ -976,7 +978,6 @@
 "Zd" = (/obj/machinery/light{dir = 4},/obj/effect/floor_decal/corner_kafel/yellow{dir = 1},/turf/simulated/floor/tiled/kafel_full/white,/area/space)
 "Zg" = (/obj/machinery/power/smes{capacity = 2e+006; charge = 1e+006; input_attempt = 1; input_level = 500000; input_level_max = 2e+006; output_level = 2e+006; output_level_max = 2e+006},/obj/structure/cable/green,/turf/simulated/floor/tiled/milspec,/area/glace/deckone/tools)
 "Zp" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner_steel_grid{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 6},/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower/engineering,/turf/simulated/floor/tiled/steel,/area/space)
-"Zs" = (/obj/machinery/atmospherics/unary/vent_pump{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/obj/effect/floor_decal/spline/fancy/wood{dir = 1},/obj/structure/table/bench/wooden,/obj/item/weapon/bikehorn/rubberducky{name = "Moe"},/turf/simulated/floor/wood,/area/glace/deckone/tools)
 "Zt" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner_steel_grid{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 5},/obj/effect/floor_decal/steeldecal/steel_decals10{dir = 6},/obj/machinery/shower{dir = 1},/obj/structure/curtain/open/shower/engineering,/turf/simulated/floor/tiled/steel,/area/space)
 "Zy" = (/obj/structure/table/rack/shelf/steel,/obj/item/weapon/storage/toolbox/mechanical{pixel_x = 2; pixel_y = 8},/obj/item/weapon/storage/toolbox/mechanical{pixel_y = 2},/obj/item/weapon/storage/toolbox/mechanical{pixel_x = -3; pixel_y = -5},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
 "ZC" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/lights/mixed,/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/deckone/tools)
@@ -1025,11 +1026,11 @@ aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYUqUqUqUqORUqvnvnvnvnvnvnvnsGnAnAnAbvKXySnAWiWiWiATATkQiPiPiPdJuOuOmfmDFMuKKHKHXtXtXtJWvkJpKvsGsGTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYKzuBSTHbSTRQvnsGsGsGsGsGsGsGnAvKAuUDzhzfnAWiWiWiWQWQkQiPiPiPiPiPiPhzYXWshOrQrQuououoGWWsbtKvsGsGTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYelCgSTFJSTQSvnsGnAnAnAnAnAnAnAnAnAnAbnnAnAWiWiWiWQWQkQiPiPiPiPiPiPopYXWshOrQlcvkoJuoGWWscxKvsGsGTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCfpfpfpTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYSTQSSTirCgSTvnsGnAsLsLJIykZsjFnAjHIrPWYgnAWiWiWiYbYbkQiPXoXoFmuOuOmfYXWshOrQtxEuOCuoGWWsDwKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpfpDVfpfpeFIOTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYXmSTHbSTSTpvvnsGnAsLsLsLUATxrfjiojPWPWPWQxWiWiWimfmfmfmfmfmfmfmfmfmfmMWshOrQrQrQuouoGWWszEKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpKwCvQyPzGamuTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYSTQSSTirCgSTvnsGnAsLsLJIXZzGjFnAjHIrPWYgnAWiWiWiYbYbkQiPXoXoFmuOuOmfYXWshOrQtxEuOCuoGWWsDwKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpfpDVfpfpeFIOTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYXmSTHbSTSTpvvnsGnAsLsLsLpxMzrfjiojPWPWPWQxWiWiWimfmfmfmfmfmfmfmfmfmfmMWshOrQrQrQuouoGWWszEKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpKwCvQyPzGamuTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsYvnvnvnvnvnvnvnsGnAsLsLsLiPAXPYBtPgPWPWAdnAWiWiWisGsGsGsGsGsGsGsGsGmfYXWswQTDTDTDBaBaAYWsbtKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpdnHPHPQjQjTRkSaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsGsGsGsGsGsGsGsGsGnAsLsLsLHTTxYmnAPLPWPWAdnAWiWiWisGsGsGsGsGsGsGsGsGmfYXWsWsWsWsWsWsWsWsWsbtKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpDmOQHPQjQjBLkSaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
-aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsGsGsGsGsGsGsGsGsGnAsLsLJIuVlHMHnAqtPWPWqknAWiWiWisGsGsGsGsGsGsGsGsGmftxymTmlbEuUEEuymKilbOCKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpDPmyHPQjQjmukSaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsGsGsGsGsGsGsGsGsGnAsLsLsLHTbDiOnAPLPWPWAdnAWiWiWisGsGsGsGsGsGsGsGsGmfYXWsWsWsWsWsWsWsWsWsbtKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpDmOQHPQjQjBLkSaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
+aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGsGsGsGsGsGsGsGsGsGnAsLsLJIuVvRsBnAqtPWPWqknAWiWiWisGsGsGsGsGsGsGsGsGmftxymTmlbEuUEEuymKilbOCKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpDPmyHPQjQjmukSaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGTCfpfpfpfpfpfpfpsGnAnAnAnAnAnAnAnAnAnAnAnAnAWiWiWisGsGsGsGsGsGsGsGsGmfmfmfmfmfmfmfmfmfmfmfmfKvsGsGTCaCaCaCaCaCaCaCaCaCaCfpMECQpqbCfHSFTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGTCsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGWiWiWisGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGTCsGsGTCaCaCaCaCaCaCaCaCfpfpfpfpfpfpRIfpfpfpaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC
 aCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCTCsGsGTCsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGWiWiWisGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGsGTCsGsGTCaCaCaCaCaCaCaCaCfpQduDoafpXQWVwHJMTCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaCaC

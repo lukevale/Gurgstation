@@ -113,6 +113,8 @@
 	name = "\improper Centeral Hallway"
 /area/glace/fore_hall
 	name = "\improper Fore Hallway"
+/area/glace/teleporters
+	name = "\improper Glacial Peak - Gateways"
 /area/glace/medbay
 	name = "\improper Medbay"
 /area/glace/med_storage

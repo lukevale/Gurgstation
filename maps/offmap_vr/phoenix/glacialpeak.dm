@@ -79,6 +79,8 @@
 	name = "Ship Exterior"
 /area/glace/engineeroom
 	name = "\improper Engine Room"
+/area/glace/engines
+	name = "\improper Engines"
 /area/glace/engine_control
 	name = "\improper Engine Controls"
 /area/glace/powerroom
@@ -170,3 +172,7 @@
 	name = "Bathroom"
 /area/glace/rooms/seona/milking
 	name = "Milking Room"
+/area/glace/rooms/sylvia
+	name = "Sylvia Bennet's Room"
+/area/glace/rooms/sylvia/bathroom
+	name = "Bathroom"

@@ -11,31 +11,25 @@
 [i]Transponder[/i]: Transmitting (CIV)
 [b]Notice[/b]: Centeral Command Vessal"}
 	color = "#aacccc"
-	vessel_mass = 10000
+	vessel_mass = 999999
 	vessel_size = SHIP_SIZE_LARGE
 //	initial_generic_waypoints = list("glacial_fore", "glacial_aft")
-//	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
+	initial_restricted_waypoints = list("The IceBreaker" = list("omship_ship_icebreak"))
 
 /area/shuttle/glacialboat
 	name = "IceBreaker"
 	requires_power = 1
 	dynamic_lighting = 1
-/*
-// The shuttle's 'shuttle' computer
-/obj/machinery/computer/shuttle_control/explore/aroboat2
-	name = "boat control console"
-	shuttle_tag = "The IceBreaker"
-	req_one_access = list(access_cent_general)
-*/
+
 // A shuttle lateloader landmark
-/*/obj/effect/shuttle_landmark/shuttle_initializer/glacialboat
+/obj/effect/shuttle_landmark/shuttle_initializer/glacialboat
 	name = "The IceBreaker Hanger"
 	base_area = /area/glace/hanger
-	base_turf = /turf/simulated/floor/tiled/monotile
+	base_turf = /turf/simulated/floor/reinforced
 	landmark_tag = "omship_ship_icebreak"
-//	docking_controller = "aroship2_boatbay"
+	docking_controller = "glacial_hanger"
 	shuttle_type = /datum/shuttle/autodock/overmap/glacialboat
-*/
+
 // The 'shuttle'
 /datum/shuttle/autodock/overmap/glacialboat
 	name = "The IceBreaker"
@@ -47,7 +41,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/glacialboat
 	name = "The Ice Breaker"
-	desc = "Droppy is a dumb"
+	desc = "INSERT DESCRIPTION HERE"
 	vessel_mass = 3000
 	vessel_size = SHIP_SIZE_SMALL
 	shuttle = "The IceBreaker"

@@ -1,4 +1,4 @@
-/obj/tether_away_spawner // Whoever didn't bring this over, why. GURGS EDIT
+/*/obj/tether_away_spawner // Whoever didn't bring this over, why. GURGS EDIT p a i n - lukevale
 	name = "RENAME ME, JERK"
 	desc = "Spawns the mobs!"
 	icon = 'icons/mob/screen1.dmi'
@@ -23,7 +23,7 @@
 
 	//Internal use only
 	var/mob/living/simple_mob/my_mob
-	var/depleted = FALSE
+	var/depleted = FALSE*/
 
 /obj/tether_away_spawner/debrisfield
 	atmos_comp = FALSE

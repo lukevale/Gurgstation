@@ -53,3 +53,91 @@
 	new_character.regenerate_icons()
 	new_character.update_transform()
 	return new_character
+
+
+//custom beds stuff because not making a new folder
+/obj/item/weapon/bedsheet/New()
+	update_transform()
+#define BIG_BLANKET_CREATE(x)	x/big/icon_scale_x = 2.2;x/big/icon_scale_y = 2.2
+#define HUGE_BLANKET_CREATE(x)	x/huge/icon_scale_x = 3.3;x/huge/icon_scale_y = 3.3
+#define MEGA_BLANKET_CREATE(x)	x/mega/icon_scale_x = 9.9;x/mega/icon_scale_y =9.9
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/bluedouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/browndouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/captaindouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/clowndouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/cosmosdouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/double)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/greendouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/hopdouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/hosdouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/iandouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/mimedouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/orangedouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/piratedouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/purpledouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/rainbowdouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/rddouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/reddouble)
+BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
+
+//Giant Beds
+/obj/structure/bed/double/big
+	icon_scale_x = 2
+	icon_scale_y = 2
+/*
+/obj/structure/bed/double/huge
+	icon_scale_x = 3
+	icon_scale_y = 3
+
+/obj/structure/bed/double/mega
+	icon_scale_x = 9
+	icon_scale_y = 9
+*/
+/obj/structure/bed/double/big/New(var/newloc)
+	..(newloc,"wood","cotton")
+	update_transform()
+/*
+/obj/structure/bed/double/huge/New(var/newloc)
+	..(newloc,"wood","cotton")
+	update_transform()
+
+/obj/structure/bed/double/mega/New(var/newloc)
+	..(newloc,"wood","cotton")
+	update_transform()
+*/
+/obj/structure/bed/double/big/post_buckle_mob(mob/living/M as mob)
+	if(M.buckled == src)
+		M.pixel_y = (25 + pixel_y)
+		M.old_y = (25 + pixel_y)
+		M.pixel_x = (pixel_x)
+		M.old_x = (pixel_x)
+	else
+		M.pixel_y = 0
+		M.old_y = 0
+		M.pixel_x = 0
+		M.old_x = 0
+/*
+/obj/structure/bed/double/huge/post_buckle_mob(mob/living/M as mob)
+	if(M.buckled == src)
+		M.pixel_y = (37 + pixel_y)
+		M.old_y = (37 + pixel_y)
+		M.pixel_x = (pixel_x)
+		M.old_x = (pixel_x)
+	else
+		M.pixel_y = 0
+		M.old_y = 0
+		M.pixel_x = 0
+		M.old_x = 0
+
+/obj/structure/bed/double/mega/post_buckle_mob(mob/living/M as mob)
+	if(M.buckled == src)
+		M.pixel_y = (109 + pixel_y)
+		M.old_y = (109 + pixel_y)
+		M.pixel_x = (pixel_x)
+		M.old_x = (pixel_x)
+	else
+		M.pixel_y = 0
+		M.old_y = 0
+		M.pixel_x = 0
+		M.old_x = 0
+*/

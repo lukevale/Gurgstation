@@ -170,3 +170,11 @@
 	name = "Sylvia Bennet's Room"
 /area/glace/rooms/sylvia/bathroom
 	name = "Bathroom"
+/area/glace/rooms/sunny
+	name = "Sunny Flume's Appartment"
+/area/glace/rooms/sunny/bedroom
+	name = "Sunny Flume's Bedroom"
+/area/glace/rooms/sunny/bathroom
+	name = "Bathroom"
+/area/glace/rooms/sunny/milking
+	name = "Milking Room"

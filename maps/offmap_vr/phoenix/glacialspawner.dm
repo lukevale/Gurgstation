@@ -101,11 +101,11 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 /obj/structure/bed/double/big
 	icon_scale_x = 2
 	icon_scale_y = 2
-/*
+
 /obj/structure/bed/double/huge
 	icon_scale_x = 3
 	icon_scale_y = 3
-
+/*
 /obj/structure/bed/double/mega
 	icon_scale_x = 9
 	icon_scale_y = 9
@@ -113,11 +113,11 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 /obj/structure/bed/double/big/New(var/newloc)
 	..(newloc,"wood","cotton")
 	update_transform()
-/*
+
 /obj/structure/bed/double/huge/New(var/newloc)
 	..(newloc,"wood","cotton")
 	update_transform()
-
+/*
 /obj/structure/bed/double/mega/New(var/newloc)
 	..(newloc,"wood","cotton")
 	update_transform()
@@ -133,7 +133,7 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 		M.old_y = 0
 		M.pixel_x = 0
 		M.old_x = 0
-/*
+
 /obj/structure/bed/double/huge/post_buckle_mob(mob/living/M as mob)
 	if(M.buckled == src)
 		M.pixel_y = (37 + pixel_y)
@@ -145,7 +145,7 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 		M.old_y = 0
 		M.pixel_x = 0
 		M.old_x = 0
-
+/*
 /obj/structure/bed/double/mega/post_buckle_mob(mob/living/M as mob)
 	if(M.buckled == src)
 		M.pixel_y = (109 + pixel_y)

@@ -158,3 +158,29 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 		M.pixel_x = 0
 		M.old_x = 0
 */
+
+
+/turf/simulated/floor/water/glace_hotspring
+	name = "Sauna"
+	desc = "A Artificially maintained Sauna pool, continuously pumped and filtered hot for your pleasure!"
+	edge_blending_priority = -2
+	movement_cost = 4
+	depth = 2
+	water_state = "water_shallow"
+	outdoors = FALSE
+
+/turf/simulated/floor/water/hotspring/Entered(atom/movable/AM, atom/oldloc)
+	if(istype(AM, /mob/living))
+		var/mob/living/L = AM
+		L.update_water()
+		if(L.check_submerged() <= 0)
+			return
+		if(!istype(oldloc, /turf/simulated/floor/water/glace_hotspring))
+			to_chat(L, "<span class='warning'>You feel an overwhelming wave of warmth from entering \the [src]!</span>")
+	AM.water_act(5)
+	..()
+
+/turf/simulated/floor/ramptop
+	name = "stairs"
+	icon = 'icons/obj/structures/multiz.dmi'
+	icon_state = "stair_u"

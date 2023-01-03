@@ -178,3 +178,11 @@
 	name = "Bathroom"
 /area/glace/rooms/sunny/milking
 	name = "Milking Room"
+/area/glace/rooms/scarmiya
+	name = "Scarlet & Miyako's Room"
+/area/glace/rooms/scarmiya/bedroom
+	name = "Miyako Kimiko's & Scarlet Mara's Bedroom"
+/area/glace/rooms/scarmiya/bathroom
+	name = "Bathroom"
+/area/glace/rooms/scarmiya/milking
+	name = "Milking Room"

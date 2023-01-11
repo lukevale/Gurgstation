@@ -62,7 +62,7 @@
 #define BIG_BLANKET_CREATE(x)	x/big/icon_scale_x = 2.2;x/big/icon_scale_y = 2.2
 #define HUGE_BLANKET_CREATE(x)	x/huge/icon_scale_x = 3.3;x/huge/icon_scale_y = 3.3
 #define MEGA_BLANKET_CREATE(x)	x/mega/icon_scale_x = 9.9;x/mega/icon_scale_y = 9.9
-#define CROW_BLANKET_CREATE(x)  x/crow/icon_scale_x = 1.6;x/crow/icon_sacle_y = 1.6
+#define CROW_BLANKET_CREATE(x)  x/crow/icon_scale_x = 1.6;x/crow/icon_scale_y = 1.6
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/bluedouble)
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/browndouble)
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/captaindouble)
@@ -99,6 +99,9 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/rainbowdouble)
 HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/rddouble)
 HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/reddouble)
 HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
+
+CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/iandouble)
+CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/piratedouble)
 //Giant Beds
 /obj/structure/bed/double/big
 	icon_scale_x = 2
@@ -129,6 +132,11 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 	..(newloc,"wood","cotton")
 	update_transform()
 */
+
+/obj/structure/bed/double/crow/New(var/newloc)
+	..(newloc,"wood","cotton")
+	update_transform()
+
 /obj/structure/bed/double/big/post_buckle_mob(mob/living/M as mob)
 	if(M.buckled == src)
 		M.pixel_y = (25 + pixel_y)

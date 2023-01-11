@@ -58,9 +58,11 @@
 //custom beds stuff because not making a new folder
 /obj/item/weapon/bedsheet/New()
 	update_transform()
+
 #define BIG_BLANKET_CREATE(x)	x/big/icon_scale_x = 2.2;x/big/icon_scale_y = 2.2
 #define HUGE_BLANKET_CREATE(x)	x/huge/icon_scale_x = 3.3;x/huge/icon_scale_y = 3.3
-#define MEGA_BLANKET_CREATE(x)	x/mega/icon_scale_x = 9.9;x/mega/icon_scale_y =9.9
+#define MEGA_BLANKET_CREATE(x)	x/mega/icon_scale_x = 9.9;x/mega/icon_scale_y = 9.9
+#define CROW_BLANKET_CREATE(x)  x/crow/icon_scale_x = 1.6;x/crow/icon_sacle_y = 1.6
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/bluedouble)
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/browndouble)
 BIG_BLANKET_CREATE(/obj/item/weapon/bedsheet/captaindouble)
@@ -105,6 +107,11 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 /obj/structure/bed/double/huge
 	icon_scale_x = 3
 	icon_scale_y = 3
+
+/obj/structure/bed/double/crow
+	icon_scale_x = 1.5
+	icon_scale_y = 1.5
+
 /*
 /obj/structure/bed/double/mega
 	icon_scale_x = 9
@@ -145,6 +152,19 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 		M.old_y = 0
 		M.pixel_x = 0
 		M.old_x = 0
+
+/obj/structure/bed/double/crow/post_buckle_mob(mob/living/M as mob)
+	if(M.buckled == src)
+		M.pixel_y = (13 + pixel_y)
+		M.old_y = (13 + pixel_y)
+		M.pixel_x = (pixel_x)
+		M.old_x = (pixel_x)
+	else
+		M.pixel_y = 0
+		M.old_y = 0
+		M.pixel_x = 0
+		M.old_x = 0
+
 /*
 /obj/structure/bed/double/mega/post_buckle_mob(mob/living/M as mob)
 	if(M.buckled == src)

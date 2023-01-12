@@ -211,3 +211,15 @@ CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/piratedouble)
 	name = "stairs"
 	icon = 'icons/obj/structures/multiz.dmi'
 	icon_state = "stair_u"
+
+
+/obj/structure/fitness/weightlifter/crow
+	icon_scale_x = 1.5
+	icon_scale_y = 1.5
+/obj/structure/fitness/weightlifter/crow/New()
+	update_transform()
+/obj/machinery/fitness/heavy/lifter/crow
+	icon_scale_x = 1.5
+	icon_scale_y = 1.5
+/obj/machinery/fitness/heavy/lifter/crow/New()
+	update_transform()

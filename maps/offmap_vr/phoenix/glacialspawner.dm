@@ -162,8 +162,8 @@ CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/piratedouble)
 
 /obj/structure/bed/double/crow/post_buckle_mob(mob/living/M as mob)
 	if(M.buckled == src)
-		M.pixel_y = (13 + pixel_y)
-		M.old_y = (13 + pixel_y)
+		M.pixel_y = (19 + pixel_y)
+		M.old_y = (19 + pixel_y)
 		M.pixel_x = (pixel_x)
 		M.old_x = (pixel_x)
 	else

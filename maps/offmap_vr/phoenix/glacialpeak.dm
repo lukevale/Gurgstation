@@ -186,3 +186,9 @@
 	name = "Bathroom"
 /area/glace/rooms/scarmiya/milking
 	name = "Milking Room"
+/area/glace/rooms/crow
+	name = "Aliana Crow's Room"
+/area/glace/rooms/crow/bathroom
+	name = "Bathroom"
+/area/glace/rooms/crow/milk
+	name = "Milking Room"

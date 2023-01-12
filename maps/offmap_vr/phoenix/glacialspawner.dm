@@ -100,7 +100,6 @@ HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/rddouble)
 HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/reddouble)
 HUGE_BLANKET_CREATE(/obj/item/weapon/bedsheet/yellowdouble)
 
-CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/iandouble)
 CROW_BLANKET_CREATE(/obj/item/weapon/bedsheet/piratedouble)
 //Giant Beds
 /obj/structure/bed/double/big

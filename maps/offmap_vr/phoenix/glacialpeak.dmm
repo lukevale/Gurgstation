@@ -1857,7 +1857,7 @@
 "Ul" = (/obj/machinery/embedded_controller/radio/simple_docking_controller{frequency = 1380; id_tag = "glacial_hanger"; pixel_y = 26},/turf/simulated/floor/tiled/eris/steel/cargo,/area/glace/hanger)
 "Um" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/tiled/eris/white/golden,/area/glace/sauna)
 "Uo" = (/obj/structure/low_wall/bay/green,/turf/simulated/floor/wood/sif,/area/glace/bar)
-"Up" = (/obj/structure/undies_wardrobe,/obj/item/weapon/toy/desk/newtoncradle{pixel_x = -1; pixel_y = 13},/turf/simulated/floor/tiled/dark,/area/glace/rooms/crow)
+"Up" = (/obj/structure/undies_wardrobe,/obj/item/weapon/toy/desk/newtoncradle{on = 1; pixel_x = -1; pixel_y = 13},/turf/simulated/floor/tiled/dark,/area/glace/rooms/crow)
 "Uq" = (/turf/simulated/wall/bay/r_wall/orange,/area/glace/hanger)
 "Ur" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/tiled/milspec,/area/shuttle/glacialboat)
 "Ut" = (/obj/effect/floor_decal/corner_kafel/yellow{dir = 10},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/kafel_full/white,/area/glace/rooms/seona/bathroom)

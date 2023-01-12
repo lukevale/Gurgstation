@@ -192,3 +192,5 @@
 	name = "Bathroom"
 /area/glace/rooms/crow/milk
 	name = "Milking Room"
+/area/glace/rooms/crow/den
+	name = "The Den"

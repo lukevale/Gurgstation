@@ -194,3 +194,5 @@
 	name = "Milking Room"
 /area/glace/rooms/crow/den
 	name = "The Den"
+/area/glace/rooms/marigol
+	name = "Marigold Floren's Room"

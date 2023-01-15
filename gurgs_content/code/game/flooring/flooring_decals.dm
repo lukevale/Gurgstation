@@ -10,3 +10,8 @@
 	name = "spline - plain - corner"
 	icon = 'gurgs_content/icons/turf/flooring/decals.dmi'
 	icon_state = "spline_plain_corner"
+
+/obj/effect/floor_decal/emblem/jawstace
+	name = "scales of jawstice"
+	icon = 'gurgs_content/icons/turf/flooring/decals.dmi'
+	icon_state = "scale_of_jaw"

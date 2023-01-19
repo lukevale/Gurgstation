@@ -1,73 +1,75 @@
 "aa" = (/turf/space,/area/space)
-"am" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 4; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"aZ" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/reinforced/airless,/area/space)
-"bo" = (/obj/machinery/power/apc/angled/hidden{dir = 1; req_access = list()},/obj/structure/cable/cyan{d1 = 0; d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"am" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 4; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"ap" = (/turf/simulated/wall/tgmc/durawall,/area/cargocat/engine)
+"aZ" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"bo" = (/obj/machinery/power/apc/angled/hidden{dir = 1; req_access = list()},/obj/structure/cable/cyan{d1 = 0; d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "cI" = (/turf/simulated/wall/tgmc/plain_redstripe_r,/area/space)
-"dc" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"dx" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow,/turf/simulated/floor/reinforced/airless,/area/space)
-"eU" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"fc" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
+"dc" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"dx" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow,/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"eU" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"fc" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/cargocat/engine)
 "fk" = (/turf/simulated/floor/tiled/eris/steel/panels,/area/space)
-"fN" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"gj" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced/airless,/area/space)
+"fN" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"gj" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
 "gt" = (/obj/structure/railing/grey{dir = 4},/turf/simulated/floor/tiled/eris/steel/cargo,/area/space)
-"hN" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/obj/machinery/door/airlock/angled_tgmc/engineering{name = "Monitoring Room"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"hP" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
-"in" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"kf" = (/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
+"hN" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/obj/machinery/door/airlock/angled_tgmc/engineering{name = "Monitoring Room"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"hP" = (/obj/structure/cable/cyan{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/cargocat/engine)
+"in" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow{d2 = 8; dir = 2; icon_state = "0-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"kf" = (/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/cargocat/engine)
 "kL" = (/turf/simulated/floor/tiled/techfloor,/area/space)
 "mc" = (/turf/simulated/wall/tgmc/durawall,/area/space)
 "mg" = (/turf/simulated/floor/tiled/eris/steel/brown_platform,/area/space)
 "mv" = (/turf/simulated/floor/ramptop{dir = 8},/area/space)
-"ou" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"pX" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"qI" = (/obj/machinery/computer/fusion_core_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"rF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"sb" = (/obj/machinery/door/airlock/angled_tgmc/secure{icon_state = "door_locked"; id_tag = "cargocatreactor"; locked = 1; name = "Reactor"},/turf/simulated/floor/reinforced/airless,/area/space)
-"sg" = (/obj/machinery/fusion_fuel_compressor,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"ou" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"pX" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"qI" = (/obj/machinery/computer/fusion_core_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"rF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"sb" = (/obj/machinery/door/airlock/angled_tgmc/secure{icon_state = "door_locked"; id_tag = "cargocatreactor"; locked = 1; name = "Reactor"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"sg" = (/obj/machinery/fusion_fuel_compressor,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "sM" = (/obj/structure/railing/grey{dir = 8},/turf/simulated/floor/tiled/eris/steel/cargo,/area/space)
-"tr" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"uG" = (/turf/simulated/wall/r_lead,/area/space)
-"wF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"tr" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"uG" = (/turf/simulated/wall/r_lead,/area/cargocat/engine)
+"wF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "xz" = (/turf/simulated/floor/tiled/milspec,/area/space)
-"yw" = (/obj/machinery/computer/gyrotron_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"zb" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"ze" = (/obj/machinery/computer/fusion_fuel_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"zr" = (/obj/machinery/door/airlock/angled_tgmc/engineering{dir = 4; name = "Monitoring Room"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"zu" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/space)
-"Bt" = (/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"Cw" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"CB" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"CR" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
+"yw" = (/obj/machinery/computer/gyrotron_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"zb" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"ze" = (/obj/machinery/computer/fusion_fuel_control{dir = 1; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"zr" = (/obj/machinery/door/airlock/angled_tgmc/engineering{dir = 4; name = "Monitoring Room"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"zu" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"Bt" = (/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"Cw" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"CB" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"CR" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
 "Ec" = (/turf/simulated/floor/tiled/eris/steel/gray_platform,/area/space)
-"EZ" = (/obj/machinery/door/blast/regular{dir = 4; id = "cargocatengineport"; name = "Reactor Blast Door"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
+"EZ" = (/obj/machinery/door/blast/regular{dir = 4; id = "cargocatengineport"; layer = 3.3; name = "Reactor Blast Door"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor/reinforced,/area/cargocat/engine)
 "Gb" = (/obj/structure/railing/grey,/turf/simulated/floor/tiled/eris/steel/gray_perforated,/area/space)
-"Go" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"GK" = (/obj/machinery/door/blast/regular{dir = 4; id = "cargocatengineport"; name = "Reactor Blast Door"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
-"GV" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced/airless,/area/space)
-"HO" = (/obj/machinery/door/blast/regular{id = "cargocatengineport"; name = "Reactor Blast Door"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
-"Ig" = (/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"Ir" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"IJ" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"KV" = (/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"Go" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"GK" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/blast/regular{dir = 4; id = "cargocatengineport"; layer = 3.3; name = "Reactor Blast Door"},/turf/simulated/floor/reinforced,/area/cargocat/engine)
+"GV" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"HO" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/blast/regular{dir = 2; id = "cargocatengineport"; layer = 3.3; name = "Reactor Blast Door"},/turf/simulated/floor/reinforced,/area/cargocat/engine)
+"Ig" = (/obj/structure/cable/cyan{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"Ir" = (/obj/structure/cable/cyan{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"IJ" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"KV" = (/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/fiftyspawner/deuterium,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "LE" = (/turf/simulated/floor/ramptop,/area/space)
-"LM" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/turf/simulated/floor/reinforced/airless,/area/space)
-"Me" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 8; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"MA" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/reinforced/airless,/area/space)
-"MJ" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"LM" = (/obj/machinery/power/hydromagnetic_trap,/obj/structure/cable/yellow,/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"Me" = (/obj/machinery/fusion_fuel_injector/mapped{dir = 8; id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"MA" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"MJ" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "NB" = (/turf/simulated/floor/tiled/techmaint,/area/space)
-"Os" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"Os" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/cyan{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "Px" = (/turf/simulated/floor/reinforced,/area/space)
-"Qo" = (/obj/machinery/door/airlock/angled_tgmc/engineering{dir = 4; name = "Engine Access"},/obj/machinery/door/firedoor/glass/hidden/shuttle,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
-"Qq" = (/obj/machinery/power/emitter/gyrotron/anchored{id_tag = "cargocat"},/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"Rh" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/reinforced/airless,/area/space)
-"TD" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/space)
+"Qo" = (/obj/machinery/door/airlock/angled_tgmc/engineering{dir = 4; name = "Engine Access"},/obj/machinery/door/firedoor/glass/hidden/shuttle,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
+"Qq" = (/obj/machinery/power/emitter/gyrotron/anchored{id_tag = "cargocat"},/obj/structure/cable/yellow,/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"Rh" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"TD" = (/obj/machinery/door/firedoor/glass/hidden/shuttle,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/wall/tgmc/window/darkwall/reinf,/area/cargocat/engine)
 "Vm" = (/turf/simulated/floor/tiled/eris/steel/gray_perforated,/area/space)
-"Xu" = (/turf/simulated/floor/reinforced/airless,/area/space)
-"YF" = (/turf/simulated/floor/tiled/eris/dark/danger,/area/space)
-"Zc" = (/obj/machinery/power/port_gen/pacman/super/potato,/obj/item/stack/material/uranium{amount = 10},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/space)
+"Xu" = (/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
+"XX" = (/turf/simulated/wall/tgmc/darkwall,/area/cargocat/engine)
+"YF" = (/turf/simulated/floor/tiled/eris/dark/danger,/area/cargocat/engine)
+"Zc" = (/obj/machinery/power/port_gen/pacman/super/potato,/obj/item/stack/material/uranium{amount = 10},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow,/turf/simulated/floor/tiled/eris/dark/techfloor,/area/cargocat/engine)
 "ZR" = (/turf/simulated/floor/tiled/eris/steel/cargo,/area/space)
-"ZS" = (/obj/machinery/power/fusion_core/mapped{id_tag = "cargocat"},/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/space)
+"ZS" = (/obj/machinery/power/fusion_core/mapped{id_tag = "cargocat"},/obj/structure/cable/yellow,/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/reinforced/airless,/area/cargocat/engine)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -151,30 +153,30 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaamcmcmcmcmcmcmcmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaamcuGuGuGuGuGuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaamcmcmcmcmcmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaakfBtBtBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaQoBtBtBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaamcmcmcmcmcmcmcmcmcBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaamcuGuGuGuGuGuGuGuGBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaamcuGmcmcmcmcmcmcmcIgOsmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaamcuGmcKVsgBtbofNhPIrpXmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaamcmcmcmcuGmcBtBtIJBtCBzrMJwFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaamcuGuGuGuGmcBtywqIzeZcmcBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaamcuGmcmcmcmchNfcfcfcTDmcmcmcmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcBtBtBtBtBtBtBtpXBtBtBtmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFYFYFYFGoououCRYFYFYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFYFYFYFQqzbQqYFYFYFYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFYFmcsbGKEZGKGKmcYFYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFamHOgjtrrFGVinHOMeYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFamHOXuLMzuLMXuHOMeYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFamHOaZRhZSeUaZHOMeYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFamHOMACwzudxdcHOMeYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcYFamHOLMXuLMXuLMHOMeYFmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGmcmcmcmcmcmcmcmcmcmcmcmcmcuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcuGuGuGuGuGuGuGuGuGuGuGuGuGuGuGmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcmcmcmcmcmcmcmcmcmcmcmcmcmcmcmcmcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaXXXXXXXXXXXXXXapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaXXuGuGuGuGuGuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaXXXXXXXXXXXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaakfBtBtBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaaaaaaaaaaaaaQoBtBtBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaXXXXXXXXXXXXXXXXXXBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaXXuGuGuGuGuGuGuGuGBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaXXuGXXXXXXXXXXXXXXIgOsXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaaaaaaaXXuGXXKVsgBtbofNhPIrpXXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaXXXXXXXXuGXXBtBtIJBtCBzrMJwFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaXXuGuGuGuGXXBtywqIzeZcXXBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafkfkaaaaXXuGXXXXXXXXhNfcfcfcTDXXXXXXXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXBtBtBtBtBtBtBtpXBtBtBtXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFYFYFYFGoououCRYFYFYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFYFYFYFQqzbQqYFYFYFYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFYFapsbGKEZGKGKapYFYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFamHOgjtrrFGVinHOMeYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFamHOXuLMzuLMXuHOMeYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFamHOaZRhZSeUaZHOMeYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFamHOMACwzudxdcHOMeYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXYFamHOLMXuLMXuLMHOMeYFXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGXXXXXXXXXXXXXXXXXXXXXXXXXXuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaXXuGuGuGuGuGuGuGuGuGuGuGuGuGuGuGapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaapapapapapapapapapapapapapapapapapaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamcaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

@@ -163,6 +163,7 @@
 "jQ" = (/obj/structure/lattice,/obj/structure/railing,/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/obj/structure/cable/cyan{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "jZ" = (/obj/structure/table/reinforced,/obj/item/toy/eight_ball/conch,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/psy_ward)
 "ka" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor,/area/odysseybase/engineering/atmos)
+"kb" = (/obj/effect/floor_decal/borderfloorwhite,/obj/effect/floor_decal/corner/paleblue/border,/obj/structure/railing/grey,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "kc" = (/obj/effect/floor_decal/borderfloorblack{dir = 5},/obj/effect/floor_decal/corner/yellow/border{dir = 5},/obj/effect/floor_decal/industrial/danger{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/odysseybase/engineering/hallway_atmos)
 "kd" = (/obj/machinery/status_display{pixel_y = 32},/turf/simulated/floor/tiled/dark,/area/odysseybase/engineering/hallway_atmos)
 "kn" = (/obj/effect/floor_decal/borderfloor/corner{dir = 8},/obj/effect/floor_decal/corner/yellow/bordercorner{dir = 8},/turf/simulated/floor/tiled,/area/odysseybase/engineering/hallway_atmos)
@@ -507,13 +508,11 @@
 "Ir" = (/obj/effect/floor_decal/borderfloorwhite{dir = 9},/obj/effect/floor_decal/corner/paleblue/border{dir = 9},/obj/structure/flora/pottedplant/minitree,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/cmo)
 "Iw" = (/obj/structure/extinguisher_cabinet{pixel_y = 30},/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer/snd)
 "Ix" = (/turf/simulated/floor/tiled,/area/odysseybase/level2/ne/open)
-"IC" = (/obj/effect/floor_decal/borderfloorwhite{dir = 6},/obj/effect/floor_decal/corner/paleblue/border{dir = 6},/obj/structure/extinguisher_cabinet{dir = 8; pixel_x = 30},/obj/structure/table/bench/padded,/obj/structure/railing/grey,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "IE" = (/obj/machinery/atmospherics/pipe/zpipe/down{dir = 1},/obj/structure/railing,/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 4},/turf/simulated/open,/area/odysseybase/engineering/atmos)
 "IG" = (/obj/effect/floor_decal/borderfloorwhite{dir = 4},/obj/effect/floor_decal/corner/paleblue/border{dir = 4},/obj/machinery/light{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "IO" = (/turf/simulated/floor/tiled/dark,/area/odysseybase/medical/hallway_snd)
 "IR" = (/obj/effect/floor_decal/borderfloorwhite{dir = 9},/obj/effect/floor_decal/corner/grey,/obj/effect/floor_decal/steeldecal/steel_decals10,/obj/effect/floor_decal/corner/paleblue/border{dir = 9},/obj/machinery/camera/network/medbay{dir = 4},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/pait_room)
 "IV" = (/obj/structure/closet/walllocker/emerglocker/north,/turf/simulated/floor/tiled/techmaint,/area/odysseybase/engineering/foyer/snd)
-"IZ" = (/obj/effect/floor_decal/borderfloorwhite,/obj/effect/floor_decal/corner/paleblue/border,/obj/structure/railing/grey,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "Jc" = (/obj/effect/floor_decal/spline/plain{dir = 5},/obj/random/plushielarge,/turf/simulated/floor/grass,/area/odysseybase/medical/psy_ward)
 "Jn" = (/obj/machinery/door/firedoor/glass,/obj/machinery/door/airlock/highsecurity{name = "High-Risk Containment Ward"; req_one_access = list(5)},/turf/simulated/floor/tiled/steel_grid,/area/odysseybase/medical/psy_ward)
 "Jo" = (/turf/simulated/wall,/area/odysseybase/medical/patient1)
@@ -601,6 +600,7 @@
 "OY" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/maintenance/odysseybase/substation/medical/snd)
 "Pk" = (/obj/machinery/door/blast/regular{density = 0; dir = 8; icon_state = "pdoor0"; id = "psyche-lockdown"; name = "Ward Lockdown"; opacity = 0},/obj/effect/wingrille_spawn/reinforced_phoron,/obj/machinery/door/firedoor/glass,/turf/simulated/floor/plating,/area/odysseybase/medical/psy_ward)
 "Pl" = (/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled,/area/odysseybase/engineering/locker)
+"Pq" = (/obj/effect/floor_decal/borderfloorwhite{dir = 6},/obj/effect/floor_decal/corner/paleblue/border{dir = 6},/obj/structure/extinguisher_cabinet{dir = 8; pixel_x = 30},/obj/structure/table/bench/padded,/obj/structure/railing/grey,/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "Ps" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/patient1)
 "Pw" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 10},/obj/effect/floor_decal/steeldecal/steel_decals4,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/odysseybase/medical/hallway_snd)
 "PD" = (/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor,/area/odysseybase/engineering/atmos)
@@ -836,7 +836,7 @@ aTababababababababababababababababababababababababababababababababababababababab
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzFeIjymDCxvTnOwlwlWlhbsbSmgSqOmLKZeQrmararaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzFeIjylyrXixTNTNTNycRFxySmSmAMSmSmSmrmararaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKak
 aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzFeIjykZrlnznznzYyiuDuVrZjdbTUNcGFwNWHararaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKak
-aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzFeIjyirrlnznznzsSiuvgyDQzFNZPXAIZICWHararaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKak
+aTababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUaUzFeIjyirrlnznznzsSiuvgyDQzFNZPXAkbPqWHararaUaUaUaUaUaUaKaKaKaKaKaKaKaKaKaKaKaKaKaKaKak
 ataVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEascQjyqalBoWkXyJWfiuguvpYnNGDrqAVOVOWHSsSsaEaEaEaEaEaEaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAav
 ataVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEascQjyjyjyiuiuJoJoJoJoJoJodbllbPbPbPLzLzLzaEaEaEaEaEaEaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAav
 ataVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaVaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEaEascQoooozMASVOJolkKmwqMuJoHZPQbPFEKSeVgnsTaEaEaEaEaEaEaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAav

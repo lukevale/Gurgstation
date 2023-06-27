@@ -1529,3 +1529,8 @@
 
 /obj/effect/floor_decal/gurgs/trimline/dark/filled/shrink_ccw
 	icon_state = "trimline_shrink_ccw"
+
+
+//steel full corner
+/obj/effect/floor_decal/gurgs/stell/full_corner
+	icon_state = "steel_decals_full"

@@ -25,13 +25,13 @@
 	no_variants = FALSE
 	icon = ""
 
-/turf/simulated/floor/tiled/diagonal
+/turf/simulated/floor/tiled/small
 	name = "small floor tile"
 	icon = 'gurgs_content/icons/turf/flooring_gr.dmi'
 	icon_state = "small"
 	initial_flooring = /decl/flooring/tiling/new_tile/diagonal
 
-/decl/flooring/tiling/new_tile/diagonal
+/decl/flooring/tiling/new_tile/small
 	icon = 'gurgs_content/icons/turf/flooring_gr.dmi'
 	icon_base = "small"
 	build_type = /obj/item/stack/tile/floor/diagonal

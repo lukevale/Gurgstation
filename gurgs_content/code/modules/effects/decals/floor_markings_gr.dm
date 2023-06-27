@@ -1534,3 +1534,32 @@
 //steel full corner
 /obj/effect/floor_decal/gurgs/steel
 	icon_state = "steel_decals_full"
+
+
+//weather
+/obj/effect/floor_decal/gurgs/weather
+	name = "sandy floor"
+	icon_state = "sandyfloor"
+/* kinda useless rn
+/obj/effect/floor_decal/gurgs/weather/snow
+	icon = 'icons/turf/overlays.dmi'
+	name = "snowy floor"
+	icon_state = "snowfloor"
+
+/obj/effect/floor_decal/gurgs/weather/snow/corner
+	icon = 'icons/turf/snow.dmi'
+	name = "snow corner piece"
+	icon_state = "snow_corner"
+
+/obj/effect/floor_decal/gurgs/weather/dirt
+	name = "dirt siding"
+	icon = 'icons/turf/decals.dmi'
+	icon_state = "dirt_side"
+*/
+/obj/effect/floor_decal/gurgs/weather/sand
+	name = "sand siding"
+	icon_state = "sand_side"
+/* useless RN
+/obj/effect/floor_decal/gurgs/weather/sand/light
+	icon_state = "lightsand_side"
+*/

@@ -7,103 +7,103 @@
 /obj/effect/floor_decal/gurgs/siding
 	icon_state = "siding_line"
 
-/obj/effect/floor_decal/gurgs/white
+/obj/effect/floor_decal/gurgs/siding/white
 	color = "#BCBCBC"
 
-/obj/effect/floor_decal/gurgs/white/corner
+/obj/effect/floor_decal/gurgs/siding/white/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/white/end
+/obj/effect/floor_decal/gurgs/siding/white/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/red
+/obj/effect/floor_decal/gurgs/siding/red
 	color = "#DE3A3A"
 
-/obj/effect/floor_decal/gurgs/red/corner
+/obj/effect/floor_decal/gurgs/siding/red/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/red/end
+/obj/effect/floor_decal/gurgs/siding/red/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/dark_red
+/obj/effect/floor_decal/gurgs/siding/dark_red
 	color = "#B11111"
 
-/obj/effect/floor_decal/gurgs/dark_red/corner
+/obj/effect/floor_decal/gurgs/siding/dark_red/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/dark_red/end
+/obj/effect/floor_decal/gurgs/siding/dark_red/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/green
+/obj/effect/floor_decal/gurgs/siding/green
 	color = "#9FED58"
 
-/obj/effect/floor_decal/gurgs/green/corner
+/obj/effect/floor_decal/gurgs/siding/green/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/green/end
+/obj/effect/floor_decal/gurgs/siding/green/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/dark_green
+/obj/effect/floor_decal/gurgs/siding/dark_green
 	color = "#439C1E"
 
-/obj/effect/floor_decal/gurgs/dark_green/corner
+/obj/effect/floor_decal/gurgs/siding/dark_green/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/dark_green/end
+/obj/effect/floor_decal/gurgs/siding/dark_green/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/blue
+/obj/effect/floor_decal/gurgs/siding/blue
 	color = "#52B4E9"
 
-/obj/effect/floor_decal/gurgs/blue/corner
+/obj/effect/floor_decal/gurgs/siding/blue/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/blue/end
+/obj/effect/floor_decal/gurgs/siding/blue/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/dark_blue
+/obj/effect/floor_decal/gurgs/siding/dark_blue
 	color = "#486091"
 
-/obj/effect/floor_decal/gurgs/dark_blue/corner
+/obj/effect/floor_decal/gurgs/siding/dark_blue/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/dark_blue/end
+/obj/effect/floor_decal/gurgs/siding/dark_blue/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/yellow
+/obj/effect/floor_decal/gurgs/siding/yellow
 	color = "#EFB341"
 
-/obj/effect/floor_decal/gurgs/yellow/corner
+/obj/effect/floor_decal/gurgs/siding/yellow/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/yellow/end
+/obj/effect/floor_decal/gurgs/siding/yellow/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/purple
+/obj/effect/floor_decal/gurgs/siding/purple
 	color = "#D381C9"
 
-/obj/effect/floor_decal/gurgs/purple/corner
+/obj/effect/floor_decal/gurgs/siding/purple/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/purple/end
+/obj/effect/floor_decal/gurgs/siding/purple/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/brown
+/obj/effect/floor_decal/gurgs/siding/brown
 	color = "#A46106"
 
-/obj/effect/floor_decal/gurgs/brown/corner
+/obj/effect/floor_decal/gurgs/siding/brown/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/brown/end
+/obj/effect/floor_decal/gurgs/siding/brown/end
 	icon_state = "siding_end"
 
-/obj/effect/floor_decal/gurgs/dark
+/obj/effect/floor_decal/gurgs/siding/dark
 	color = "#474747"
 
-/obj/effect/floor_decal/gurgs/dark/corner
+/obj/effect/floor_decal/gurgs/siding/dark/corner
 	icon_state = "siding_corner"
 
-/obj/effect/floor_decal/gurgs/dark/end
+/obj/effect/floor_decal/gurgs/siding/dark/end
 	icon_state = "siding_end"
 
 /obj/effect/floor_decal/gurgs/wood

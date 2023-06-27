@@ -1532,5 +1532,5 @@
 
 
 //steel full corner
-/obj/effect/floor_decal/gurgs/stell/full_corner
+/obj/effect/floor_decal/gurgs/steel
 	icon_state = "steel_decals_full"

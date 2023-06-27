@@ -4278,6 +4278,7 @@
 #include "gurgs_content\code\modules\mob\traits\shapeshift\shapeshift.dm"
 #include "gurgs_content\code\modules\mob\traits\shapeshift\shapeshift_trait.dm"
 #include "gurgs_content\code\modules\organs\ferallimbs_custom.dm"
+#include "gurgs_content\code\modules\power\lighting_gr.dm"
 #include "gurgs_content\code\modules\projectiles\guns\energy\cell_loaded_gr\ml3m_cells_gr.dm"
 #include "gurgs_content\code\modules\projectiles\guns\energy\cell_loaded_gr\ml3m_gr.dm"
 #include "gurgs_content\code\modules\reagents\medicine_ch.dm"

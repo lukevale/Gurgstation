@@ -28,6 +28,33 @@
 /obj/machinery/light/floorbulb,
 /turf/simulated/floor/beach/sand,
 /area/space)
+"al" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/effect/floor_decal/milspec/box,
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled,
+/area/space)
+"au" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/steeldecal/steel_decals5{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/glass/hidden,
+/obj/machinery/door/window/northleft{
+	name = "Kitchen Window";
+	req_access = list(28)
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/weapon/paper_bin{
+	pixel_y = 2
+	},
+/obj/item/weapon/pen{
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
 "ay" = (
 /obj/effect/floor_decal/gurgs/thinplating/corner{
 	dir = 1
@@ -114,6 +141,29 @@
 /obj/machinery/light/floorbulb,
 /turf/simulated/floor/beach/sand,
 /area/space)
+"bw" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/weapon/material/knife/butch{
+	pixel_x = -8;
+	pixel_y = 7
+	},
+/obj/item/weapon/material/kitchen/rollingpin{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 4;
+	pixel_y = -10
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "bE" = (
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
 /obj/effect/floor_decal/gurgs/tile/dark_blue/opposingcorners{
@@ -127,6 +177,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"cc" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/blue{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
 "cf" = (
 /obj/structure/table/standard,
 /obj/item/weapon/reagent_containers/food/drinks/bottle/orangejuice{
@@ -136,6 +192,65 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/lino,
+/area/space)
+"cn" = (
+/mob/living/simple_mob/animal/passive/cat/cak{
+	dir = 8;
+	name = "Oreo"
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"cV" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/window/reinforced/full,
+/turf/simulated/floor/grass,
+/area/space)
+"cX" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder{
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"dW" = (
+/obj/structure/flora/gurgs/grass/jungle/a/style_random,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/window/reinforced/full,
+/turf/simulated/floor/grass,
+/area/space)
+"eA" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/button/remote/blast_door{
+	dir = 1;
+	id = "kitchen";
+	name = "Kitchen shutters";
+	pixel_y = -28
+	},
+/obj/machinery/button/holosign{
+	dir = 1;
+	icon_state = "light0";
+	id = "baropen";
+	name = "Open Sign";
+	pixel_x = 9;
+	pixel_y = -27
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"ff" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 6
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer/cold,
 /area/space)
 "fu" = (
 /obj/machinery/light/floorbulb,
@@ -167,6 +282,41 @@
 /obj/effect/floor_decal/gurgs/weather/sand,
 /turf/simulated/floor/grass,
 /area/space)
+"gt" = (
+/obj/machinery/camera/network/civilian{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled,
+/area/space)
+"gy" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/structure/table/standard,
+/obj/fiftyspawner/cardboard,
+/obj/fiftyspawner/plastic,
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"gD" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/blast/gate/thin{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter2_0";
+	id = "kitchen";
+	layer = 2.7
+	},
+/obj/item/weapon/deskbell{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "gG" = (
 /obj/effect/floor_decal/gurgs/weather/sand{
 	dir = 8
@@ -179,6 +329,12 @@
 /area/space)
 "hk" = (
 /turf/simulated/wall,
+/area/space)
+"hr" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/tiled,
 /area/space)
 "hy" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -196,6 +352,22 @@
 	},
 /obj/machinery/door/firedoor/glass/hidden,
 /turf/simulated/floor/tiled,
+/area/space)
+"hG" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/appliance/mixer/cereal,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/newscaster{
+	pixel_y = -30
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "hM" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -218,12 +390,52 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"iQ" = (
+/obj/structure/plasticflaps,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"js" = (
+/obj/machinery/door/airlock/glass{
+	name = "Hydroponics";
+	req_one_access = list(35)
+	},
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"jH" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/random/donkpocketbox{
+	pixel_y = 8
+	},
+/obj/random/donkpocketbox{
+	pixel_y = 4
+	},
+/obj/item/weapon/reagent_containers/food/snacks/mint{
+	pixel_y = -7
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "jJ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/window/reinforced/full,
 /turf/simulated/floor/grass,
+/area/space)
+"jW" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/right{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	dir = 1;
+	name = "Diner Sofa"
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "kb" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -237,23 +449,48 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
-"kn" = (
-/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
-/obj/machinery/disposal,
-/obj/effect/floor_decal/milspec/box,
-/obj/machinery/button/remote/blast_door{
-	dir = 4;
-	id = "Bar";
-	name = "Bar shutters";
-	pixel_x = -27
+"kt" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/steeldecal/steel_decals4,
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"lh" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 8
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "lA" = (
 /obj/effect/floor_decal/gurgs/thinplating{
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/panel,
+/area/space)
+"md" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/sink/kitchen{
+	pixel_y = 20
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"mw" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/diagonal,
 /area/space)
 "mx" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -271,6 +508,13 @@
 /obj/structure/flora/gurgs/bush/jungle/c/style_random,
 /turf/simulated/floor/grass,
 /area/space)
+"mQ" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/maintenance/int{
+	req_access = list(28)
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
 "mX" = (
 /obj/machinery/light{
 	dir = 1
@@ -283,25 +527,54 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
-"om" = (
-/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
-/obj/structure/table/fancyblack,
-/obj/machinery/status_display{
-	pixel_x = -32
+"nv" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/specialwhiskey{
-	pixel_x = -8;
-	pixel_y = 10
+/obj/machinery/appliance/cooker/oven,
+/obj/machinery/requests_console{
+	pixel_y = 28
 	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka{
-	pixel_x = 5;
-	pixel_y = 11
-	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/jager{
-	pixel_x = -1;
-	pixel_y = 6
+/turf/simulated/floor/tiled/white,
+/area/space)
+"ol" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/random/pottedplant,
+/obj/machinery/power/apc{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"oK" = (
+/obj/machinery/vending/wardrobe/bardrobe,
+/obj/effect/floor_decal/gurgs/trimline/green/filled/line,
+/obj/effect/floor_decal/gurgs/trimline/green/filled/mid_joiner,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/sign/poster{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"oN" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	dir = 1;
+	name = "Diner Sofa"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"oV" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/firealarm{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "oW" = (
 /obj/machinery/door/airlock{
@@ -323,6 +596,24 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"pr" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"py" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/appliance/cooker/fryer,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"pz" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/item/weapon/stool/padded{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "qn" = (
 /obj/structure/bed/chair/sofa/right/brown{
 	dir = 4
@@ -343,6 +634,36 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"qQ" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/blast/gate/thin{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter2_0";
+	id = "kitchen";
+	layer = 2.7
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 3
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"qU" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/appliance/mixer/candy,
+/obj/machinery/camera/network/civilian{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "qZ" = (
 /obj/structure/flora/ausbushes/fullgrass,
@@ -368,15 +689,96 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"rw" = (
+/obj/effect/floor_decal/gurgs/thinplating/corner{
+	dir = 4
+	},
+/turf/simulated/floor/wood/alt/panel,
+/area/space)
+"rH" = (
+/obj/structure/table/reinforced,
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/machinery/photocopier/faxmachine{
+	department = "Service Hall"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"rJ" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
 "rS" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"rU" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/camera/network/civilian,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"rX" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/weapon/reagent_containers/glass/beaker{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/weapon/reagent_containers/food/condiment/enzyme{
+	layer = 5;
+	pixel_x = -7;
+	pixel_y = 16
+	},
+/obj/item/weapon/reagent_containers/dropper{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/obj/item/weapon/reagent_containers/food/condiment/enzyme{
+	layer = 5;
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "se" = (
 /obj/structure/table/gamblingtable,
 /turf/simulated/floor/lino,
+/area/space)
+"sl" = (
+/obj/structure/kitchenspike,
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"sp" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"sr" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/effect/floor_decal/steeldecal/steel_decals4,
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "tb" = (
 /obj/machinery/light{
@@ -387,9 +789,63 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"tf" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/milspec/box,
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "tk" = (
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/lino,
+/area/space)
+"tr" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/closet/chefcloset,
+/obj/item/glass_jar,
+/obj/item/device/retail_scanner/civilian,
+/obj/item/weapon/soap/nanotrasen,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"uy" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/vending/dinnerware,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"uM" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"uQ" = (
+/obj/structure/fans/tiny,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/westleft{
+	name = "Kitchen Deliverys";
+	req_access = list(28)
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"vx" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/item/weapon/stool/padded{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "vM" = (
 /obj/effect/floor_decal/gurgs/thinplating,
@@ -404,6 +860,42 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/alt/panel,
+/area/space)
+"vZ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
+"wg" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/effect/floor_decal/steeldecal/steel_decals4{
+	dir = 10
+	},
+/obj/effect/floor_decal/steeldecal/steel_decals4,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"wu" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/window/reinforced/full,
+/turf/simulated/floor/grass,
+/area/space)
+"wF" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"wY" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/space)
 "xt" = (
 /obj/effect/floor_decal/gurgs/weather/sand{
@@ -432,6 +924,51 @@
 	poster_decl = /decl/poster/vore_21
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"xU" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/blast/gate/thin{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter2_0";
+	id = "kitchen";
+	layer = 2.7
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"xY" = (
+/obj/machinery/alarm/freezer{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"yi" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 4
+	},
+/obj/machinery/power/apc{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"yl" = (
+/obj/machinery/icecream_vat,
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 5
+	},
+/obj/machinery/camera/network/civilian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer/cold,
 /area/space)
 "ym" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -471,9 +1008,20 @@
 	},
 /turf/simulated/floor/beach/sand,
 /area/space)
+"zb" = (
+/obj/machinery/smartfridge/produce/persistent_lossy,
+/obj/machinery/door/firedoor/glass,
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
 "ze" = (
 /obj/machinery/media/jukebox,
 /turf/simulated/floor/lino,
+/area/space)
+"zk" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/window/reinforced/full,
+/turf/simulated/floor/grass,
 /area/space)
 "zo" = (
 /obj/effect/floor_decal/gurgs/weather/sand{
@@ -546,6 +1094,29 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"AY" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/structure/table/standard,
+/obj/random/donkpocketbox,
+/obj/machinery/newscaster{
+	pixel_y = -30
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"BF" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/machinery/microwave,
+/obj/machinery/power/apc{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "BM" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
 /obj/machinery/smartfridge/drinks,
@@ -553,6 +1124,23 @@
 /obj/item/device/radio/intercom{
 	dir = 8;
 	pixel_x = -23
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"BO" = (
+/obj/structure/kitchenspike,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/blue,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"BX" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	name = "Diner Sofa"
 	},
 /turf/simulated/floor/tiled,
 /area/space)
@@ -594,11 +1182,28 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"Cq" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/effect/floor_decal/milspec/box,
+/obj/machinery/disposal,
+/obj/item/device/radio/intercom{
+	pixel_y = -23
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
 "Cv" = (
 /obj/structure/bed/chair/sofa/right/brown{
 	dir = 8
 	},
 /turf/simulated/floor/lino,
+/area/space)
+"CW" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/appliance/cooker/grill,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "Dl" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -614,6 +1219,17 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"DM" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/holosign/bar{
+	id = "baropen";
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "DN" = (
 /obj/effect/floor_decal/gurgs/thinplating{
 	dir = 4
@@ -624,6 +1240,20 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/grass,
 /area/space)
+"DV" = (
+/obj/effect/floor_decal/gurgs/thinplating{
+	dir = 5
+	},
+/turf/simulated/floor/wood/alt/panel,
+/area/space)
+"Ed" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/machinery/chem_master/condimaster,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "FB" = (
 /obj/effect/floor_decal/gurgs/tile/dark_blue/opposingcorners{
 	dir = 8
@@ -631,6 +1261,15 @@
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
 /obj/item/weapon/stool/baystool/padded{
 	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"FJ" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	name = "Diner Sofa"
 	},
 /turf/simulated/floor/tiled,
 /area/space)
@@ -644,12 +1283,134 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"FN" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/left{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	name = "Diner Sofa"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = 23
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"FW" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/corner{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	dir = 1;
+	name = "Diner Sofa"
+	},
+/obj/machinery/camera/network/civilian,
+/obj/machinery/alarm,
+/turf/simulated/floor/tiled,
+/area/space)
+"FY" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/right{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	dir = 4;
+	name = "Diner Sofa"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Ga" = (
 /obj/effect/floor_decal/gurgs/thinplating/corner{
 	dir = 1
 	},
 /obj/machinery/light/floorbulb,
 /turf/simulated/floor/wood/alt/panel,
+/area/space)
+"Hm" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/machinery/microwave,
+/turf/simulated/floor/tiled/white,
+/area/space)
+"Hq" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/weapon/storage/box/beakers{
+	name = "box of measuring cups";
+	pixel_x = 2;
+	pixel_y = 3;
+	starts_with = list(/obj/item/weapon/reagent_containers/glass/beaker/measuring_cup = 7)
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"HK" = (
+/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
+/obj/machinery/disposal,
+/obj/effect/floor_decal/milspec/box,
+/obj/machinery/button/remote/blast_door{
+	dir = 4;
+	id = "Bar";
+	name = "Bar shutters";
+	pixel_x = -27
+	},
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -26;
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"HN" = (
+/obj/machinery/door/airlock{
+	name = "Service Hall";
+	req_one_access = list(26,37,35,25,28)
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"IR" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/blue,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"Jk" = (
+/obj/item/device/radio/intercom{
+	pixel_y = -23
+	},
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/effect/floor_decal/gurgs/trimline/white/end{
+	dir = 8
+	},
+/obj/structure/closet/walllocker/medical/east{
+	starts_with = list(/obj/item/roller,/obj/item/bodybag,/obj/item/weapon/storage/firstaid/regular,/obj/item/weapon/storage/pill_bottle/spaceacillin,/obj/item/weapon/storage/pill_bottle/dylovene)
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"JW" = (
+/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
+/obj/structure/table/fancyblack,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/obj/random/drinkbottle{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/random/drinkbottle{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/random/drinkbottle{
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "Ka" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -660,6 +1421,17 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
+/area/space)
+"Kc" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/effect/floor_decal/gurgs/trimline/white/end{
+	dir = 1
+	},
+/obj/structure/closet/hydrant{
+	dir = 1;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/diagonal,
 /area/space)
 "Kr" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -673,6 +1445,24 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"KO" = (
+/obj/effect/floor_decal/gurgs/thinplating{
+	dir = 4
+	},
+/turf/simulated/floor/wood/alt/panel,
+/area/space)
+"KY" = (
+/obj/structure/closet/crate/freezer{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/machinery/light_switch{
+	dir = 4;
+	pixel_x = -26;
+	pixel_y = -6
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
 "Lk" = (
 /turf/simulated/floor/lino,
 /area/space)
@@ -680,6 +1470,9 @@
 /obj/effect/floor_decal/milspec/box,
 /obj/machinery/disposal,
 /turf/simulated/floor/lino,
+/area/space)
+"Lq" = (
+/turf/simulated/floor/plating,
 /area/space)
 "Mf" = (
 /obj/structure/table/hardwoodtable,
@@ -689,10 +1482,36 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"Mr" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/white,
+/area/space)
 "Mv" = (
 /obj/structure/table/gamblingtable,
 /obj/item/clothing/mask/smokable/pipe,
 /turf/simulated/floor/lino,
+/area/space)
+"Ni" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/bed/chair/sofa/corp/corner{
+	color = "#DE3A3A";
+	desc = "How quaint.";
+	dir = 1;
+	name = "Diner Sofa"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"Nu" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 6
+	},
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled/freezer/cold,
 /area/space)
 "NA" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -708,9 +1527,72 @@
 /obj/machinery/door/firedoor/glass/hidden,
 /turf/simulated/floor/tiled,
 /area/space)
+"Od" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = 12
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"Of" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "Oi" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
 /turf/simulated/floor/tiled,
+/area/space)
+"OH" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 3
+	},
+/obj/machinery/door/blast/gate/thin{
+	density = 0;
+	dir = 8;
+	icon_state = "shutter2_0";
+	id = "kitchen";
+	layer = 2.7
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"OM" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/table/standard,
+/obj/item/weapon/storage/box/donut,
+/turf/simulated/floor/tiled,
+/area/space)
+"PL" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/glass{
+	name = "Kitchen";
+	req_one_access = list(28)
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"Qc" = (
+/obj/machinery/biogenerator,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel_grid,
 /area/space)
 "Qn" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -738,6 +1620,47 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"QL" = (
+/obj/structure/foodcart,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 1
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = -23
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"QZ" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
+"RU" = (
+/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
+/obj/structure/table/fancyblack,
+/obj/machinery/status_display{
+	pixel_x = -32
+	},
+/obj/random/drinkbottle{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/random/drinkbottle{
+	pixel_x = -7;
+	pixel_y = 12
+	},
+/obj/random/drinkbottle{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "Sj" = (
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
 /obj/effect/floor_decal/gurgs/tile/dark_blue/opposingcorners{
@@ -753,6 +1676,30 @@
 /obj/structure/flora/gurgs/bush/jungle/b,
 /turf/simulated/floor/grass,
 /area/space)
+"Sy" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
+"SF" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 26;
+	pixel_y = -6
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "SM" = (
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
 /obj/effect/floor_decal/gurgs/tile/dark_blue/opposingcorners{
@@ -763,6 +1710,33 @@
 	},
 /obj/effect/floor_decal/gurgs/wood/corner,
 /turf/simulated/floor/tiled,
+/area/space)
+"Tb" = (
+/obj/machinery/door/firedoor/glass,
+/obj/machinery/door/airlock/freezer{
+	name = "Kitchen Cold Room";
+	req_access = list(28)
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"To" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/item/clothing/suit/storage/apron/white{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/weapon/book/manual/cook_guide{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/weapon/book/manual/chef_recipes{
+	pixel_x = 7;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/white,
 /area/space)
 "TC" = (
 /obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
@@ -804,27 +1778,12 @@
 /obj/item/weapon/stool/baystool/padded,
 /turf/simulated/floor/tiled,
 /area/space)
-"Uy" = (
-/obj/effect/floor_decal/gurgs/tile/bar/opposingcorners,
-/obj/structure/table/fancyblack,
-/obj/machinery/light{
-	dir = 8
+"US" = (
+/obj/machinery/gibber,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 10
 	},
-/obj/machinery/firealarm{
-	dir = 4
-	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/redeemersbrew{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/tequilla{
-	pixel_x = 7;
-	pixel_y = 6
-	},
-/obj/item/weapon/reagent_containers/food/drinks/bottle/wine{
-	pixel_y = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/freezer/cold,
 /area/space)
 "UT" = (
 /obj/structure/table/standard,
@@ -833,6 +1792,10 @@
 	},
 /obj/machinery/recharger,
 /turf/simulated/floor/lino,
+/area/space)
+"Ve" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/turf/simulated/floor/tiled,
 /area/space)
 "Vm" = (
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
@@ -856,6 +1819,26 @@
 	},
 /turf/simulated/floor/wood/alt/panel,
 /area/space)
+"VS" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/structure/table/rack,
+/obj/item/weapon/packageWrap{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/weapon/packageWrap{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/item/device/destTagger{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/diagonal,
+/area/space)
 "Ws" = (
 /obj/effect/floor_decal/gurgs/weather/sand,
 /obj/effect/floor_decal/gurgs/thinplating{
@@ -870,6 +1853,41 @@
 	},
 /turf/simulated/floor/lino,
 /area/space)
+"WH" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/table/standard,
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/turf/simulated/floor/tiled,
+/area/space)
+"WM" = (
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"WS" = (
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 4;
+	set_temperature = 260
+	},
+/turf/simulated/floor/tiled/freezer/cold,
+/area/space)
+"WY" = (
+/obj/machinery/vending/wardrobe/chefdrobe,
+/obj/effect/floor_decal/gurgs/trimline/green/filled/line{
+	dir = 6
+	},
+/obj/effect/floor_decal/gurgs/trimline/green/filled/mid_joiner,
+/obj/effect/floor_decal/gurgs/trimline/green/filled/mid_joiner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/monotile,
+/area/space)
 "Xi" = (
 /obj/effect/floor_decal/gurgs/tile/yellow/opposingcorners,
 /obj/effect/floor_decal/gurgs/tile/dark_blue/opposingcorners{
@@ -880,10 +1898,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"Xk" = (
+/obj/effect/floor_decal/corner/black/diagonal{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/blast/gate/thin{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter2_0";
+	id = "kitchen";
+	layer = 2.7
+	},
+/turf/simulated/floor/tiled/white,
+/area/space)
 "XM" = (
 /obj/structure/flora/gurgs/grass/jungle/a/style_random,
 /obj/structure/window/reinforced/full,
 /turf/simulated/floor/grass,
+/area/space)
+"Yr" = (
+/obj/effect/floor_decal/gurgs/tile/green/diagonal_centre,
+/obj/structure/table/standard,
+/obj/machinery/power/apc,
+/turf/simulated/floor/tiled/diagonal,
 /area/space)
 "Yx" = (
 /turf/simulated/floor/tiled/steel_grid,
@@ -894,12 +1932,40 @@
 	},
 /turf/simulated/floor/wood/alt/panel,
 /area/space)
+"YV" = (
+/obj/structure/flora/gurgs/grass/jungle/a/style_random,
+/obj/structure/flora/ausbushes/genericbush,
+/obj/structure/window/reinforced/full,
+/turf/simulated/floor/grass,
+/area/space)
+"Zd" = (
+/obj/machinery/light/floorbulb,
+/obj/effect/floor_decal/gurgs/thinplating/corner{
+	dir = 4
+	},
+/turf/simulated/floor/wood/alt/panel,
+/area/space)
 "ZF" = (
 /obj/machinery/door/airlock/maintenance/int{
 	req_access = list(25)
 	},
 /obj/machinery/door/firedoor/glass,
 /turf/simulated/floor/tiled/steel_grid,
+/area/space)
+"ZX" = (
+/obj/item/modular_computer/console/preset/civilian,
+/obj/effect/floor_decal/gurgs/trimline/green/filled/line{
+	dir = 10
+	},
+/obj/effect/floor_decal/gurgs/trimline/green/filled/mid_joiner{
+	dir = 8
+	},
+/obj/effect/floor_decal/gurgs/trimline/green/filled/mid_joiner,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/noticeboard{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/space)
 
 (1,1,1) = {"
@@ -30298,15 +31364,15 @@ az
 az
 az
 XM
-kn
+HK
 Ka
 Qn
 TC
 kb
 qI
 BM
-Uy
-om
+JW
+RU
 Oi
 XM
 az
@@ -33899,13 +34965,13 @@ az
 az
 az
 Yx
-aB
-aB
-aB
-aB
-aB
-aB
-aB
+KO
+KO
+KO
+KO
+KO
+KO
+rw
 aB
 ac
 Sw
@@ -34156,14 +35222,14 @@ az
 az
 az
 hk
-az
-az
-az
-az
-az
-az
-aB
-aB
+FW
+FY
+Ve
+Ve
+Ni
+FY
+DV
+rw
 aB
 aU
 TT
@@ -34412,16 +35478,16 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-aB
-fu
+hk
+FN
+hr
+Ve
+Ve
+FJ
+WH
+jW
+DV
+Zd
 aB
 aV
 aV
@@ -34668,18 +35734,18 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-aB
-aB
+dW
+zk
+Ve
+Ve
+Ve
+Ve
+BX
+OM
+oN
+Ve
+DV
+rw
 aB
 aB
 aB
@@ -34923,20 +35989,20 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-aB
+hk
+hk
+wu
+Ve
+Ve
+Ve
+Ve
+Ve
+Ve
+Ve
+Ve
+al
+ol
+lA
 aB
 aB
 aB
@@ -35180,27 +36246,27 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+YV
+tr
+Xk
+pz
+pz
+pz
+pz
+pz
+Ve
+Ve
+Ve
+gt
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
 az
 az
 az
@@ -35437,26 +36503,26 @@ az
 az
 az
 az
+mx
+md
+uM
+OH
+xU
+gD
+qQ
+xU
+vx
+DM
+sr
+Jk
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -35694,26 +36760,26 @@ az
 az
 az
 az
+mx
+Hm
+uM
+uM
+uM
+uM
+Sy
+eA
+hk
+hk
+HN
+hk
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -35951,26 +37017,26 @@ az
 az
 az
 az
+hk
+BF
+uM
+Hq
+Mr
+tf
+Sy
+uM
+au
+pr
+pr
+rH
+hk
+hk
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -36208,26 +37274,26 @@ az
 az
 az
 az
+hk
+nv
+uM
+cX
+jH
+uy
+Sy
+uM
+zb
+pr
+pr
+pr
+rJ
+Qc
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -36465,26 +37531,26 @@ az
 az
 az
 az
+XM
+CW
+uM
+bw
+To
+rX
+Sy
+lh
+PL
+pr
+pr
+pr
+Od
+js
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -36722,26 +37788,26 @@ az
 az
 az
 az
+XM
+py
+uM
+uM
+uM
+uM
+Sy
+qU
+hk
+wY
+pr
+Yr
+hk
+hk
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -36979,26 +38045,26 @@ az
 az
 az
 az
+cV
+Ed
+kt
+SF
+sp
+oV
+Of
+hG
+hk
+vZ
+mw
+AY
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -37236,26 +38302,26 @@ az
 az
 az
 az
+hk
+hk
+Tb
+hk
+hk
+hk
+hk
+hk
+hk
+rU
+pr
+gy
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -37493,26 +38559,26 @@ az
 az
 az
 az
+hk
+Nu
+ff
+KY
+QL
+yl
+WS
+hk
+ZX
+wF
+pr
+VS
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -37750,26 +38816,26 @@ az
 az
 az
 az
+hk
+yi
+WM
+WM
+cn
+cc
+IR
+hk
+oK
+pr
+pr
+Cq
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -38007,26 +39073,26 @@ az
 az
 az
 az
+hk
+US
+wg
+xY
+BO
+sl
+uQ
+hk
+WY
+pr
+QZ
+Kc
+hk
 az
 az
 az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
 az
 az
 az
@@ -38264,26 +39330,26 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
-az
+hk
+hk
+mQ
+hk
+hk
+hk
+iQ
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
+hk
 az
 az
 az
@@ -38521,13 +39587,13 @@ az
 az
 az
 az
-az
-az
-az
-az
-az
-az
-az
+Lq
+Lq
+Lq
+Lq
+Lq
+Lq
+Lq
 az
 az
 az

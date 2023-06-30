@@ -553,6 +553,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/space)
+"cs" = (
+/obj/effect/landmark{
+	name = "JoinLateCyborg"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "cw" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/fancy/candle_box{
@@ -2308,6 +2314,12 @@
 /obj/structure/flora/ausbushes/palebush,
 /turf/simulated/floor/grass,
 /area/space)
+"lE" = (
+/obj/effect/landmark{
+	name = "JoinLateCryo"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "lN" = (
 /obj/effect/floor_decal/gurgs/trimline/blue/filled/line{
 	dir = 9
@@ -3183,6 +3195,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/cult,
+/area/space)
+"qh" = (
+/obj/effect/landmark{
+	name = "JoinLateElevator"
+	},
+/turf/simulated/floor/tiled,
 /area/space)
 "qi" = (
 /obj/item/weapon/storage/secure/safe{
@@ -6801,6 +6819,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"IV" = (
+/obj/effect/landmark{
+	name = "JoinLateGateway"
+	},
+/turf/simulated/floor/tiled,
+/area/space)
 "IX" = (
 /obj/effect/floor_decal/corner/white/diagonal{
 	color = "#cda882"
@@ -7608,6 +7632,9 @@
 	},
 /obj/machinery/door/firedoor/glass/hidden,
 /turf/simulated/floor/tiled,
+/area/space)
+"NI" = (
+/turf/unsimulated/wall,
 /area/space)
 "NJ" = (
 /obj/effect/floor_decal/gurgs/trimline/green/filled/warning{
@@ -40747,13 +40774,13 @@ FK
 Dz
 qn
 hk
-az
-az
-az
-az
-az
-az
-az
+NI
+NI
+NI
+NI
+NI
+NI
+NI
 hk
 uZ
 Ff
@@ -42048,7 +42075,7 @@ VY
 VY
 VY
 hk
-Ko
+NI
 Ko
 az
 az
@@ -42276,7 +42303,7 @@ Ko
 Ko
 Ko
 Ko
-Ko
+cs
 Ko
 Ko
 pb
@@ -42305,7 +42332,7 @@ YM
 YM
 YM
 Yx
-Ko
+NI
 Ko
 az
 az
@@ -42533,7 +42560,7 @@ Ko
 Xq
 ml
 bu
-Ko
+lE
 Ko
 Ko
 pb
@@ -42562,7 +42589,7 @@ aB
 aB
 aB
 Yx
-Ko
+NI
 Ko
 az
 az
@@ -42790,7 +42817,7 @@ Ko
 Ko
 Ko
 Ko
-Ko
+IV
 Ko
 Ko
 pb
@@ -42819,7 +42846,7 @@ KO
 KO
 KO
 Yx
-Ko
+NI
 Ko
 az
 az
@@ -43047,7 +43074,7 @@ Ko
 Ko
 Ko
 Ko
-Ko
+qh
 Ko
 Ko
 Gq
@@ -43076,7 +43103,7 @@ Lk
 Lk
 lO
 hk
-Ko
+NI
 Ko
 az
 az
@@ -51012,8 +51039,8 @@ az
 ny
 Lq
 ny
-az
-az
+NI
+NI
 az
 az
 az

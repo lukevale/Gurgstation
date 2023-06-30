@@ -22,13 +22,15 @@
 	icon_state = "dirt-light"
 	icon = 'icons/turf/outdoors.dmi'
 
-/turf/simulated/floor/ramptop
+/decl/flooring/tiling/ramptop
 	name = "stairs"
+	desc = "Scuffed from the passage of countless greyshirts."
 	icon = 'icons/obj/structures/multiz.dmi'
-	icon_state = "stair_u"
-
-
-
+	icon_base = "stair_u"
+	flags = null
+	build_type = null
+	can_paint = 0
+	can_engrave = FALSE
 
 // Literally random fucking shit
 

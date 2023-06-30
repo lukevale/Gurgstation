@@ -32,6 +32,14 @@
 	can_paint = 0
 	can_engrave = FALSE
 
+/turf/simulated/floor/ramptop
+	name = "grass patch"
+	icon = 'icons/obj/structures/multiz.dmi'
+	icon_state = "stair_u"
+	can_dirty = FALSE //just runs off! :D
+	initial_flooring = /decl/flooring/tiling/ramptop
+
+
 // Literally random fucking shit
 
 /obj/random/triumph

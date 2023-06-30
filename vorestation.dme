@@ -4239,6 +4239,7 @@
 #include "gurgs_content\code\modules\items\uno.dm"
 #include "gurgs_content\code\modules\items\arfs_weapons\dallus_weapons.dm"
 #include "gurgs_content\code\modules\map\areas.dm"
+#include "gurgs_content\code\modules\map\mapping_extras.dm"
 #include "gurgs_content\code\modules\map\levels\classd.dm"
 #include "gurgs_content\code\modules\map\levels\classh.dm"
 #include "gurgs_content\code\modules\map\levels\frozen_planet.dm"

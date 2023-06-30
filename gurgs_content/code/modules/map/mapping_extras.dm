@@ -22,6 +22,13 @@
 	icon_state = "dirt-light"
 	icon = 'icons/turf/outdoors.dmi'
 
+/turf/simulated/floor/ramptop
+	name = "stairs"
+	icon = 'icons/obj/structures/multiz.dmi'
+	icon_state = "stair_u"
+
+
+
 
 // Literally random fucking shit
 

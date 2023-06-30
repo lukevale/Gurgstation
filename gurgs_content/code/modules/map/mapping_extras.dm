@@ -33,7 +33,7 @@
 	can_engrave = FALSE
 
 /turf/simulated/floor/ramptop
-	name = "grass patch"
+	name = "stairs"
 	icon = 'icons/obj/structures/multiz.dmi'
 	icon_state = "stair_u"
 	can_dirty = FALSE //just runs off! :D

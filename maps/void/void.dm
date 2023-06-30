@@ -1,4 +1,4 @@
-#include void.dmm
+#include "void.dmm"
 
 
 //"Red" Armory Door
@@ -11,3 +11,7 @@
 		return FALSE
 
 	return ..(user)
+
+/area/void/test
+	requires_power = FALSE
+	name = "void testing"

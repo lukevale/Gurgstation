@@ -3,7 +3,7 @@ var/global/list/ashtray_cache = list()
 /obj/item/weapon/material/ashtray
 	name = "ashtray"
 	icon = 'icons/obj/objects.dmi'
-	icon_state = "blank"
+//	icon_state = "blank" makes it so I can acctually see them in the map editor. - luke vale - gurgs edit
 	randpixel = 5
 	force_divisor = 0.1
 	thrown_force_divisor = 0.1

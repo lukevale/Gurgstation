@@ -29,9 +29,9 @@
 	name = "small floor tile"
 	icon = 'gurgs_content/icons/turf/flooring_gr.dmi'
 	icon_state = "small"
-	initial_flooring = /decl/flooring/tiling/new_tile/diagonal
+	initial_flooring = /decl/flooring/tiling/new_tile/small
 
 /decl/flooring/tiling/new_tile/small
 	icon = 'gurgs_content/icons/turf/flooring_gr.dmi'
 	icon_base = "small"
-	build_type = /obj/item/stack/tile/floor/diagonal
+	build_type = /obj/item/stack/tile/floor/small
